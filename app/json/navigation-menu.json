@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Home",
+    "to": "/"
+  },
+  {
+    "label": "Blogs",
+    "to": "/blogs"
+  },
+  {
+    "label": "Members",
+    "to": "/members"
+  },
+  {
+    "label": "Collaborators",
+    "to": "/collaborators"
+  },
+  {
+    "label": "About",
+    "to": "/about"
+  }
+]

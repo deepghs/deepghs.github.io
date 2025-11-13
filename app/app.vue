@@ -1,39 +1,12 @@
-<script setup>
-useHead({
-  meta: [
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-  ],
-  link: [
-    { rel: 'icon', href: '/favicon.ico' }
-  ],
-  htmlAttrs: {
-    lang: 'en'
-  }
-})
-
-const title = 'DeepGHS'
-const description = 'description'
-
-useSeoMeta({
-  title,
-  description,
-  ogTitle: title,
-  ogDescription: description,
-  ogImage: '1',
-  twitterImage: '1',
-  twitterCard: 'summary_large_image'
-})
-</script>
-
 <template>
   <UApp>
     <UHeader>
       <template #left>
         <NuxtLink to="/">
-          <AppLogo class="w-auto h-6 shrink-0" />
+          <AppLogo class="w-auto h-9 shrink-0" />
         </NuxtLink>
       </template>
-
+      <UNavigationMenu :items="items" />
       <template #right>
         <UColorModeButton />
 
@@ -58,11 +31,27 @@ useSeoMeta({
       </template>
       <template #left>
         <p class="text-sm text-muted">
-          © {{ new Date().getFullYear() }} DeepGHS • Built with Nuxt 
+          © {{ new Date().getFullYear() }} DeepGHS • Built with Nuxt
         </p>
       </template>
 
       <template #right>
+        <UButton
+          to="https://x.com/DeepGHS"
+          target="_blank"
+          icon="line-md:twitter-x"
+          aria-label="X"
+          color="neutral"
+          variant="ghost"
+        />
+        <UButton
+          to="https://huggingface.co/deepghs"
+          target="_blank"
+          icon="fluent-emoji-flat:hugging-face"
+          aria-label="Hugging Face"
+          color="neutral"
+          variant="ghost"
+        />
         <UButton
           to="https://github.com/deepghs"
           target="_blank"
@@ -75,3 +64,46 @@ useSeoMeta({
     </UFooter>
   </UApp>
 </template>
+
+<script setup lang="ts">
+import NavMenuItems from '@/json/navigation-menu.json'
+import type { NavigationMenuItem } from '@nuxt/ui'
+
+useHead({
+  meta: [
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+  ],
+  link: [
+    { rel: 'icon', href: '/favicon.ico' }
+  ],
+  htmlAttrs: {
+    lang: 'en'
+  }
+})
+
+const title = 'DeepGHS'
+const description = 'description'
+
+useSeoMeta({
+  title,
+  description,
+  ogTitle: title,
+  ogDescription: description,
+  ogImage: '1',
+  twitterImage: '1',
+  twitterCard: 'summary_large_image'
+})
+
+const route = useRoute()
+
+const items = computed<NavigationMenuItem[]>(() => {
+  const menuItems = NavMenuItems.map((item) => {
+    return {
+      label: item.label,
+      to: item.to,
+      active: item.label === 'Home' ? route.path === '/' : route.path.startsWith(item.to)
+    }
+  })
+  return menuItems
+})
+</script>

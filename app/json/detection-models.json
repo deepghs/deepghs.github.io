@@ -1,0 +1,30 @@
+[
+  {
+    "icon": "material-symbols:face",
+    "title": "Face Detection",
+    "description": "Precise facial localization",
+    "to": "https://huggingface.co/deepghs/anime_face_detection",
+    "target": "_blank"
+  },
+  {
+    "icon": "mdi:head",
+    "title": "Head Detection",
+    "description": "Head position estimation",
+    "to": "https://huggingface.co/deepghs/anime_person_detection",
+    "target": "_blank"
+  },
+  {
+    "icon": "ph:person-fill",
+    "title": "Person Detection",
+    "description": "Full-body recognition",
+    "to": "https://huggingface.co/deepghs/anime_person_detection",
+    "target": "_blank"
+  },
+  {
+    "icon": "token:nsfw",
+    "title": "NSFW Censor",
+    "description": "Content moderation",
+    "to": "https://huggingface.co/deepghs/anime_censor_detection",
+    "target": "_blank"
+  }
+]

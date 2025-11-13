@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Member Test",
+    "avatar": "https://cdn.xinhe-info.cn/dev/2bfee3986f30f2ee7fa4b2a9d4f12355.png",
+    "location": "China",
+    "detail": {
+      "social": [
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/ntrwansuiBC",
+          "icon": "mdi:github"
+        }
+      ]
+    }
+  }
+]

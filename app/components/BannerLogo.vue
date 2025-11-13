@@ -1,8 +1,5 @@
 <template>
   <div class="app-logo">
-    <div class="w-9 h-9">
-      <img src="~/assets/logo/logo.png" alt="DeepGHS Logo" />
-    </div>
     <svg
       class="app-logo-svg"
       fill="none"
