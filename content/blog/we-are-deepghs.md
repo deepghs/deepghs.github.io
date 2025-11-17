@@ -1,4 +1,6 @@
 ---
+title: We are DeepGHS
+description: Our first blog post introducing DeepGHS.
 date: 2025-11-12
 ---
 

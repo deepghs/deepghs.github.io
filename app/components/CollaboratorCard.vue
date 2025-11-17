@@ -15,7 +15,7 @@
             {{ collaborator.name }}
           </span>
         </div>
-        <div>
+        <div v-if="collaborator.description">
           <!-- 只显示两行，超出部分省略 -->
           <span class="text-slate-400 text-sm mb-2 line-clamp-2">
             {{ collaborator.description }}
@@ -26,8 +26,8 @@
           <div class="flex flex-wrap gap-1">
             <UButton
               v-for="social in socials"
-              :key="'btn-' + social.name"
-              :alt="social.name"
+              :key="'btn-' + social.platform"
+              :alt="social.platform"
               target="_blank"
               :to="social.url"
               :icon="social.icon"
@@ -40,6 +40,7 @@
       <!-- extra actions -->
       <div>
         <UButton
+          v-if="collaborator.description"
           class="rounded-full"
           label="Detail"
           color="neutral"
@@ -51,7 +52,7 @@
     <UCollapsible v-model:open="open">
       <template #content>
         <div class="max-w-md rounded-md p-4 select-none">
-          <div v-if="collaborator.description" class="mb-4">
+          <div class="mb-4">
             <span class="text-sm text-gray-500">
               {{ collaborator.description }}
             </span>
@@ -79,7 +80,7 @@
             <div class="flex gap-2">
               <UButton
                 v-for="social in collaborator.social"
-                :key="social.name"
+                :key="social.platform"
                 target="_blank"
                 :to="social.url"
                 :icon="social.icon"
@@ -97,9 +98,11 @@
 </template>
 
 <script setup lang="ts">
+import type { Collaborator } from '~/types/collaborators'
+
 const { collaborator } = defineProps({
   collaborator: {
-    type: Object,
+    type: Object as () => Collaborator,
     required: true
   }
 })

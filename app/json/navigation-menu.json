@@ -4,8 +4,8 @@
     "to": "/"
   },
   {
-    "label": "Blogs",
-    "to": "/blogs"
+    "label": "Blog",
+    "to": "/blog"
   },
   {
     "label": "Members",

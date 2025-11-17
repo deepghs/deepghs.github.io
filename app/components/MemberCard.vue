@@ -18,8 +18,8 @@
           </span>
         </div>
         <!-- member location with icon -->
-        <div class="flex items-center">
-          <UIcon name="mingcute:location-line"/>
+        <div v-if="member.location" class="flex items-center">
+          <UIcon name="mingcute:location-line" />
           <div class="ml-1">
             <span class="text-sm text-gray-500">
               {{ member.location }}
@@ -34,9 +34,9 @@
           <template #content>
             <div class="max-w-md rounded-md p-4 select-none">
               <div v-if="member.detail.sign" class="mb-2">
-                 <span class="text-sm font-bold">
-                   "{{ member.detail.sign }}"
-                 </span>
+                <span class="text-sm font-bold">
+                  "{{ member.detail.sign }}"
+                </span>
               </div>
               <div v-if="member.detail.bio" class="mb-4">
                 <span class="text-sm text-gray-500">
@@ -67,7 +67,7 @@
                 <div class="flex gap-2">
                   <UButton
                     v-for="social in member.detail.social"
-                    :key="social.name"
+                    :key="social.platform"
                     target="_blank"
                     :to="social.url"
                     :icon="social.icon"
@@ -87,9 +87,11 @@
 </template>
 
 <script setup lang="ts">
+import type { Member } from '@/types/members'
+
 const { member } = defineProps({
   member: {
-    type: Object,
+    type: Object as () => Member,
     required: true
   }
 })

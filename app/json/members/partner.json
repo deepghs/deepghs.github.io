@@ -1,8 +1,7 @@
 [
     {
     "name": "Partner Test",
-    "type": "Partner",
-    "avatar": "https://cdn.xinhe-info.cn/dev/2bfee3986f30f2ee7fa4b2a9d4f12355.png",
+    "type": "partner",
     "location": "China",
     "detail": {
       "social": [

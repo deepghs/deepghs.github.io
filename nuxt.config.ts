@@ -1,19 +1,20 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-11-11',
-  devtools: { enabled: true },
 
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/ui',
     '@nuxt/image',
-    '@nuxtjs/mdc'
+    '@nuxtjs/mdc',
+    'nuxt-og-image'
   ],
+  devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-    routeRules: {
+  routeRules: {
     '/': { prerender: true }
   },
+  compatibilityDate: '2025-11-11',
   eslint: {
     config: {
       stylistic: {

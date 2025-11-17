@@ -18,10 +18,15 @@
     "@nuxtjs/mdc": "0.18.2",
     "better-sqlite3": "^12.4.1",
     "eslint": "^9.39.1",
+    "minisearch": "^7.2.0",
     "nuxt": "^4.2.1",
+    "nuxt-og-image": "^5.1.12",
     "typescript": "^5.9.3",
     "vue": "^3.5.24",
     "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.93.3"
   },
   "packageManager": "pnpm@10.21.0"
 }

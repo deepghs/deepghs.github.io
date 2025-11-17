@@ -1,15 +1,15 @@
 <template>
   <div>
-    <UPageHero :links="state.headerLinks">
+    <UPageHero :links="bannerLinks">
       <template #title>
         <BannerLogo class="h-30" />
-        <span class="text-2xl text-gray-600 mt-2">AI & ANIME SYNTHESIS</span>
+        <span class="text-2xl text-gray-600 mt-2">{{
+          indexConfig.banner.subTitle
+        }}</span>
       </template>
       <template #description>
         <p>
-          DeepGHS (Deep Generative anime Hobbyist Syndicate) is a
-          passion-driven, non-profit community building anime/2D-focused
-          infrastructure—because even otakus deserve robust tooling! 🎨
+          {{ indexConfig.banner.description }}
         </p>
       </template>
     </UPageHero>
@@ -17,17 +17,17 @@
     <!-- Our Works -->
     <UPageSection id="works">
       <template #title>
-        Our Works
+        {{ indexConfig.works.title }}
       </template>
       <template #description>
         <p>
-          ✅ 100% non-profit | ✅ Fully open-source | ✅ Zero paywalls (forever!)
+          {{ indexConfig.works.description }}
         </p>
       </template>
       <template #body>
         <UPageGrid>
           <UPageCard
-            v-for="(card, index) in state.worksDec"
+            v-for="(card, index) in worksDec"
             :key="index"
             v-bind="card"
           />
@@ -35,47 +35,27 @@
       </template>
     </UPageSection>
 
+    <!-- configureable projects area -->
     <!-- Classification Models -->
     <UPageSection
-      id="classification-models"
-      title="Classification Models"
-      :features="state.classificationModels"
+      v-for="category in worksCollections"
+      :id="category.id"
+      :key="category.id"
+      :title="category.name"
+      :features="category.works"
     />
 
     <!-- Detection Models -->
-    <UPageSection
-      id="detection-models"
-      title="Detection Models"
-      :features="detectionModels"
-    />
+    <!-- <UPageSection id="detection-models" title="Detection Models" :features="state.detectionModels" /> -->
 
     <UPageSection>
       <UPageCTA
-        title="Want to Join?"
+        :title="indexConfig.cta.title"
         variant="subtle"
-        :links="[
-          {
-            label: 'View on GitHub',
-            to: 'https://github.com/deepghs',
-            target: '_blank',
-            icon: 'i-simple-icons-github',
-            color: 'neutral'
-          },
-          {
-            label: 'View on Hugging Face',
-            to: 'https://huggingface.co/deepghs',
-            target: '_blank',
-            icon: 'fluent-emoji-flat:hugging-face',
-            color: 'neutral',
-            variant: 'outline'
-          }
-        ]"
+        :links="ctaLinks"
       >
         <template #description>
-          <MDC
-            :value="ctaMD"
-            tag="article"
-          />
+          <MDC :value="ctaMD" tag="article" />
         </template>
       </UPageCTA>
     </UPageSection>
@@ -83,16 +63,35 @@
 </template>
 
 <script setup lang="ts">
-import headerLinks from '@/json/index/header/links.json'
-import worksDec from '@/json/index/works.json'
-import classificationModels from '@/json/classification-models.json'
-import detectionModels from '@/json/detection-models.json'
+import indexConfig from '@/json/index/text.json'
 
-const state: any = reactive({
-  headerLinks,
-  worksDec,
-  classificationModels,
-  detectionModels
+import worksData from '@/json/works.json'
+
+import type { ButtonProps, PageCardProps } from '@nuxt/ui'
+
+const bannerLinks: ButtonProps[] = indexConfig.banner.links as ButtonProps[]
+const worksDec: PageCardProps[] = indexConfig.works.items as PageCardProps[]
+const ctaLinks: ButtonProps[] = indexConfig.cta.links as ButtonProps[]
+
+const worksCollections = computed(() => {
+  const renderableData = worksData.map((category) => {
+    const { id, name, works } = category
+    const workCards = works.map((work) => {
+      return {
+        icon: work.icon,
+        title: work.name,
+        description: work.description,
+        to: work.link,
+        target: '_blank'
+      }
+    })
+    return {
+      id: id,
+      name: name,
+      works: workCards
+    }
+  })
+  return renderableData
 })
 
 const ctaMD = `

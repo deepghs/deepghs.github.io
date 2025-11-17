@@ -2,10 +2,10 @@
   <div>
     <UPageSection orientation="horizontal">
       <template #title>
-        <span>Our Members</span>
+        <span>{{ textConfig.title }}</span>
       </template>
       <template #description>
-        <span>Meet the amazing people who make up our community.</span>
+        <span>{{ textConfig.description }}</span>
       </template>
       <UAvatarGroup size="3xl">
         <UAvatar
@@ -87,8 +87,10 @@
 import coreMembers from '@/json/members/core.json'
 import partners from '@/json/members/partner.json'
 import normalMembers from '@/json/members/normal.json'
+import type { Member } from '@/types/members'
+import textConfig from '@/json/members/text.json'
 
-const founder = coreMembers.filter(member => member.type === 'founder')
-const core = coreMembers.filter(member => member.type === 'core')
-const fullMembers = [...founder, ...core, ...partners, ...normalMembers]
+const founder: Member[] = coreMembers.filter(member => member.type === 'founder')
+const core: Member[] = coreMembers.filter(member => member.type === 'core')
+const fullMembers: Member[] = [...founder, ...core, ...partners, ...normalMembers]
 </script>

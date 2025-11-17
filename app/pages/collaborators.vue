@@ -2,10 +2,10 @@
   <div>
     <UPageSection orientation="horizontal">
       <template #title>
-        <span>Our Collaborators and Sponsors</span>
+        <span>{{ textConfig.title }}</span>
       </template>
       <template #description>
-        <span>We are grateful to have the support of our colleagues and sponsors.</span>
+        <span>{{ textConfig.description }}</span>
       </template>
       <UAvatarGroup size="3xl">
         <UAvatar
@@ -56,6 +56,8 @@
 <script setup lang="ts">
 import collaborators from '@/json/collaborators/collaborators.json'
 import sponsors from '@/json/collaborators/sponsors.json'
+import type { Collaborator } from '@/types/collaborators'
+import textConfig from '@/json/collaborators/text.json'
 
-const fullCollaborators = [...collaborators, ...sponsors]
+const fullCollaborators: Collaborator[] = [...collaborators, ...sponsors]
 </script>

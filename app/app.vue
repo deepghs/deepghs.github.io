@@ -25,43 +25,7 @@
       <NuxtPage />
     </UMain>
 
-    <UFooter>
-      <template #top>
-        <!-- for links -->
-      </template>
-      <template #left>
-        <p class="text-sm text-muted">
-          © {{ new Date().getFullYear() }} DeepGHS • Built with Nuxt
-        </p>
-      </template>
-
-      <template #right>
-        <UButton
-          to="https://x.com/DeepGHS"
-          target="_blank"
-          icon="line-md:twitter-x"
-          aria-label="X"
-          color="neutral"
-          variant="ghost"
-        />
-        <UButton
-          to="https://huggingface.co/deepghs"
-          target="_blank"
-          icon="fluent-emoji-flat:hugging-face"
-          aria-label="Hugging Face"
-          color="neutral"
-          variant="ghost"
-        />
-        <UButton
-          to="https://github.com/deepghs"
-          target="_blank"
-          icon="i-simple-icons-github"
-          aria-label="GitHub"
-          color="neutral"
-          variant="ghost"
-        />
-      </template>
-    </UFooter>
+    <AppFooter />
   </UApp>
 </template>
 
