@@ -113,16 +113,6 @@ useSeoMeta({
   ogTitle: `${title} · DeepGHS Blog`
 })
 
-if (article.value.image) {
-  defineOgImage({ url: article.value.image })
-} else {
-  defineOgImageComponent('Docs', {
-    headline: 'Blog',
-    title,
-    description
-  })
-}
-
 const socialLinks = computed(() =>
   !article.value
     ? []
