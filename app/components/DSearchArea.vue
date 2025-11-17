@@ -9,7 +9,7 @@
       variant="none"
       icon="i-lucide-search"
       type="search"
-      placeholder="键入开始搜索"
+      placeholder="Start Searching"
     />
 
     <TransitionGroup name="expand">
