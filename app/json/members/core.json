@@ -2,25 +2,27 @@
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1673679266071-6391f19aba933dc6fd14c618.png",
     "detail": {
-      "bio": "Naomi Rue Golding is a Software Engineering PhD and founder of DeepGHS who specializes in AI and software engineering technologies for anime applications. Their work focuses on anime character recognition, text detection in anime images using YOLO-based models, and curated anime image datasets for computer vision tasks. They develop interactive JupyterLab environments with GitHub Actions integration for workflow automation and containerized development spaces. Their contributions include comprehensive anime character datasets with multi-class categorization, high-quality image collections with rich metadata, and practical demos for anime text detection. They maintain expertise in Docker deployment, interactive computing environments, and anime-specific computer vision applications.",
-      "expertise": [
-        "Anime Image Processing",
-        "Computer Vision",
-        "JupyterLab Deployment",
-        "Dataset Curation",
-        "Object Detection"
-      ],
-      "sign": "Software Engineering PhD, founder of DeepGHS\r\nNow interested in AI and SE Technology for Anime.",
       "social": [
         {
-          "platform": "HuggingFace",
-          "url": "https://huggingface.co/narugo1992"
+          "platform": "Github",
+          "url": "https://github.com/narugo1992",
+          "icon": "logos:github-icon"
         },
         {
-          "platform": "Discord",
-          "url": "https://discord.gg/EAW4WqFdKY"
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/narugo1992",
+          "icon": "logos:hugging-face-icon"
         }
-      ]
+      ],
+      "expertise": [
+        "Founder of DeepGHS",
+        "AI/ML/CV for Anime",
+        "Anime AI Infrastructure",
+        "Anime Dataset Development",
+        "MLOps for Anime Applications",
+        "Open Source"
+      ],
+      "bio": "Software Engineering PhD, founder of DeepGHS. Focused on AI infrastructure for anime, specializing in computer vision R&D, and committed to building open-source tools, models, and datasets for anime ecosystems."
     },
     "fullname": "Naomi Rue Golding",
     "location": null,
