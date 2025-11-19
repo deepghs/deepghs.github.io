@@ -26,6 +26,12 @@
             </span>
           </div>
         </div>
+        <!-- <div v-if="member.num_papers || member.num_followers">
+          <span class="text-sm text-gray-500">
+            <span v-if="member.num_papers">{{ member.num_papers }} papers</span>,
+            <span v-if="member.num_followers">{{ member.num_followers }} followers</span>
+          </span>
+        </div> -->
       </div>
       <!-- extra actions -->
       <div v-if="member.detail">
@@ -39,9 +45,9 @@
                 </span>
               </div>
               <div v-if="member.detail.bio" class="mb-4">
-                <span class="text-sm text-gray-500">
+                <p class="text-sm text-gray-500">
                   {{ member.detail.bio }}
-                </span>
+                </p>
               </div>
               <div v-if="member.detail.expertise && member.detail.expertise.length > 0" class="mb-4">
                 <span class="text-sm font-bold">
