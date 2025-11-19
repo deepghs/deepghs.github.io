@@ -194,51 +194,59 @@
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6443a1cd5af87c73bbb7df90/yzZhAstyZfmtUtQD3pfY_.jpeg",
     "detail": {
-      "bio": "windsingai is a developer specializing in multimodal AI systems with focus on text-to-image and text-to-video generation. Their work encompasses anime-style character generation using diffusion models, human pose estimation with OpenPose implementations, and LoRA fine-tuning for specialized image editing tasks. They have developed ControlNet Tile models for Illustrious-XL architecture and FLUX-based systems for pose-controlled image generation. Their datasets support anime character recognition and text-to-image training, featuring curated prompt collections and character-specific annotations from popular franchises. They contribute to multiple AI organizations including DeepGHS and focus on practical implementations of generative AI technologies for creative applications.",
+      "bio": "windsing is a renowned model trainer and AIGC designer at a Fortune 500 gaming company. He is the lead of the upcoming 'chenkin noob' project and a core co-author of the NoobAI XL model. A key opinion leader in the anime-style AI community and the initiator of China's largest NovelAI open-source community, his work has achieved #1 ranking on both Civitai XL and LiblibAI's anime charts. His released models have been run over 5 million times globally.",
       "expertise": [
+        "Anime-Style Model Training",
         "Text-to-Image Generation",
-        "Human Pose Estimation",
-        "Anime Character Generation",
         "LoRA Fine-tuning",
-        "ControlNet Processing"
+        "Diffusion Models"
       ],
-      "sign": null,
+      "sign": "Infinite creations, endless characters, all connected to my work. Eternal passion for AI.",
       "social": [
         {
           "platform": "HuggingFace",
           "url": "https://huggingface.co/windsingai"
+        },
+        {
+          "platform": "Civitai",
+          "url": "https://civitai.com/user/chenkin"
         }
       ]
     },
     "fullname": "fengyin",
     "location": null,
-    "name": "fengyin",
+    "name": "windsing",
     "num_datasets": 8,
     "num_followers": 43,
     "num_following": 11,
     "num_models": 9,
     "num_papers": 0,
     "num_spaces": 0,
-    "role": "Developer",
+    "role": "AIGC Designer & Model Trainer",
     "type": "partner",
     "username": "windsingai"
   },
   {
-    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63d3a01ae149f591b950f5e8/H8XLxLooMxkRnA_vBRTVK.jpeg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63d3a01ae149f591b950f5e8/JbJ_YtCHf20dm4T1wu1_s.png",
     "detail": {
-      "bio": "LAXMAYDAY is a contributor on Huggingface, member of DeepGHS.",
+      "bio": "As one of China’s earliest pioneers in the AIGC landscape, L_A_X is a recognized expert in both AI technology research and creative application. He is the creator of the \"Cyber Coser\" genre and holds the #1 Overall Rank on Civitai, with his open-source models such as NoobAI accumulating over 20 million generations globally.L_A_X serves as the Leader of Laxhar Lab and the initiator of the NoobAI project. His technical contributions include authoring the open-source Anime Aesthetics Valuation (AAV) system. He is also a co-founder of the DCTN community and a regional committee member for the Tokyo AI Festival.A trusted partner of NovelAI, L_A_X frequently serves as a technical consultant for leading AIGC companies and a judge for major creative competitions.",
       "expertise": [
-        "LoRA Models",
+        "Frontier Computer Vision Technologies",
+        "Novel Model Architecture Research",
+        "Anime-Style Model Training",
         "Text-to-Image Generation",
-        "Anime Character Design",
-        "Stable Diffusion",
-        "Style Transfer"
+        "Human Pose Estimation",
+        "ControlNet Processing"
       ],
-      "sign": null,
+      "sign": "Interest and love are what truly fuel the growth of AIGC.",
       "social": [
         {
           "platform": "HuggingFace",
-          "url": "https://huggingface.co/LAXMAYDAY"
+          "url": "https://huggingface.co/Laxhar"
+        },
+        {
+          "platform": "Civitai",
+          "url": "https://civitai.com/user/L_A_X"
         }
       ]
     },
@@ -251,7 +259,7 @@
     "num_models": 1,
     "num_papers": 0,
     "num_spaces": 0,
-    "role": "Developer",
+    "role": "Developer & Model Trainer",
     "type": "partner",
     "username": "LAXMAYDAY"
   },
