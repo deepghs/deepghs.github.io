@@ -264,28 +264,33 @@
     "username": "SumomoLee"
   },
   {
-    "avatar": "https://huggingface.co/avatars/5d3da9728114576ad2ca34146ed59a5b.svg",
+    "avatar": "https://cdn.xinhe-info.cn/dev/2bfee3986f30f2ee7fa4b2a9d4f12355.png",
     "detail": {
-      "bio": "ntrwansui is a contributor on Huggingface, member of DeepGHS.",
-      "expertise": [],
-      "sign": null,
       "social": [
         {
-          "platform": "HuggingFace",
-          "url": "https://huggingface.co/ntrwansui"
+          "platform": "Github",
+          "url": "https://github.com/ntrwansuiBC",
+          "icon": "mdi:github"
         }
-      ]
+      ],
+      "expertise": [
+        "Full Stack Development",
+        "Backend Development",
+        "DevOps"
+      ],
+      "sign": "Moe is justice",
+      "bio": "maybe a minotaur coder?"
     },
     "fullname": "ntr",
-    "location": null,
-    "name": "ntr",
+    "location": "China",
+    "name": "ntrwansui",
     "num_datasets": 0,
     "num_followers": 1,
     "num_following": 2,
     "num_models": 0,
     "num_papers": 0,
     "num_spaces": 0,
-    "role": "Contributor",
+    "role": "Developer",
     "type": "core",
     "username": "ntrwansui"
   }
