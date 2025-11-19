@@ -64,6 +64,38 @@
     "username": "skytnt"
   },
   {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6305db1fcfbde33ef7d480ff/gy8VPvXYm_MiLmjwmuEPG.png",
+    "detail": {
+      "bio": "p1atdev is an active developer specializing in anime-style AI generation and Japanese language processing. Their work focuses on text-to-image models including specialized diffusion architectures like AnimagineXL and custom implementations of Danbooru tag transformers. They have developed comprehensive anime image tagging systems using transformer-based classifiers and created large-scale datasets for anime content analysis. Their contributions include multi-modal applications combining image generation with structured prompt formatting, Japanese text processing tools for kana-kanji conversion, and interactive demos for style analysis and content generation. They actively participate in anime AI communities and maintain numerous production-ready models for character design and illustration workflows.",
+      "expertise": [
+        "Anime Generation",
+        "Text-to-Image Models",
+        "Japanese NLP",
+        "Image Tagging",
+        "Stable Diffusion"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/p1atdev"
+        }
+      ]
+    },
+    "fullname": "Plat",
+    "location": null,
+    "name": "Plat",
+    "num_datasets": 50,
+    "num_followers": 141,
+    "num_following": 7,
+    "num_models": 92,
+    "num_papers": 0,
+    "num_spaces": 15,
+    "role": "Developer",
+    "type": "partner",
+    "username": "p1atdev"
+  },
+  {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63de560a15266dd945f209ca/PeZf3IF-x7Qh8OcnKH12R.png",
     "detail": {
       "bio": "MrDragonFox is an AI researcher specializing in large language models and audio processing systems. Their work focuses on developing advanced text-to-speech models with paralinguistic capabilities, including specialized NSFW audio generation and emotional speech synthesis. They have extensive experience in model quantization techniques such as GPTQ and EXL2 for optimizing large language models like LLaMA variants. Their research encompasses multilingual speech datasets in German, English, and Japanese, with comprehensive quality metrics and timestamp annotations. They contribute to multimodal architectures including vision-language models and develop efficient inference systems for extended context processing using SuperHOT techniques.",

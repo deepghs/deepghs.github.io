@@ -1,5 +1,133 @@
 [
   {
+    "avatar": "https://huggingface.co/avatars/9353c064ef8ccac84d0397411d38fa90.svg",
+    "detail": {
+      "bio": "Aaron Gokaslan is an AI researcher specializing in large language models and text generation systems. He has contributed significantly to the open-source AI community through his work on the OpenWebText dataset, an 8-million document replication of OpenAI's WebText used for training GPT-2 models. His research focuses on tokenizer development, as evidenced by his Llama-3.2-1B-Instruct tokenizer configuration supporting 128,000 vocabulary tokens and 131,072 maximum sequence length. He actively participates in major AI research organizations including EleutherAI, BigScience Workshop, and Databricks, contributing to foundational resources for natural language processing and large-scale language model training methodologies.",
+      "expertise": [
+        "Language Modeling",
+        "Text Generation",
+        "Tokenizer Development",
+        "Web Corpus",
+        "Transformers"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/Skylion007"
+        }
+      ]
+    },
+    "fullname": "Aaron Gokaslan",
+    "location": null,
+    "name": "Aaron Gokaslan",
+    "num_datasets": 1,
+    "num_followers": 38,
+    "num_following": 4,
+    "num_models": 1,
+    "num_papers": 15,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "Skylion007"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64096ef79e9f790c905b846d/hVzw656lXdzbCxTtnheud.jpeg",
+    "detail": {
+      "bio": "ZetangForward is an AI researcher specializing in Natural Language Processing and multimodal models, with expertise in pre-trained language models and content safety. Their research focuses on toxic text classification through BERT-based architectures like SegmentCNN for content moderation applications. They develop evaluation datasets for citation-based question answering systems, including EN_CiteEval for multi-hop reasoning and Bilingual_CiteEval for cross-lingual academic text analysis. Their work spans multimodal representations with StrokeNUWA dataset for visual annotations, contributing to language model safety, information retrieval, and multi-document reasoning research through open-source datasets and model implementations.",
+      "expertise": [
+        "Natural Language Processing",
+        "Multimodal Models",
+        "Pre-trained Language Models",
+        "Text Classification",
+        "Citation Analysis"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/ZetangForward"
+        }
+      ]
+    },
+    "fullname": "Zecheng Tang",
+    "location": null,
+    "name": "Zecheng Tang",
+    "num_datasets": 3,
+    "num_followers": 4,
+    "num_following": 13,
+    "num_models": 1,
+    "num_papers": 15,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "ZetangForward"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/0ff3127b513552432a7c651e21d7f283.svg",
+    "detail": {
+      "bio": "wangsssssss is an AI researcher focused on advancing diffusion models for image generation, with expertise in developing novel architectures like FlowDCN that enable arbitrary resolution synthesis with state-of-the-art performance. Their work includes neural solver distillation techniques that accelerate Stable Diffusion variants from 1000 to just 4 inference steps while maintaining visual quality. They contribute to large-scale image datasets for training generative models and explore computational efficiency improvements for real-world deployment. Their research encompasses text-to-image generation, model optimization, and developing scalable training methodologies for computer vision applications.",
+      "expertise": [
+        "Diffusion Models",
+        "Image Generation",
+        "Model Distillation",
+        "Arbitrary Resolution",
+        "Neural Solvers"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/wangsssssss"
+        }
+      ]
+    },
+    "fullname": "wangshuai",
+    "location": null,
+    "name": "wangshuai",
+    "num_datasets": 3,
+    "num_followers": 14,
+    "num_following": 18,
+    "num_models": 3,
+    "num_papers": 8,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "wangsssssss"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/y1W6Co4jIYB95Cx6Tjrsd.jpeg",
+    "detail": {
+      "bio": "Muhammad Imran Zaman is a Strategic Machine Learning Engineer specializing in multilingual NLP and medical AI applications. His work focuses on developing fine-tuned language models for diverse domains including mental health counseling, Arabic language processing, and multilingual text classification. He employs parameter-efficient techniques like LoRA and quantization to optimize large language models including Llama, Mistral, and BERT architectures. His contributions span multilingual sentence embeddings, German semantic models, and practical applications in healthcare through retrieval-augmented generation systems. He actively develops interactive AI tools for medical question answering, document processing, and multimodal applications using frameworks like Streamlit and Gradio.",
+      "expertise": [
+        "Multilingual Language Models",
+        "Medical AI Applications",
+        "Parameter-Efficient Fine-Tuning",
+        "Arabic NLP",
+        "Retrieval-Augmented Generation"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/ImranzamanML"
+        }
+      ]
+    },
+    "fullname": "Muhammad Imran Zaman",
+    "location": null,
+    "name": "Muhammad Imran Zaman",
+    "num_datasets": 3,
+    "num_followers": 86,
+    "num_following": 1,
+    "num_models": 14,
+    "num_papers": 3,
+    "num_spaces": 5,
+    "role": "Developer",
+    "type": "normal",
+    "username": "ImranzamanML"
+  },
+  {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/635567189c72a7e742f1419c/tbfBz0furS-y4ISgoe6j0.jpeg",
     "detail": {
       "bio": "Alpindale is an AI researcher specializing in large language model development with expertise in model merging techniques, quantization optimization, and conversational AI systems. They have created numerous high-parameter models including Goliath-120B and Miquella-120B through sophisticated layer interleaving approaches. Their work spans multimodal vision-language models like Llama-3.2-90B-Vision-Instruct and efficient quantization implementations using EXL2 and VPTQ techniques. With contributions to organizations including Stanford AI, PygmalionAI, and DeepGHS, they focus on advancing text generation capabilities while optimizing model deployment through precision-reduced representations and memory-efficient architectures for practical applications.",
@@ -20,7 +148,7 @@
     },
     "fullname": "Alpin",
     "location": null,
-    "name": "alpindale",
+    "name": "Alpin",
     "num_datasets": 7,
     "num_followers": 628,
     "num_following": 0,
@@ -30,6 +158,302 @@
     "role": "AI Researcher",
     "type": "normal",
     "username": "alpindale"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62389d9c6dadcce9c7331451/MZmAKcJmE7Naxfxa10ps9.jpeg",
+    "detail": {
+      "bio": "RE-N-Y is an AI researcher specializing in computer vision and multimodal AI systems, with extensive work on image quality assessment models using DINOv2, CLIP, and SigLIP architectures for fidelity and overall rating tasks. Their research focuses on finite scalar quantization techniques for VQVAE models applied to ImageNet and anime face generation, developing advanced image compression and synthesis methods. They have created multimodal visual reasoning systems like Logic2Vision that generate Python pseudocode for complex visual tasks, and contributed large-scale datasets for text-to-image generation research. Their work demonstrates expertise in transfer learning, parameter-efficient fine-tuning with LoRA, and developing robust evaluation metrics for visual content quality assessment across diverse domains.",
+      "expertise": [
+        "Image Quality Assessment",
+        "Finite Scalar Quantization",
+        "Multimodal Visual Reasoning",
+        "Text-to-Image Generation",
+        "Computer Vision"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/RE-N-Y"
+        }
+      ]
+    },
+    "fullname": "Sangwu Lee",
+    "location": null,
+    "name": "Sangwu Lee",
+    "num_datasets": 1,
+    "num_followers": 8,
+    "num_following": 6,
+    "num_models": 61,
+    "num_papers": 1,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "RE-N-Y"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/766daad8f5c7ebef33cef07521b23665.svg",
+    "detail": {
+      "bio": "sunovivid is an AI researcher specializing in diffusion models and text-to-image generation, with a particular focus on Stable Diffusion architectures. As the author of Perturbed Attention Guidance (PAG), they develop advanced guidance mechanisms to enhance image quality and prompt alignment. Their research includes Direct Preference Optimization for human-aligned generation and comprehensive latent space analysis. They have created extensive datasets for diffusion model training, including pre-computed latents, text embeddings, and aesthetic scoring benchmarks. Their work spans model fine-tuning, evaluation methodologies, and the development of training resources for the generative AI community, contributing significantly to controllable image synthesis and efficient training approaches.",
+      "expertise": [
+        "Diffusion Models",
+        "Text-to-Image Generation",
+        "Latent Space Analysis",
+        "Stable Diffusion",
+        "Attention Guidance"
+      ],
+      "sign": "image & video generation, author of PAG",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/sunovivid"
+        }
+      ]
+    },
+    "fullname": "AHN DONGHOON",
+    "location": null,
+    "name": "AHN DONGHOON",
+    "num_datasets": 23,
+    "num_followers": 8,
+    "num_following": 7,
+    "num_models": 2,
+    "num_papers": 1,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "sunovivid"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64af7c627ab7586520ed8688/1F3INiiqWhFZTK7Dh3DRa.jpeg",
+    "detail": {
+      "bio": "Mohamed Khalil is a machine learning researcher specializing in natural language processing with a focus on cultural and linguistic datasets. His work involves curating specialized text corpora including Japanese anime quotes, song lyrics, and ghost stories for text generation and classification tasks. He has developed the ATHAR parallel corpus for Classical Arabic to English machine translation, featuring 66,000 sentence pairs from historical texts. His datasets support diverse NLP applications including sentiment analysis, character dialogue modeling, and cultural preservation through computational methods. He contributes to organizations including DeepGHS and Arabic Machine Learning, focusing on creating high-quality language resources for research communities.",
+      "expertise": [
+        "Japanese NLP",
+        "Cultural Datasets",
+        "Text Generation",
+        "Machine Translation",
+        "Anime Content Analysis"
+      ],
+      "sign": "ML Researcher || NLP || anime",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/mohamed-khalil"
+        }
+      ]
+    },
+    "fullname": "Mohammed Khalil",
+    "location": null,
+    "name": "Mohammed Khalil",
+    "num_datasets": 4,
+    "num_followers": 5,
+    "num_following": 1,
+    "num_models": 0,
+    "num_papers": 1,
+    "num_spaces": 0,
+    "role": "Data Engineer",
+    "type": "normal",
+    "username": "mohamed-khalil"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65bb837dbfb878f46c77de4c/PKyQ_-wTNH1Hyv5HxhWdX.jpeg",
+    "detail": {
+      "bio": "PrithivMLmods is a HuggingFace Fellow specializing in computer vision, natural language processing, and multimodal AI systems. With extensive contributions spanning 969 models, 118 datasets, and 29 spaces, their research focuses on developing advanced vision-language models for practical applications. Their work includes sophisticated deepfake detection systems using Vision Transformers, specialized LoRA adapters for FLUX.1 diffusion models enabling Pixar-style 3D generation and image restoration, and multimodal OCR implementations for document analysis. They have created comprehensive datasets for deepfake detection and image captioning, and developed interactive spaces demonstrating optical character recognition, image editing, and visual reasoning capabilities. Their research emphasizes both generative and discriminative AI approaches, with particular expertise in diffusion model fine-tuning, synthetic media detection, and multimodal document understanding across diverse real-world applications.",
+      "expertise": [
+        "Computer Vision",
+        "Multimodal AI",
+        "Diffusion Models",
+        "Deepfake Detection",
+        "Optical Character Recognition"
+      ],
+      "sign": "computer vision, nlp, multimodality \r\n- HuggingFace Fellow\ud83e\udd17",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/prithivMLmods"
+        }
+      ]
+    },
+    "fullname": "Prithiv Sakthi",
+    "location": null,
+    "name": "Prithiv Sakthi",
+    "num_datasets": 118,
+    "num_followers": 3269,
+    "num_following": 3,
+    "num_models": 969,
+    "num_papers": 0,
+    "num_spaces": 29,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "prithivMLmods"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6527e89a8808d80ccff88b7a/CuGNmF1Et8KMQ0mCd1NEJ.jpeg",
+    "detail": {
+      "bio": "Hafedh Hichri is a Hugging Face Fellow and prolific AI developer specializing in custom AI model development with comprehensive Hugging Face integration. His work spans multiple domains including computer vision with background removal systems using BiRefNet, deepfake detection with explainable AI, and text-to-image generation with Stable Diffusion and anime LoRA models. He develops sophisticated multi-modal applications such as speech-to-speech translation systems combining Whisper and SpeechT5, RAG chatbots with document retrieval, and video classification demos. His expertise extends to parameter-efficient fine-tuning techniques like LoRA adaptation for language models, audio processing for music genre classification, and creating interactive Gradio spaces that demonstrate practical AI applications across diverse domains including code generation, semantic search, and image annotation systems.",
+      "expertise": [
+        "Computer Vision",
+        "Text Generation",
+        "Audio Processing",
+        "Multi-Modal Systems",
+        "Model Deployment"
+      ],
+      "sign": "custom AI models with HF integration, HuggingFace fellow \ud83e\udd17",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/not-lain"
+        }
+      ]
+    },
+    "fullname": "Hafedh Hichri",
+    "location": null,
+    "name": "Hafedh Hichri",
+    "num_datasets": 28,
+    "num_followers": 3032,
+    "num_following": 290,
+    "num_models": 82,
+    "num_papers": 0,
+    "num_spaces": 49,
+    "role": "Developer",
+    "type": "normal",
+    "username": "not-lain"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63b25a957804d5cadce4e08b/mPwuVn7KBjkLofkxkdamE.png",
+    "detail": {
+      "bio": "lodestones is an AI researcher specializing in multimodal text-to-image generation with extensive contributions to open-source generative AI. Their work focuses on developing foundation models like Chroma series based on FLUX architecture, featuring architectural optimizations and parameter efficiency. They have created large-scale datasets including PixelProse with 16.9 million dense image captions and ShareGPT4Video with 4.8M video-text pairs for training advanced multimodal systems. Their research spans diffusion models, spatial reasoning in vision-language tasks, and specialized applications including anthropomorphic character generation. They actively contribute to community-driven AI development through Apache 2.0 licensed models and comprehensive datasets supporting text-to-image generation, video understanding, and multimodal learning applications.",
+      "expertise": [
+        "Text-to-Image Generation",
+        "Diffusion Models",
+        "Multimodal AI",
+        "Foundation Models",
+        "Dataset Creation"
+      ],
+      "sign": "multimodal text to image",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/lodestones"
+        },
+        {
+          "platform": "Ko-fi",
+          "url": "https://ko-fi.com/lodestonerock"
+        }
+      ]
+    },
+    "fullname": "rock",
+    "location": null,
+    "name": "rock",
+    "num_datasets": 12,
+    "num_followers": 636,
+    "num_following": 0,
+    "num_models": 67,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "lodestones"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62a3bb1cd0d8c2c2169f0b88/eT2TS0IlQbZtz-F_zHLz9.jpeg",
+    "detail": {
+      "bio": "Tonic is an AI developer focused on creating specialized language models and automated training systems to accelerate learning across multiple domains. Their work spans medical AI with fine-tuned models like MistralMed and StableMed for healthcare question-answering, multilingual reasoning systems, and multimodal applications including Android device control and speech recognition. They have developed comprehensive datasets for medical education, climate disinformation detection, and mathematical reasoning, while building end-to-end training pipelines like SmolFactory for automated model fine-tuning and deployment. Their technical approach emphasizes parameter-efficient methods like LoRA fine-tuning and quantization techniques to optimize model performance while maintaining computational efficiency across diverse applications from healthcare to regulatory compliance.",
+      "expertise": [
+        "Medical Language Models",
+        "Parameter-Efficient Fine-Tuning",
+        "Multimodal AI Systems",
+        "Automated Training Pipelines",
+        "Speech Recognition"
+      ],
+      "sign": "\ud83e\udd16Making robots to help people learn things quicker \ud83d\udc69\ud83c\udffb\u200d\ud83d\ude80\ud83d\ude80",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/Tonic"
+        }
+      ]
+    },
+    "fullname": "Joseph [open/acc] Pollack",
+    "location": null,
+    "name": "Joseph [open/acc] Pollack",
+    "num_datasets": 41,
+    "num_followers": 544,
+    "num_following": 1177,
+    "num_models": 35,
+    "num_papers": 0,
+    "num_spaces": 155,
+    "role": "Developer",
+    "type": "normal",
+    "username": "Tonic"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6569216f9c96f1a47bf45788/mCLqmAs4dOjKdxNQVAp1w.png",
+    "detail": {
+      "bio": "SicariusSicariiStuff is an AI researcher specializing in developing and fine-tuning large language models for creative applications. Their work focuses on creating uncensored models optimized for role-playing, adventure scenarios, and creative writing with enhanced personality characteristics. They have developed numerous specialized models including philosophical dialogue systems, Hebrew language models, and character-driven storytelling architectures. Their research encompasses advanced quantization techniques across GGUF, EXL2, and GPTQ formats for efficient deployment. They contribute extensively to the open-source community through model development, dataset curation for mathematical reasoning and conversational AI, and alignment research to make AI models more accessible for creative applications.",
+      "expertise": [
+        "Language Model Fine-tuning",
+        "Creative Writing Models",
+        "Role-Play Systems",
+        "Quantization Techniques",
+        "Hebrew NLP"
+      ],
+      "sign": "Making interesting and engaging AI models, TTS & Creative writing accessible for everyone, alignment research.",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/SicariusSicariiStuff"
+        }
+      ]
+    },
+    "fullname": "Sica Rius",
+    "location": null,
+    "name": "Sica Rius",
+    "num_datasets": 26,
+    "num_followers": 542,
+    "num_following": 1,
+    "num_models": 483,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "SicariusSicariiStuff"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6340651b388c3fa40f9a5bc0/av1C4_S7bHGxAzOu8lOmG.jpeg",
+    "detail": {
+      "bio": "Adam Molnar (lunarflu) is a Trust and Safety specialist at Hugging Face focused on community management and content moderation systems. He develops Discord bots for user verification, automated role assignment, and cross-platform authentication using OAuth2 integration. His work includes building abuse detection systems, community analytics tools, and interactive demos for large language models like Falcon-180B and DeepSeek-R1. He contributes to content moderation through NSFW classification models and maintains community engagement tracking datasets. His technical expertise spans Discord bot development, Gradio interfaces, and secure authentication workflows for AI platform communities.",
+      "expertise": [
+        "Trust and Safety",
+        "Community Management",
+        "Discord Integration",
+        "Content Moderation",
+        "OAuth Authentication"
+      ],
+      "sign": "trust and safety \ud83e\udd17\r\n\r\nreach out on discord (lunarflu) if you have any questions: \r\nhf.co/discord/join",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/lunarflu"
+        },
+        {
+          "platform": "Discord",
+          "url": "hf.co/discord/join"
+        }
+      ]
+    },
+    "fullname": "Adam Molnar",
+    "location": null,
+    "name": "Adam Molnar",
+    "num_datasets": 12,
+    "num_followers": 499,
+    "num_following": 1048,
+    "num_models": 6,
+    "num_papers": 0,
+    "num_spaces": 16,
+    "role": "Developer",
+    "type": "normal",
+    "username": "lunarflu"
   },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63e6e242b6a40bf941e520d5/-T6LxA2WbWpgXZKGWqr9T.jpeg",
@@ -52,7 +476,7 @@
     },
     "fullname": "Roger Condori",
     "location": null,
-    "name": "r3gm",
+    "name": "Roger Condori",
     "num_datasets": 1,
     "num_followers": 384,
     "num_following": 11,
@@ -62,6 +486,38 @@
     "role": "Developer",
     "type": "normal",
     "username": "r3gm"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66c26b6fb01b19d8c3c2467b/9BON2envfBKjO7Udaj7CT.jpeg",
+    "detail": {
+      "bio": "Delta-Vector is an AI researcher specializing in large language model development with extensive expertise in creative text generation and roleplay optimization. They have created and fine-tuned numerous models ranging from 4B to 70B parameters, including the Hamanasu series for roleplaying and storywriting, Austral models for creative writing, and Rei models for enhanced prose quality. Their research focuses on advanced training techniques such as Kahneman-Tversky Optimization (KTO), supervised fine-tuning, and strategic model merging using SLERP. They contribute to multiple organizations including OpenGVLab and DeepGHS while developing specialized datasets for conversational AI, instruction following, and preference optimization, demonstrating comprehensive expertise in modern NLP methodologies and model deployment across various architectures including Qwen, Llama, and Mistral frameworks.",
+      "expertise": [
+        "Language Model Fine-tuning",
+        "Creative Text Generation",
+        "Roleplay Optimization",
+        "Instruction Tuning",
+        "Model Merging"
+      ],
+      "sign": "Post training @ https://dphn.ai",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/Delta-Vector"
+        }
+      ]
+    },
+    "fullname": "DV",
+    "location": null,
+    "name": "DV",
+    "num_datasets": 126,
+    "num_followers": 273,
+    "num_following": 139,
+    "num_models": 175,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "Delta-Vector"
   },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6348501e50fe0799927c3667/QIcq2tIrJrrH9LKG6P35O.jpeg",
@@ -95,7 +551,74 @@
     "type": "normal",
     "username": "Aratako"
   },
-
+  {
+    "avatar": "https://huggingface.co/avatars/f54abfaa4be54e61c1052720eb498703.svg",
+    "detail": {
+      "bio": "JosephusCheung is an AI researcher specializing in multimodal AI systems with extensive contributions to text-to-image generation and multilingual language models. His work includes developing specialized Stable Diffusion models for anime-style image generation, creating multilingual instruction-following models like Guanaco based on LLaMA architecture, and pioneering cross-modal alignment techniques between language models and diffusion systems. He has contributed significant datasets including the comprehensive GuanacoDataset with 534K multilingual entries and GuanacoVideoQA for video understanding tasks. His research focuses on model optimization for consumer hardware through quantization techniques, cross-attention mechanisms in diffusion models, and developing accessible AI tools for the open-source community. With affiliations to Stanford AI and Peking University, he maintains active involvement in multiple AI research organizations including DeepGHS and OpenBuddy Community.",
+      "expertise": [
+        "Stable Diffusion",
+        "Multilingual Language Models",
+        "Text-to-Image Generation",
+        "Model Quantization",
+        "Cross-Modal Alignment"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/JosephusCheung"
+        }
+      ]
+    },
+    "fullname": "Jos\u00e9phus Cheung",
+    "location": null,
+    "name": "Jos\u00e9phus Cheung",
+    "num_datasets": 4,
+    "num_followers": 183,
+    "num_following": 0,
+    "num_models": 15,
+    "num_papers": 0,
+    "num_spaces": 3,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "JosephusCheung"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6456f3ca1ca9debab0554f8b/pQuSK-pS3NnJgXewbODvh.png",
+    "detail": {
+      "bio": "DamarJati is a developer specializing in multimodal AI applications with expertise in text-to-image generation, computer vision, and natural language processing. Their work spans fine-tuning Stable Diffusion models for character generation, developing specialized diffusion models like FLUX.1 with ControlNet and LoRA adapters for photorealistic and anime-style image generation. They have created comprehensive computer vision models for environmental applications including waste classification, plastic recycling code identification, and face mask detection using Swin Transformer architectures. Additionally, they contribute to Indonesian language processing through curated text corpora and develop interactive Gradio spaces for AI-powered image manipulation, watermark removal, and real-time generation interfaces. Their open-source contributions demonstrate practical deployment of diffusion models across creative, environmental, and content moderation domains.",
+      "expertise": [
+        "Text-to-Image Generation",
+        "Computer Vision",
+        "Diffusion Models",
+        "Image Classification",
+        "Natural Language Processing"
+      ],
+      "sign": "Indonesian - Multimodal, Compvis, NLP | \r\nDiscord: @damarjati_",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/DamarJati"
+        },
+        {
+          "platform": "Discord",
+          "url": "discord:@damarjati_"
+        }
+      ]
+    },
+    "fullname": "Damar Jati \ud83c\udf6b",
+    "location": null,
+    "name": "Damar Jati \ud83c\udf6b",
+    "num_datasets": 16,
+    "num_followers": 174,
+    "num_following": 37,
+    "num_models": 9,
+    "num_papers": 0,
+    "num_spaces": 7,
+    "role": "Developer",
+    "type": "normal",
+    "username": "DamarJati"
+  },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1629553183241-noauth.png",
     "detail": {
@@ -117,7 +640,7 @@
     },
     "fullname": "Ruslan Magana Vsevolodovna",
     "location": null,
-    "name": "ruslanmv",
+    "name": "Ruslan Magana Vsevolodovna",
     "num_datasets": 7,
     "num_followers": 97,
     "num_following": 2,
@@ -143,7 +666,7 @@
     },
     "fullname": "wave",
     "location": null,
-    "name": "wave-on-discord",
+    "name": "wave",
     "num_datasets": 4,
     "num_followers": 95,
     "num_following": 4,
@@ -155,71 +678,199 @@
     "username": "wave-on-discord"
   },
   {
-    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/y1W6Co4jIYB95Cx6Tjrsd.jpeg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64c088660a4d02f37a965f6c/si3VTXZEM-1L5O4q2JRbo.png",
     "detail": {
-      "bio": "Muhammad Imran Zaman is a Strategic Machine Learning Engineer specializing in multilingual NLP and medical AI applications. His work focuses on developing fine-tuned language models for diverse domains including mental health counseling, Arabic language processing, and multilingual text classification. He employs parameter-efficient techniques like LoRA and quantization to optimize large language models including Llama, Mistral, and BERT architectures. His contributions span multilingual sentence embeddings, German semantic models, and practical applications in healthcare through retrieval-augmented generation systems. He actively develops interactive AI tools for medical question answering, document processing, and multimodal applications using frameworks like Streamlit and Gradio.",
+      "bio": "Asahina2K is a developer specializing in anime-themed generative AI with expertise in Stable Diffusion XL models and LoRA fine-tuning techniques. Their work focuses on creating specialized character generation models for anime figures from popular series like Atelier Ryza, with models including myRyzaXL, myKlaudiaXL, and myLilaXL. They develop optimized model distributions for multiple frameworks including ComfyUI and Automatic1111, and create interactive Gradio spaces for Animagine XL models. Their contributions include FP16 variants for efficient loading, comprehensive prompt engineering systems, and high-quality anime artwork generation with detailed character representation and aesthetic enhancements.",
       "expertise": [
-        "Multilingual Language Models",
-        "Medical AI Applications",
-        "Parameter-Efficient Fine-Tuning",
-        "Arabic NLP",
-        "Retrieval-Augmented Generation"
+        "Stable Diffusion",
+        "LoRA Fine-Tuning",
+        "Anime Generation",
+        "Text-to-Image Synthesis",
+        "Model Optimization"
       ],
       "sign": null,
       "social": [
         {
           "platform": "HuggingFace",
-          "url": "https://huggingface.co/ImranzamanML"
+          "url": "https://huggingface.co/Asahina2K"
         }
       ]
     },
-    "fullname": "Muhammad Imran Zaman",
+    "fullname": "Asahina",
     "location": null,
-    "name": "ImranzamanML",
-    "num_datasets": 3,
-    "num_followers": 86,
-    "num_following": 1,
-    "num_models": 14,
-    "num_papers": 3,
-    "num_spaces": 5,
+    "name": "Asahina",
+    "num_datasets": 0,
+    "num_followers": 75,
+    "num_following": 8,
+    "num_models": 7,
+    "num_papers": 0,
+    "num_spaces": 2,
     "role": "Developer",
     "type": "normal",
-    "username": "ImranzamanML"
+    "username": "Asahina2K"
   },
   {
-    "avatar": "/avatars/9353c064ef8ccac84d0397411d38fa90.svg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65e34821d821287383101b70/WvSy0IYVdzv3k289rv0s4.png",
     "detail": {
-      "bio": "Aaron Gokaslan is an AI researcher specializing in large language models and text generation systems. He has contributed significantly to the open-source AI community through his work on the OpenWebText dataset, an 8-million document replication of OpenAI's WebText used for training GPT-2 models. His research focuses on tokenizer development, as evidenced by his Llama-3.2-1B-Instruct tokenizer configuration supporting 128,000 vocabulary tokens and 131,072 maximum sequence length. He actively participates in major AI research organizations including EleutherAI, BigScience Workshop, and Databricks, contributing to foundational resources for natural language processing and large-scale language model training methodologies.",
+      "bio": "Daemontatox is an AI researcher specializing in large language models, reasoning capabilities, and specialized code generation systems. Their work focuses on developing advanced reasoning models like Zirel-3 with Mixture-of-Experts architectures and REAP pruning techniques for memory-efficient inference. They have created numerous specialized models including Cogito-Maximus for instruction following, HydraCoder for Rust programming, and various reasoning-optimized models. Their research spans mathematical reasoning, chain-of-thought capabilities, and efficient model architectures. They contribute extensively to the open-source community through datasets for reasoning tasks, mathematical problem-solving, and educational applications, while also developing interactive spaces for text-to-image generation, 3D modeling, and face recognition systems.",
       "expertise": [
-        "Language Modeling",
-        "Text Generation",
-        "Tokenizer Development",
-        "Web Corpus",
-        "Transformers"
+        "Large Language Models",
+        "Chain-of-Thought Reasoning",
+        "Rust Code Generation",
+        "Mixture-of-Experts Architectures",
+        "Mathematical Reasoning"
       ],
       "sign": null,
       "social": [
         {
           "platform": "HuggingFace",
-          "url": "https://huggingface.co/Skylion007"
+          "url": "https://huggingface.co/Daemontatox"
         }
       ]
     },
-    "fullname": "Aaron Gokaslan",
+    "fullname": "Ammar",
     "location": null,
-    "name": "Skylion007",
-    "num_datasets": 1,
-    "num_followers": 38,
-    "num_following": 4,
-    "num_models": 1,
-    "num_papers": 15,
-    "num_spaces": 0,
+    "name": "Ammar",
+    "num_datasets": 21,
+    "num_followers": 67,
+    "num_following": 2,
+    "num_models": 16,
+    "num_papers": 0,
+    "num_spaces": 5,
     "role": "AI Researcher",
     "type": "normal",
-    "username": "Skylion007"
+    "username": "Daemontatox"
   },
   {
-    "avatar": "/avatars/4b236b35cc8a5e0a27431dc34f77a363.svg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6665a39e6c3f21a7c07d41d0/gx8ihOZnv00jgtGeXv5ZN.jpeg",
+    "detail": {
+      "bio": "LiteMind is a data engineer specializing in conversational AI datasets and Arabic language processing. With expertise in ChatML formatting and dataset curation, they create large-scale training datasets for dialogue systems, role-playing agents, and instruction-following language models. Their work focuses on developing high-quality conversational data across multiple domains including technical computing, mathematical reasoning, and Arabic programming education. They contribute to the open-source community through comprehensive datasets that support fine-tuning of language models for diverse applications from character-consistent dialogue generation to multi-turn conversation modeling and domain-specific reasoning tasks.",
+      "expertise": [
+        "Conversational AI",
+        "Arabic Language Processing",
+        "ChatML Formatting",
+        "Dataset Curation",
+        "Instruction Tuning"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/LiteMind"
+        }
+      ]
+    },
+    "fullname": "Habib",
+    "location": null,
+    "name": "Habib",
+    "num_datasets": 11,
+    "num_followers": 63,
+    "num_following": 220,
+    "num_models": 1,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Data Engineer",
+    "type": "normal",
+    "username": "LiteMind"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/630cf55b15433862cfc9556f/MKkDqUGLgnaFoWLVLieGw.png",
+    "detail": {
+      "bio": "AbstractPhil is an AI researcher specializing in multi-modal fusion and geometric deep learning approaches for text-to-image generation. Their work focuses on developing variational autoencoders that integrate CLIP and T5 embeddings through Cantor fractal fusion techniques for enhanced Stable Diffusion conditioning. They have created extensive geometric vocabulary datasets representing Unicode characters and WordNet concepts as high-dimensional simplexes. Their research includes flow matching models with crystalline architectures, symbolic token compliance testing in BERT models, and large-scale caption datasets for human-aligned text-to-image training. They contribute to multiple organizations including DeepGHS and Abstract Powered Research, exploring innovative approaches to multi-modal representation learning and geometric machine learning methodologies.",
+      "expertise": [
+        "Multi-Modal Fusion",
+        "Geometric Deep Learning",
+        "Text-to-Image Generation",
+        "Variational Autoencoders",
+        "Knowledge Distillation"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/AbstractPhil"
+        }
+      ]
+    },
+    "fullname": "AbstractPhila",
+    "location": null,
+    "name": "AbstractPhila",
+    "num_datasets": 50,
+    "num_followers": 62,
+    "num_following": 15,
+    "num_models": 90,
+    "num_papers": 0,
+    "num_spaces": 3,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "AbstractPhil"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6581f9514adaee05cf640f81/sXvEEraq2QlSIyWHlSmpa.jpeg",
+    "detail": {
+      "bio": "Xi0v is an AI researcher specializing in large-scale model development and multimodal AI systems. With expertise in model merging using MergeKit, they have created numerous large language models ranging from 7B to 200B parameters, including experimental Mixtral variants and specialized models like MoEJudge-118B for LLM output evaluation. Their work extends to vision and multimodal domains, developing text-to-image generation models and curating extensive datasets of anime-style images from Danbooru and NovelAI sources. They actively contribute to computer vision research through Stable Video Diffusion implementations for image-to-video animation and maintain comprehensive datasets for training multimodal AI systems. Their research focuses on scaling model architectures, improving generation quality, and advancing creative AI applications through systematic experimentation and dataset curation.",
+      "expertise": [
+        "Model Merging",
+        "Text-to-Image Generation",
+        "Large Language Models",
+        "Stable Diffusion",
+        "Multimodal AI"
+      ],
+      "sign": "RL, Model merging, Model Editing and Vision/Multimodal Model Fine-tuning.",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/xi0v"
+        }
+      ]
+    },
+    "fullname": "Xi",
+    "location": null,
+    "name": "Xi",
+    "num_datasets": 9,
+    "num_followers": 50,
+    "num_following": 72,
+    "num_models": 165,
+    "num_papers": 0,
+    "num_spaces": 1,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "xi0v"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63fb18980aa18292d5baa28b/7TKAv6ZAv25otC3fAYHAB.png",
+    "detail": {
+      "bio": "licyk is a developer specializing in diffusion models and text-to-image generation systems, with extensive contributions to the Stable Diffusion ecosystem. Their work focuses on comprehensive model collections including ControlNet implementations for precise image generation control, LoRA adaptations for parameter-efficient fine-tuning, and specialized diffusion frameworks like LayerDiffusion for transparent layer generation. They maintain large-scale datasets for anime-style image training and provide model suites for popular interfaces including Fooocus, ComfyUI, and stable-diffusion-webui. Their repositories span multiple model architectures from Stable Diffusion 1.5 to SD3 and FLUX, demonstrating expertise in model quantization, multi-modal conditioning, and practical deployment solutions for AI art generation workflows.",
+      "expertise": [
+        "Stable Diffusion",
+        "ControlNet Models",
+        "LoRA Fine-Tuning",
+        "Text-to-Image Generation",
+        "Anime Style Generation"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/licyk"
+        }
+      ]
+    },
+    "fullname": "licyk",
+    "location": null,
+    "name": "licyk",
+    "num_datasets": 3,
+    "num_followers": 44,
+    "num_following": 22,
+    "num_models": 27,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Developer",
+    "type": "normal",
+    "username": "licyk"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/4b236b35cc8a5e0a27431dc34f77a363.svg",
     "detail": {
       "bio": "OmniAICreator is a developer specializing in Japanese text-to-speech systems and speech synthesis technologies. Their work focuses on creating specialized TTS models fine-tuned for galgame applications and anime-style voice generation. They develop interactive demos showcasing voice cloning capabilities, audio reconstruction with neural codecs, and metadata-controlled speech synthesis. Their contributions include extensive Japanese language datasets for NLP research, covering web novels, role-playing dialogues, technical articles, and audio corpora. They implement multimodal AI systems integrating transformer architectures with audio processing pipelines for high-quality Japanese speech generation in gaming and entertainment contexts.",
       "expertise": [
@@ -251,7 +902,7 @@
     "username": "OmniAICreator"
   },
   {
-    "avatar": "/avatars/f56cc3587788446fac3a8c10d8566cda.svg",
+    "avatar": "https://huggingface.co/avatars/f56cc3587788446fac3a8c10d8566cda.svg",
     "detail": {
       "bio": "heziiiii is a data engineer specializing in anime and multimedia datasets for computer vision applications. Their work focuses on curating large-scale datasets including Danbooru annotations, anime video clips, and character image collections. They develop diffusion models for text-to-image generation, particularly SDXL variants and diffusion transformers for high-resolution anime content. Their expertise spans pose estimation with OpenPose annotations, CLIP-based multimodal learning, and LoRA fine-tuning for character synthesis. They contribute to multiple organizations including DeepGHS and anime-focused research groups, building comprehensive datasets for training generative AI models and computer vision systems.",
       "expertise": [
@@ -271,7 +922,7 @@
     },
     "fullname": "yy",
     "location": null,
-    "name": "heziiiii",
+    "name": "yy",
     "num_datasets": 26,
     "num_followers": 36,
     "num_following": 1,
@@ -303,7 +954,7 @@
     },
     "fullname": "Nebulae",
     "location": null,
-    "name": "NebulaeWis",
+    "name": "Nebulae",
     "num_datasets": 24,
     "num_followers": 35,
     "num_following": 3,
@@ -314,9 +965,40 @@
     "type": "normal",
     "username": "NebulaeWis"
   },
-
   {
-    "avatar": "/avatars/8cd32c30c41d75e702ca5f47a88fa67d.svg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65a621fc5c86b8ac308d1e40/xFknNmLYj1vkMTRFISSmM.jpeg",
+    "detail": {
+      "bio": "eienmojiki is a developer specializing in anime-style text-to-image generation using Stable Diffusion architectures. They have created and maintained multiple specialized models including Anything-XL, Starry-XL-v5.2, and various SD1.5 variants optimized for anime artwork generation. Their work demonstrates expertise in model fine-tuning, LoRA adaptations, and diffusion model optimization for artistic applications. They actively develop interactive applications through Hugging Face Spaces, including AnyDiffuse - a comprehensive stable diffusion web interface with ControlNet, IP-Adapter, and LoRA support. Their contributions span model development, application deployment, and community engagement across multiple AI organizations focused on creative AI applications and diffusion model advancements.",
+      "expertise": [
+        "Stable Diffusion",
+        "Anime Generation",
+        "Gradio Applications",
+        "Text-to-Image",
+        "Diffusion Models"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/eienmojiki"
+        }
+      ]
+    },
+    "fullname": "\u30ab\u30c3\u30c8 Katt",
+    "location": null,
+    "name": "\u30ab\u30c3\u30c8 Katt",
+    "num_datasets": 0,
+    "num_followers": 32,
+    "num_following": 4,
+    "num_models": 11,
+    "num_papers": 0,
+    "num_spaces": 21,
+    "role": "Developer",
+    "type": "normal",
+    "username": "eienmojiki"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/8cd32c30c41d75e702ca5f47a88fa67d.svg",
     "detail": {
       "bio": "mktn is an AI researcher specializing in multi-modal generative models with a focus on text-to-video and image-to-video synthesis. Their work extensively explores parameter-efficient fine-tuning techniques through LoRA (Low-Rank Adaptation) for video generation models. They have developed specialized adaptations for artistic styles, visual effects, and content-specific modifications across various video generation architectures. Their research includes classifier-free guidance distillation for large-scale text-to-video models and control mechanisms for specialized video content. They contribute to multiple AI communities including DeepGHS and focus on advancing video synthesis capabilities through systematic experimentation with training configurations, optimization strategies, and model architectures.",
       "expertise": [
@@ -336,7 +1018,7 @@
     },
     "fullname": "makoto",
     "location": null,
-    "name": "mktn",
+    "name": "makoto",
     "num_datasets": 0,
     "num_followers": 28,
     "num_following": 265,
@@ -348,7 +1030,7 @@
     "username": "mktn"
   },
   {
-    "avatar": "/avatars/8213f0ffc9106d7663c4b5f29f4ec9e5.svg",
+    "avatar": "https://huggingface.co/avatars/8213f0ffc9106d7663c4b5f29f4ec9e5.svg",
     "detail": {
       "bio": "Joe Rocca is a developer specializing in web deployment of AI models and cross-platform optimization. His work focuses on converting advanced models like DALL-E Mini, CLIP, and RWKV to browser-compatible formats including TensorFlow Lite, ONNX, and JavaScript implementations. He develops text-to-image generation systems with experimental Chroma Nunchaku models and Projected GAN architectures for character generation. His contributions include creating large-scale datasets for computer vision applications, such as Sims 4 faces and multi-platform emoji collections with CLIP embeddings. He also builds practical tools for prompt testing and multimodal applications, demonstrating expertise in making cutting-edge AI accessible for web environments.",
       "expertise": [
@@ -368,7 +1050,7 @@
     },
     "fullname": "Joe Rocca",
     "location": null,
-    "name": "rocca",
+    "name": "Joe Rocca",
     "num_datasets": 4,
     "num_followers": 26,
     "num_following": 98,
@@ -398,9 +1080,9 @@
         }
       ]
     },
-    "fullname": "Nguyễn Vũ Dương",
+    "fullname": "Nguy\u1ec5n V\u0169 D\u01b0\u01a1ng",
     "location": null,
-    "name": "duongve",
+    "name": "Nguy\u1ec5n V\u0169 D\u01b0\u01a1ng",
     "num_datasets": 12,
     "num_followers": 25,
     "num_following": 2,
@@ -412,7 +1094,39 @@
     "username": "duongve"
   },
   {
-    "avatar": "/avatars/b6a65158c8aa2863315d8ff718991a1d.svg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/636982a164aad59d4d42714b/JTZvOlFMF7pCK50D410Sc.png",
+    "detail": {
+      "bio": "trojblue is a developer specializing in anime-style generative AI and computer vision applications. Their work focuses on text-to-image and text-to-video generation using Stable Diffusion XL and HunyuanVideo architectures, with expertise in LoRA fine-tuning for anime character illustration and pixel art generation. They have developed distilled Q-Align models for image quality and aesthetic assessment in anime illustrations, trained on millions of Danbooru images. Their contributions include comprehensive anime datasets like Sakugabooru2025 and Danbooru2025 metadata, alongside practical tools for PNG metadata extraction, dataset exploration, and color correction. They are actively involved in multiple AI research organizations including DeepGHS and StableDiffusion_CN.",
+      "expertise": [
+        "Anime Generation",
+        "Image Quality Assessment",
+        "Text-to-Image",
+        "LoRA Fine-tuning",
+        "Multi-Modal AI"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/trojblue"
+        }
+      ]
+    },
+    "fullname": "trojblue",
+    "location": null,
+    "name": "trojblue",
+    "num_datasets": 15,
+    "num_followers": 23,
+    "num_following": 5,
+    "num_models": 17,
+    "num_papers": 0,
+    "num_spaces": 5,
+    "role": "Developer",
+    "type": "normal",
+    "username": "trojblue"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/b6a65158c8aa2863315d8ff718991a1d.svg",
     "detail": {
       "bio": "6chan is an AI researcher specializing in computer vision and multimodal generation, with expertise in diffusion models, FP8 quantization, and real-time video synthesis. Their work focuses on optimizing model efficiency through quantization techniques for both image and video generation tasks. They develop specialized models for artistic applications including anime-style generation, style transfer, and aesthetic evaluation. Their contributions include quantized variants of popular diffusion architectures like FLUX.1 and Krea Realtime Video, as well as datasets for children's art style transfer. They also explore AI agent systems for complex task automation and maintain active involvement in multiple AI research communities including Zhejiang University and various open-source organizations.",
       "expertise": [
@@ -432,7 +1146,7 @@
     },
     "fullname": "Chan Faych",
     "location": null,
-    "name": "6chan",
+    "name": "Chan Faych",
     "num_datasets": 1,
     "num_followers": 20,
     "num_following": 3,
@@ -464,7 +1178,7 @@
     },
     "fullname": "Bell",
     "location": null,
-    "name": "ItsMeBell",
+    "name": "Bell",
     "num_datasets": 1,
     "num_followers": 20,
     "num_following": 8,
@@ -474,6 +1188,38 @@
     "role": "Developer",
     "type": "normal",
     "username": "ItsMeBell"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64a6a1cd35c3af3adefafe1b/qRv8U3MGFWLJGn96xGeAj.png",
+    "detail": {
+      "bio": "Parsee Mizuhashi is a developer specializing in multi-modal AI systems with a focus on anime-style image generation and audio-text applications. Their work includes developing specialized Stable Diffusion models like Mangaka for manga panel generation and experimental architectures such as HDiT for diffusion transformers. They contribute extensively to the anime AI community through datasets like Phony containing thousands of anime character images with detailed text descriptions, and Danbooru-index-recent for comprehensive metadata analysis. Their research spans text-to-music generation with datasets like sdmusic-test and acestepsongs, while also exploring efficient transformer alternatives through RetNet implementations. They actively develop interactive tools including ComfyBox for ComfyUI workflows and CLIP space visualization for artistic style analysis.",
+      "expertise": [
+        "Stable Diffusion",
+        "Anime Generation",
+        "Multi-Modal Learning",
+        "Text-to-Image",
+        "Music Generation"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/parsee-mizuhashi"
+        }
+      ]
+    },
+    "fullname": "Parsee Mizuhashi",
+    "location": null,
+    "name": "Parsee Mizuhashi",
+    "num_datasets": 13,
+    "num_followers": 20,
+    "num_following": 3,
+    "num_models": 6,
+    "num_papers": 0,
+    "num_spaces": 3,
+    "role": "Developer",
+    "type": "normal",
+    "username": "parsee-mizuhashi"
   },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/Js8xQBZi9HyvBmUjbL1-x.png",
@@ -496,7 +1242,7 @@
     },
     "fullname": "Anlia",
     "location": null,
-    "name": "E-Anlia",
+    "name": "Anlia",
     "num_datasets": 0,
     "num_followers": 19,
     "num_following": 7,
@@ -506,6 +1252,70 @@
     "role": "AI Researcher",
     "type": "normal",
     "username": "E-Anlia"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65905af887944e494e37e09a/Ryy7Rpkd32Wk80bM0SMeK.png",
+    "detail": {
+      "bio": "beyoru is an AI researcher specializing in developing conversational models and educational AI systems. Their work focuses on fine-tuning large language models for roleplay interactions, multiple-choice question generation, and reasoning-enhanced text generation. They have created numerous specialized models including Tama for immersive roleplay, ThinkAgain series for explicit reasoning processes, and Spark-TTS models for text-to-speech applications. Their extensive dataset contributions cover Vietnamese educational content, computer science textbooks, and bilingual question-answer pairs, supporting educational AI development and multilingual learning applications. The research employs parameter-efficient techniques like LoRA and DoRA for model adaptation while maintaining computational efficiency across diverse language tasks.",
+      "expertise": [
+        "Conversational AI",
+        "Parameter-Efficient Fine-Tuning",
+        "Educational Datasets",
+        "Text-to-Speech",
+        "Reasoning Models"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/beyoru"
+        }
+      ]
+    },
+    "fullname": "Hert4",
+    "location": null,
+    "name": "Hert4",
+    "num_datasets": 78,
+    "num_followers": 17,
+    "num_following": 1,
+    "num_models": 33,
+    "num_papers": 0,
+    "num_spaces": 1,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "beyoru"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/afebb574d414f5f86cd87924f4dc887e.svg",
+    "detail": {
+      "bio": "LOLFUNNYLOLFUNNY is an AI researcher specializing in text-to-image generation using Stable Diffusion XL architectures. Their work focuses on developing and fine-tuning diffusion models for creative applications, particularly in anime-style artwork generation. They have contributed numerous models including NyaFlow-XL-Alpha, various RouWei implementations, and specialized anime generation models trained on datasets like Danbooru2023. Their technical approach employs dual CLIP text encoders, UNet2DConditionModel architectures, and EulerAncestralDiscreteScheduler for stable high-resolution image synthesis. As a member of DeepGHS organization, they actively participate in the open-source generative AI ecosystem, creating models that support both research and practical creative applications in digital art generation.",
+      "expertise": [
+        "Stable Diffusion XL",
+        "Text-to-Image Generation",
+        "Anime Art Synthesis",
+        "Diffusion Models",
+        "Creative AI Applications"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/LOLFUNNYLOLFUNNY"
+        }
+      ]
+    },
+    "fullname": "LOLFUNNYLOLFUNNY",
+    "location": null,
+    "name": "LOLFUNNYLOLFUNNY",
+    "num_datasets": 0,
+    "num_followers": 16,
+    "num_following": 87,
+    "num_models": 36,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "LOLFUNNYLOLFUNNY"
   },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63e99ea746574e63a2ca0e49/uaYZ5XTtuYjNTqpWDTZBk.png",
@@ -540,36 +1350,36 @@
     "username": "Printemps"
   },
   {
-    "avatar": "/avatars/0ff3127b513552432a7c651e21d7f283.svg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676513278520-noauth.jpeg",
     "detail": {
-      "bio": "wangsssssss is an AI researcher focused on advancing diffusion models for image generation, with expertise in developing novel architectures like FlowDCN that enable arbitrary resolution synthesis with state-of-the-art performance. Their work includes neural solver distillation techniques that accelerate Stable Diffusion variants from 1000 to just 4 inference steps while maintaining visual quality. They contribute to large-scale image datasets for training generative models and explore computational efficiency improvements for real-world deployment. Their research encompasses text-to-image generation, model optimization, and developing scalable training methodologies for computer vision applications.",
+      "bio": "ayousanz is a developer specializing in Japanese language AI technologies with extensive work in text-to-speech systems and language model optimization. Their expertise includes model merging using spherical linear interpolation techniques, creating specialized Japanese language models by combining architectures like Mistral and LLaMA. They have developed comprehensive speech synthesis systems including Style-Bert-VITS2 models and Piper TTS implementations. Their work also encompasses large-scale Japanese text corpus processing and speech quality analysis, creating datasets for audio quality assessment using WADA SNR and speechMOS methodologies. They contribute to multiple organizations including DeepGHS, ONNX Community, and local LLM communities, focusing on Japanese language AI applications and model optimization.",
       "expertise": [
-        "Diffusion Models",
-        "Image Generation",
-        "Model Distillation",
-        "Arbitrary Resolution",
-        "Neural Solvers"
+        "Japanese Language Models",
+        "Text-to-Speech",
+        "Model Merging",
+        "Speech Quality Analysis",
+        "Audio Processing"
       ],
       "sign": null,
       "social": [
         {
           "platform": "HuggingFace",
-          "url": "https://huggingface.co/wangsssssss"
+          "url": "https://huggingface.co/ayousanz"
         }
       ]
     },
-    "fullname": "wangshuai",
+    "fullname": "yousan",
     "location": null,
-    "name": "wangsssssss",
-    "num_datasets": 3,
+    "name": "yousan",
+    "num_datasets": 24,
     "num_followers": 14,
-    "num_following": 18,
-    "num_models": 3,
-    "num_papers": 8,
-    "num_spaces": 0,
-    "role": "AI Researcher",
+    "num_following": 3,
+    "num_models": 48,
+    "num_papers": 0,
+    "num_spaces": 2,
+    "role": "Developer",
     "type": "normal",
-    "username": "wangsssssss"
+    "username": "ayousanz"
   },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/666d3d4483571a7a05790a01/Co3ZL4LH8LGLUXHKvtUzz.jpeg",
@@ -586,7 +1396,7 @@
     },
     "fullname": "Mann",
     "location": null,
-    "name": "Geemann",
+    "name": "Mann",
     "num_datasets": 0,
     "num_followers": 13,
     "num_following": 166,
@@ -618,7 +1428,7 @@
     },
     "fullname": "Majo",
     "location": null,
-    "name": "Sayoyo",
+    "name": "Majo",
     "num_datasets": 0,
     "num_followers": 13,
     "num_following": 13,
@@ -650,7 +1460,7 @@
     },
     "fullname": "eternity",
     "location": null,
-    "name": "chenxluo",
+    "name": "eternity",
     "num_datasets": 0,
     "num_followers": 11,
     "num_following": 1,
@@ -672,7 +1482,7 @@
         "Ethical AI",
         "Japanese NLP"
       ],
-      "sign": "雰囲気でPython PHP JSを触っている。\r\nAIに興味が出てきてます",
+      "sign": "\u96f0\u56f2\u6c17\u3067Python PHP JS\u3092\u89e6\u3063\u3066\u3044\u308b\u3002\r\nAI\u306b\u8208\u5473\u304c\u51fa\u3066\u304d\u3066\u307e\u3059",
       "social": [
         {
           "platform": "HuggingFace",
@@ -682,7 +1492,7 @@
     },
     "fullname": "ootsuka",
     "location": null,
-    "name": "swdq",
+    "name": "ootsuka",
     "num_datasets": 2,
     "num_followers": 11,
     "num_following": 5,
@@ -725,7 +1535,6 @@
     "type": "normal",
     "username": "CharlieDreemur"
   },
-
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/k5Yx0x7r2lTrGJaPfAyXU.png",
     "detail": {
@@ -747,7 +1556,7 @@
     },
     "fullname": "Zhenglin Pan",
     "location": null,
-    "name": "aidenpan",
+    "name": "Zhenglin Pan",
     "num_datasets": 5,
     "num_followers": 10,
     "num_following": 1,
@@ -759,7 +1568,7 @@
     "username": "aidenpan"
   },
   {
-    "avatar": "/avatars/ecfd450acdb7800a94827d03a47f3cbf.svg",
+    "avatar": "https://huggingface.co/avatars/ecfd450acdb7800a94827d03a47f3cbf.svg",
     "detail": {
       "bio": "Krigeta is a contributor on HuggingFace, member of DeepGHS, focusing on text-to-image generation models for creative visual content creation. Their work includes specialized models like Nanda Tho that enable high-quality image synthesis from textual descriptions, supporting various artistic styles and visual concepts. They utilize Safetensors format for efficient model deployment and inference capabilities in digital art and content creation applications.",
       "expertise": [
@@ -778,7 +1587,7 @@
     },
     "fullname": "Krishan Kant",
     "location": null,
-    "name": "krigeta",
+    "name": "Krishan Kant",
     "num_datasets": 0,
     "num_followers": 10,
     "num_following": 22,
@@ -788,6 +1597,38 @@
     "role": "Developer",
     "type": "normal",
     "username": "krigeta"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6702d5f67d7577ffe57c9b5d/aTfCfDLsJIU-N6cTEXQvO.png",
+    "detail": {
+      "bio": "Faizal Izaus is an AI researcher specializing in developing efficient model architectures for resource-constrained environments through systematic model pruning and reinitialization techniques. His work focuses on creating optimized language models derived from major architectures including Phi-3, Gemma-2, Llama-3.2, and StableLM, with parameter sizes ranging from 145M to 650M for text generation and conversational AI applications. He also contributes to Indonesian natural language processing through curated datasets and develops specialized diffusion models for anime-style image generation. His research encompasses creative writing applications, space warfare narrative generation, and multilingual text processing, demonstrating a comprehensive approach to model efficiency and domain-specific adaptation.",
+      "expertise": [
+        "Language Model Architecture",
+        "Model Pruning",
+        "Text Generation",
+        "Stable Diffusion",
+        "Indonesian NLP"
+      ],
+      "sign": "Exploring efficient model architectures for resource-constrained environments.",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/nqzfaizal77ai"
+        }
+      ]
+    },
+    "fullname": "Faizal Izaus",
+    "location": null,
+    "name": "Faizal Izaus",
+    "num_datasets": 33,
+    "num_followers": 10,
+    "num_following": 33,
+    "num_models": 52,
+    "num_papers": 0,
+    "num_spaces": 1,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "nqzfaizal77ai"
   },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6352647b507b679c3c5c4669/jLGv2ABBkG2pWDMet2gmc.jpeg",
@@ -842,7 +1683,7 @@
     },
     "fullname": "Taehoon",
     "location": null,
-    "name": "carpedm20",
+    "name": "Taehoon",
     "num_datasets": 0,
     "num_followers": 9,
     "num_following": 33,
@@ -854,39 +1695,71 @@
     "username": "carpedm20"
   },
   {
-    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62389d9c6dadcce9c7331451/MZmAKcJmE7Naxfxa10ps9.jpeg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65575cdaee35f7d8bc094ff8/RlODSrfSBYSAIpHNtgb-P.png",
     "detail": {
-      "bio": "RE-N-Y is an AI researcher specializing in computer vision and multimodal AI systems, with extensive work on image quality assessment models using DINOv2, CLIP, and SigLIP architectures for fidelity and overall rating tasks. Their research focuses on finite scalar quantization techniques for VQVAE models applied to ImageNet and anime face generation, developing advanced image compression and synthesis methods. They have created multimodal visual reasoning systems like Logic2Vision that generate Python pseudocode for complex visual tasks, and contributed large-scale datasets for text-to-image generation research. Their work demonstrates expertise in transfer learning, parameter-efficient fine-tuning with LoRA, and developing robust evaluation metrics for visual content quality assessment across diverse domains.",
+      "bio": "GHArt is a developer specializing in Stable Diffusion XL text-to-image generation models, with extensive expertise in optimizing diffusion architectures for high-quality visual synthesis. Their work focuses on creating specialized models for various artistic domains including animated content, 3D cartoon generation, cinematic visuals, and Chinese-language applications. They have developed over 40 diffusion models optimized for FP16 precision, enabling efficient high-resolution image generation while maintaining visual fidelity. Their contributions include interactive web interfaces using Gradio for practical deployment of text-to-image systems, demonstrating a comprehensive approach to bridging research-grade diffusion models with creative applications and content generation workflows.",
       "expertise": [
-        "Image Quality Assessment",
-        "Finite Scalar Quantization",
-        "Multimodal Visual Reasoning",
+        "Stable Diffusion XL",
         "Text-to-Image Generation",
-        "Computer Vision"
+        "Diffusion Models",
+        "FP16 Optimization",
+        "Creative AI"
       ],
       "sign": null,
       "social": [
         {
           "platform": "HuggingFace",
-          "url": "https://huggingface.co/RE-N-Y"
+          "url": "https://huggingface.co/GHArt"
         }
       ]
     },
-    "fullname": "Sangwu Lee",
+    "fullname": "Art Gh",
     "location": null,
-    "name": "RE-N-Y",
-    "num_datasets": 1,
+    "name": "Art Gh",
+    "num_datasets": 0,
+    "num_followers": 8,
+    "num_following": 8,
+    "num_models": 42,
+    "num_papers": 0,
+    "num_spaces": 1,
+    "role": "Developer",
+    "type": "normal",
+    "username": "GHArt"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67c2f8504369cf18d0c356c3/nrWzaDfeOB9BVfRtKrdWO.jpeg",
+    "detail": {
+      "bio": "Taresh Rajput is an AI researcher specializing in conversational AI and multi-modal language models. His work focuses on developing advanced text-to-speech systems optimized for anime-style character voices and expressive audio generation. He has created multiple Orpheus series models based on Llama and Qwen3 architectures, featuring extended context capabilities and specialized audio tokens for multi-modal processing. His research includes large-scale language model fine-tuning using LoRA adapters for instruction following and conversational applications. He contributes comprehensive datasets for speech synthesis, voice cloning, and turn detection in dialogue systems, supporting the development of real-time conversational AI applications with enhanced audio-text integration and long-context reasoning capabilities.",
+      "expertise": [
+        "Text-to-Speech Synthesis",
+        "Conversational AI",
+        "Large Language Models",
+        "Audio Processing",
+        "Multi-Modal Architectures"
+      ],
+      "sign": "\ud83d\udde3\ufe0f Conversational AI | \u26a1 Real-Time Applications | \ud83d\udc41\ufe0f Vision Analytics",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/taresh18"
+        }
+      ]
+    },
+    "fullname": "Taresh Rajput",
+    "location": null,
+    "name": "Taresh Rajput",
+    "num_datasets": 5,
     "num_followers": 8,
     "num_following": 6,
-    "num_models": 61,
-    "num_papers": 1,
+    "num_models": 9,
+    "num_papers": 0,
     "num_spaces": 0,
     "role": "AI Researcher",
     "type": "normal",
-    "username": "RE-N-Y"
+    "username": "taresh18"
   },
   {
-    "avatar": "/avatars/7ab57782a5c3dace32017f93160b28da.svg",
+    "avatar": "https://huggingface.co/avatars/7ab57782a5c3dace32017f93160b28da.svg",
     "detail": {
       "bio": "Recorders is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -900,7 +1773,7 @@
     },
     "fullname": "JIM RECORDER",
     "location": null,
-    "name": "Recorders",
+    "name": "JIM RECORDER",
     "num_datasets": 0,
     "num_followers": 7,
     "num_following": 8,
@@ -912,7 +1785,39 @@
     "username": "Recorders"
   },
   {
-    "avatar": "/avatars/4f2cd5318ec02b089dfc87ed45078963.svg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/645ab6487d8ec84b7b5d62e8/Mne83qXJiP6TBJG1N216S.png",
+    "detail": {
+      "bio": "Tangokiss is a developer specializing in Stable Diffusion models and LoRA adapters for text-to-image generation. Their work focuses on creating specialized diffusion models for character generation and artistic representations, implementing CLIP-based text encoders, UNet architectures, and AutoencoderKL components. They contribute to multiple AI organizations including DeepGHS and The Waifu Research Department, developing foundational text-to-image generation systems for creative applications and multimodal AI research using PyTorch, Diffusers, and Safetensors frameworks.",
+      "expertise": [
+        "Stable Diffusion",
+        "Text-to-Image Generation",
+        "LoRA Adapters",
+        "Diffusion Models",
+        "Character Generation"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/Tangokiss"
+        }
+      ]
+    },
+    "fullname": "tangokiss",
+    "location": null,
+    "name": "tangokiss",
+    "num_datasets": 0,
+    "num_followers": 7,
+    "num_following": 24,
+    "num_models": 3,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Developer",
+    "type": "normal",
+    "username": "Tangokiss"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/4f2cd5318ec02b089dfc87ed45078963.svg",
     "detail": {
       "bio": "dawn6666 is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -958,7 +1863,7 @@
     },
     "fullname": "Chen",
     "location": null,
-    "name": "Aowrow",
+    "name": "Chen",
     "num_datasets": 2,
     "num_followers": 6,
     "num_following": 8,
@@ -968,6 +1873,38 @@
     "role": "Data Engineer",
     "type": "normal",
     "username": "Aowrow"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/urH2x5iquTr0AnfCvgT3V.png",
+    "detail": {
+      "bio": "LittleApple-fp16 is a developer specializing in Stable Diffusion-based text-to-image generation models and variational autoencoders. Their work focuses on creating specialized models including SpiritForeseerMix for conditional image synthesis, fine-tuned VAEs like ClearVAE and vae-ft-mse-840000-ema-pruned for enhanced latent space representations, and negative prompting tools such as EasyNegative. They develop interactive JupyterLab environments for anime character LoRA training and dataset collection using Danbooru crawlers, and create NovelAI-inspired Gradio themes for machine learning applications. Their technical expertise spans diffusion model architectures, PyTorch implementations, and automated dataset curation pipelines for anime-style image generation.",
+      "expertise": [
+        "Stable Diffusion",
+        "Variational Autoencoders",
+        "LoRA Training",
+        "Image Generation",
+        "Gradio Themes"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/LittleApple-fp16"
+        }
+      ]
+    },
+    "fullname": "Rinko",
+    "location": null,
+    "name": "Rinko",
+    "num_datasets": 0,
+    "num_followers": 6,
+    "num_following": 10,
+    "num_models": 6,
+    "num_papers": 0,
+    "num_spaces": 3,
+    "role": "Developer",
+    "type": "normal",
+    "username": "LittleApple-fp16"
   },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/656ccb178556299698e3c2bd/8YdzTLKAMRlFGRd6eOi0W.jpeg",
@@ -990,7 +1927,7 @@
     },
     "fullname": "Kytra",
     "location": null,
-    "name": "Mothersuperior",
+    "name": "Kytra",
     "num_datasets": 1,
     "num_followers": 6,
     "num_following": 3,
@@ -1022,7 +1959,7 @@
     },
     "fullname": "The second",
     "location": null,
-    "name": "Second222",
+    "name": "The second",
     "num_datasets": 5,
     "num_followers": 6,
     "num_following": 6,
@@ -1034,7 +1971,135 @@
     "username": "Second222"
   },
   {
-    "avatar": "/avatars/9a0c7b0c22845e94c36448109c313787.svg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b869acb2c1f79981886342/h69M6ICsOV7i8Dd-_Phe-.jpeg",
+    "detail": {
+      "bio": "discus0434 is a developer specializing in diffusion models and text-to-image generation systems. Their work focuses on implementing and fine-tuning advanced architectures including Latent Consistency Models for accelerated inference and Lumina2-based transformers for high-quality image synthesis. They have developed models for document layout analysis using Detection Transformers and created interactive spaces for aesthetic quality assessment. Their technical expertise spans transformer-based diffusion pipelines, multi-modal understanding with Gemma2 text encoders, and efficient sampling techniques using FlowMatch schedulers. They contribute to open-source AI through optimized model implementations and practical applications in computer vision and creative content generation.",
+      "expertise": [
+        "Diffusion Models",
+        "Text-to-Image Generation",
+        "Latent Consistency Models",
+        "Transformer Architectures",
+        "Computer Vision"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/discus0434"
+        }
+      ]
+    },
+    "fullname": "Verb",
+    "location": null,
+    "name": "Verb",
+    "num_datasets": 0,
+    "num_followers": 6,
+    "num_following": 3,
+    "num_models": 4,
+    "num_papers": 0,
+    "num_spaces": 1,
+    "role": "Developer",
+    "type": "normal",
+    "username": "discus0434"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/cfaf29956cd11b44dea12913f4243a55.svg",
+    "detail": {
+      "bio": "motimalu is an AI researcher specializing in diffusion-based generative models with a focus on artistic style adaptation. Their work centers on developing LoRA (Low-Rank Adaptation) models for text-to-image and text-to-video generation, particularly targeting flat color aesthetics and ligne claire artistic styles. They have created multiple specialized models including Wan flat color variants for video generation and Kirazuri Lazuli series for anime character illustration. Their research extends to multimodal datasets with curated classical artist collections for training AI systems. The technical approach emphasizes diffusion model fine-tuning, trigger word optimization, and artistic style blending using frameworks like Diffusers and PyTorch.",
+      "expertise": [
+        "Text-to-Image Generation",
+        "LoRA Fine-tuning",
+        "Stable Diffusion",
+        "Artistic Style Transfer",
+        "Diffusion Models"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/motimalu"
+        }
+      ]
+    },
+    "fullname": "motimalu",
+    "location": null,
+    "name": "motimalu",
+    "num_datasets": 1,
+    "num_followers": 6,
+    "num_following": 10,
+    "num_models": 6,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "motimalu"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63c9215e51b03e8e01afe72a/o7rwUll4Xje7SmfESFAU0.png",
+    "detail": {
+      "bio": "telecomadm1145 is a developer specializing in AI-generated content detection and Chinese language model optimization. Their work focuses on developing transformer-based vision models for distinguishing real versus AI-generated artwork, particularly from the Danbooru dataset using CAFormer and Swin Transformer architectures. They have extensive experience in fine-tuning large language models like Gemma-3 and Qwen3 for Chinese novel generation, employing parameter-efficient techniques such as LoRA and AdaLoRA. Their contributions include creating specialized datasets for creative writing tasks and developing interactive Gradio spaces for AI detection applications. They also work on GGUF quantization for efficient model deployment and multimodal understanding across text and visual inputs.",
+      "expertise": [
+        "AI Detection",
+        "Text Generation",
+        "Chinese Language Models",
+        "Computer Vision",
+        "Parameter-Efficient Fine-Tuning"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/telecomadm1145"
+        }
+      ]
+    },
+    "fullname": "t5",
+    "location": null,
+    "name": "t5",
+    "num_datasets": 3,
+    "num_followers": 6,
+    "num_following": 2,
+    "num_models": 11,
+    "num_papers": 0,
+    "num_spaces": 3,
+    "role": "Developer",
+    "type": "normal",
+    "username": "telecomadm1145"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/633bbc9c2eb4ac1a0de6bc2e/PMWad1sGdgM4gPVJrcZNi.png",
+    "detail": {
+      "bio": "x1101 is a developer specializing in text-to-image generation with extensive expertise in LoRA fine-tuning and Stable Diffusion models. Their work focuses on anime-style character generation, creating specialized models for character customization and artistic style adaptation. They have developed multiple LoRA adapters and SDXL variants optimized for efficient parameter usage and diverse artistic applications. Additionally, they contribute to the Hugging Face ecosystem through repository management tools including file uploaders and repository duplicators, demonstrating strong capabilities in multi-modal AI systems and practical deployment workflows. Their datasets support anime character generation research with comprehensive image-text annotations.",
+      "expertise": [
+        "Text-to-Image Generation",
+        "LoRA Fine-tuning",
+        "Stable Diffusion",
+        "Anime Character Generation",
+        "Repository Management"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/x1101"
+        }
+      ]
+    },
+    "fullname": "x1101",
+    "location": null,
+    "name": "x1101",
+    "num_datasets": 31,
+    "num_followers": 6,
+    "num_following": 1,
+    "num_models": 11,
+    "num_papers": 0,
+    "num_spaces": 4,
+    "role": "Developer",
+    "type": "normal",
+    "username": "x1101"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/9a0c7b0c22845e94c36448109c313787.svg",
     "detail": {
       "bio": "Wuke is a developer specializing in manga image translation systems using optical character recognition technology. Their work focuses on extracting and translating text from Japanese manga images, addressing the complex challenges of text localization and recognition in artistic illustrations. The model employs OCR techniques to detect text across diverse manga fonts and styles, supporting character-level recognition with comprehensive multilingual character sets. This practical tool enhances manga translation workflows and improves cross-cultural accessibility of Japanese comics through robust text extraction from complex manga layouts.",
       "expertise": [
@@ -1054,7 +2119,7 @@
     },
     "fullname": "Wuke",
     "location": null,
-    "name": "zyddnys",
+    "name": "Wuke",
     "num_datasets": 0,
     "num_followers": 6,
     "num_following": 0,
@@ -1084,9 +2149,9 @@
         }
       ]
     },
-    "fullname": "仙贝",
+    "fullname": "\u4ed9\u8d1d",
     "location": null,
-    "name": "Andylinux",
+    "name": "\u4ed9\u8d1d",
     "num_datasets": 5,
     "num_followers": 5,
     "num_following": 2,
@@ -1098,7 +2163,7 @@
     "username": "Andylinux"
   },
   {
-    "avatar": "/avatars/3e37bc66b0a787bebddd2bc809275275.svg",
+    "avatar": "https://huggingface.co/avatars/3e37bc66b0a787bebddd2bc809275275.svg",
     "detail": {
       "bio": "JLGY is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1144,7 +2209,7 @@
     },
     "fullname": "Jianqi Pan",
     "location": null,
-    "name": "Jannchie",
+    "name": "Jianqi Pan",
     "num_datasets": 3,
     "num_followers": 5,
     "num_following": 5,
@@ -1182,39 +2247,7 @@
     "username": "Qubitium"
   },
   {
-    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64af7c627ab7586520ed8688/1F3INiiqWhFZTK7Dh3DRa.jpeg",
-    "detail": {
-      "bio": "Mohamed Khalil is a machine learning researcher specializing in natural language processing with a focus on cultural and linguistic datasets. His work involves curating specialized text corpora including Japanese anime quotes, song lyrics, and ghost stories for text generation and classification tasks. He has developed the ATHAR parallel corpus for Classical Arabic to English machine translation, featuring 66,000 sentence pairs from historical texts. His datasets support diverse NLP applications including sentiment analysis, character dialogue modeling, and cultural preservation through computational methods. He contributes to organizations including DeepGHS and Arabic Machine Learning, focusing on creating high-quality language resources for research communities.",
-      "expertise": [
-        "Japanese NLP",
-        "Cultural Datasets",
-        "Text Generation",
-        "Machine Translation",
-        "Anime Content Analysis"
-      ],
-      "sign": "ML Researcher || NLP || anime",
-      "social": [
-        {
-          "platform": "HuggingFace",
-          "url": "https://huggingface.co/mohamed-khalil"
-        }
-      ]
-    },
-    "fullname": "Mohammed Khalil",
-    "location": null,
-    "name": "mohamed-khalil",
-    "num_datasets": 4,
-    "num_followers": 5,
-    "num_following": 1,
-    "num_models": 0,
-    "num_papers": 1,
-    "num_spaces": 0,
-    "role": "Data Engineer",
-    "type": "normal",
-    "username": "mohamed-khalil"
-  },
-  {
-    "avatar": "/avatars/c76caeaeea33624511e98e0d01fd079b.svg",
+    "avatar": "https://huggingface.co/avatars/c76caeaeea33624511e98e0d01fd079b.svg",
     "detail": {
       "bio": "traltyaziking is a developer specializing in creating interactive AI applications and synthetic datasets. Their work focuses on text generation models including LLaMA variants, Vicuna, and specialized NSFW story generators. They develop comprehensive datasets for speech processing, material classification, LED screen patterns, and conversational analysis using synthetic data generation techniques. Their spaces demonstrate expertise in deploying language models through Gradio interfaces and implementing multi-modal applications like lip synchronization systems. They contribute to various organizations including DeepGHS and CyberHarem, working across text, image, audio, and video modalities.",
       "expertise": [
@@ -1234,7 +2267,7 @@
     },
     "fullname": "cosanostra",
     "location": null,
-    "name": "traltyaziking",
+    "name": "cosanostra",
     "num_datasets": 7,
     "num_followers": 5,
     "num_following": 32,
@@ -1246,7 +2279,7 @@
     "username": "traltyaziking"
   },
   {
-    "avatar": "/avatars/1e474249f979da015b84128cea4470d6.svg",
+    "avatar": "https://huggingface.co/avatars/1e474249f979da015b84128cea4470d6.svg",
     "detail": {
       "bio": "yangyin251851 is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1286,7 +2319,7 @@
     },
     "fullname": "Akihi",
     "location": null,
-    "name": "AkihiKirisame",
+    "name": "Akihi",
     "num_datasets": 0,
     "num_followers": 4,
     "num_following": 0,
@@ -1296,38 +2329,6 @@
     "role": "Contributor",
     "type": "normal",
     "username": "AkihiKirisame"
-  },
-  {
-    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64096ef79e9f790c905b846d/hVzw656lXdzbCxTtnheud.jpeg",
-    "detail": {
-      "bio": "ZetangForward is an AI researcher specializing in Natural Language Processing and multimodal models, with expertise in pre-trained language models and content safety. Their research focuses on toxic text classification through BERT-based architectures like SegmentCNN for content moderation applications. They develop evaluation datasets for citation-based question answering systems, including EN_CiteEval for multi-hop reasoning and Bilingual_CiteEval for cross-lingual academic text analysis. Their work spans multimodal representations with StrokeNUWA dataset for visual annotations, contributing to language model safety, information retrieval, and multi-document reasoning research through open-source datasets and model implementations.",
-      "expertise": [
-        "Natural Language Processing",
-        "Multimodal Models",
-        "Pre-trained Language Models",
-        "Text Classification",
-        "Citation Analysis"
-      ],
-      "sign": null,
-      "social": [
-        {
-          "platform": "HuggingFace",
-          "url": "https://huggingface.co/ZetangForward"
-        }
-      ]
-    },
-    "fullname": "Zecheng Tang",
-    "location": null,
-    "name": "ZetangForward",
-    "num_datasets": 3,
-    "num_followers": 4,
-    "num_following": 13,
-    "num_models": 1,
-    "num_papers": 15,
-    "num_spaces": 0,
-    "role": "AI Researcher",
-    "type": "normal",
-    "username": "ZetangForward"
   },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1678938429411-6325d6ecab50d3a02a2dfde3.jpeg",
@@ -1344,7 +2345,7 @@
     },
     "fullname": "Chess Apple",
     "location": null,
-    "name": "chessapple",
+    "name": "Chess Apple",
     "num_datasets": 0,
     "num_followers": 4,
     "num_following": 0,
@@ -1356,7 +2357,7 @@
     "username": "chessapple"
   },
   {
-    "avatar": "/avatars/ef5b862d7ebda75535096f0984c91e84.svg",
+    "avatar": "https://huggingface.co/avatars/ef5b862d7ebda75535096f0984c91e84.svg",
     "detail": {
       "bio": "firtiadi19 is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1370,7 +2371,7 @@
     },
     "fullname": "Fitri Adi",
     "location": null,
-    "name": "firtiadi19",
+    "name": "Fitri Adi",
     "num_datasets": 1,
     "num_followers": 4,
     "num_following": 0,
@@ -1382,7 +2383,7 @@
     "username": "firtiadi19"
   },
   {
-    "avatar": "/avatars/26512fd597b5527792e6afc69d0ae8f6.svg",
+    "avatar": "https://huggingface.co/avatars/26512fd597b5527792e6afc69d0ae8f6.svg",
     "detail": {
       "bio": "mancooper is a developer specializing in semi-learning models and foundational AI systems with expertise in computer vision and conversational AI. Their work includes developing VGG16-based models for face authentication and deepfake detection, achieving approximately 82% accuracy in security applications. They have created fine-tuned chatbot models using Llama-3-8B architecture with parameter-efficient fine-tuning techniques and LoRA optimization. Their contributions span interactive Gradio spaces for real-time facial authentication and character-based AI assistants with distinct personalities. The developer also curates conversational datasets for instruction-tuned language models, focusing on positive and supportive dialogue examples. Their technical stack includes TensorFlow, Keras, PyTorch, PEFT, and OpenCV for implementing deep learning solutions across image classification and text generation domains.",
       "expertise": [
@@ -1414,6 +2415,38 @@
     "username": "mancooper"
   },
   {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/661f315b0b74fe46a09868e2/12vEn6lQHMzWngdlq1QSL.png",
+    "detail": {
+      "bio": "Radna is an AI researcher specializing in multimodal large language models and vision-language integration, with extensive work on the InternVL series including InternVL2-2B, InternVL2-8B, and InternVL2-40B models. Their research focuses on developing efficient multimodal architectures that combine vision transformers with language models for tasks including visual question answering, document understanding, and OCR. They have expertise in model optimization techniques such as knowledge distillation, AWQ quantization, and dynamic resolution processing. Their work also includes creating mathematical reasoning datasets for training and evaluation, particularly focused on AIME competition problems and step-by-step mathematical problem-solving. They contribute to organizations including DeepGHS and Agora, developing accessible AI models that maintain competitive performance while being deployable on consumer hardware.",
+      "expertise": [
+        "Multimodal Learning",
+        "Vision-Language Models",
+        "Model Quantization",
+        "Mathematical Reasoning",
+        "Knowledge Distillation"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/radna"
+        }
+      ]
+    },
+    "fullname": "Radna",
+    "location": null,
+    "name": "Radna",
+    "num_datasets": 5,
+    "num_followers": 4,
+    "num_following": 1,
+    "num_models": 133,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "radna"
+  },
+  {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6747e1b1b48ed96c84b58830/NqhcY1_GvL3GrjblNGDek.jpeg",
     "detail": {
       "bio": "spawner1145 is a data engineer specializing in anime and gaming datasets for AI applications. Their work focuses on creating comprehensive datasets for text-to-image generation, particularly for anime character creation and game asset analysis. They develop automatic image tagging systems using deep learning models like Waifu Diffusion and DeepDanbooru for Stable Diffusion workflows. Their contributions include LoRA model files for character-specific fine-tuning, multi-modal datasets with detailed image-text annotations, and curated collections from games like Muse Dash. They create specialized datasets for character attribute classification, animation analysis, and parameter-efficient model adaptation, supporting the anime AI art generation community with structured training resources.",
@@ -1434,7 +2467,7 @@
     },
     "fullname": "spawner",
     "location": null,
-    "name": "spawner1145",
+    "name": "spawner",
     "num_datasets": 10,
     "num_followers": 4,
     "num_following": 2,
@@ -1446,7 +2479,7 @@
     "username": "spawner1145"
   },
   {
-    "avatar": "/avatars/7660c638af2fbdcffb79c19b34973e04.svg",
+    "avatar": "https://huggingface.co/avatars/7660c638af2fbdcffb79c19b34973e04.svg",
     "detail": {
       "bio": "Daominhwysi is a data engineer specializing in creating comprehensive datasets for computer vision and document analysis applications. Their work focuses on Vietnamese language processing, including historical Nom script translation datasets and mathematical document collections. They develop specialized datasets for manga analysis, text detection, and document layout understanding, with particular expertise in object detection for figures and text regions in images. Their contributions include parallel corpora for ancient Vietnamese script conversion, manga image collections, and document layout datasets supporting research in optical character recognition, multi-modal learning, and visual document processing. They are a member of the DeepGHS organization.",
       "expertise": [
@@ -1466,7 +2499,7 @@
     },
     "fullname": "Dao Minh",
     "location": null,
-    "name": "Daominhwysi",
+    "name": "Dao Minh",
     "num_datasets": 11,
     "num_followers": 3,
     "num_following": 2,
@@ -1478,7 +2511,7 @@
     "username": "Daominhwysi"
   },
   {
-    "avatar": "/avatars/34e07b6c7f3c1131e3485e985cc3572f.svg",
+    "avatar": "https://huggingface.co/avatars/34e07b6c7f3c1131e3485e985cc3572f.svg",
     "detail": {
       "bio": "Majen is a data engineer specializing in anime-style image datasets and multi-modal AI research. Their work focuses on curating and processing Danbooru image collections for text-to-image generation tasks, creating comprehensive datasets with metadata, tags, and annotations. They develop precomputed embeddings using models like WD EVA v2 large and FLUX diffusion latents to accelerate computer vision research. Their contributions include similarity scoring systems, aesthetic quality assessments, and feature extraction pipelines that support content-based image retrieval, duplicate detection, and automated tagging applications in the anime art domain.",
       "expertise": [
@@ -1498,7 +2531,7 @@
     },
     "fullname": "Majen Anime",
     "location": null,
-    "name": "Majen",
+    "name": "Majen Anime",
     "num_datasets": 7,
     "num_followers": 3,
     "num_following": 1,
@@ -1510,7 +2543,39 @@
     "username": "Majen"
   },
   {
-    "avatar": "/avatars/2307ae34776f1476c327ca098a209e5a.svg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/657be187c8c6e8dceecc3720/5WX-aCFpvv1Ah68wJqOca.jpeg",
+    "detail": {
+      "bio": "bean980310 is a developer specializing in text-to-image generation and Korean natural language processing. They have extensive experience creating specialized LoRA models for anime character generation, fine-tuned on Animagine XL for producing consistent character depictions with specific traits and costumes. Their work includes developing multiple character-specific LoRA models trained on generated images across various epochs and steps. Additionally, they contribute to Korean NLP through large-scale conversational datasets containing millions of dialogue pairs for instruction tuning and conversational AI development. They also work on model quantization techniques, creating efficient versions of large language models like GLM-4 and Qwen2.5 for resource-constrained deployment while maintaining performance in text generation and dialogue applications.",
+      "expertise": [
+        "LoRA Fine-tuning",
+        "Anime Generation",
+        "Korean NLP",
+        "Text-to-Image",
+        "Quantization"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/bean980310"
+        }
+      ]
+    },
+    "fullname": "Hyunbeen Chang",
+    "location": null,
+    "name": "Hyunbeen Chang",
+    "num_datasets": 9,
+    "num_followers": 3,
+    "num_following": 5,
+    "num_models": 20,
+    "num_papers": 0,
+    "num_spaces": 1,
+    "role": "Developer",
+    "type": "normal",
+    "username": "bean980310"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/2307ae34776f1476c327ca098a209e5a.svg",
     "detail": {
       "bio": "Chokchai is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1524,7 +2589,7 @@
     },
     "fullname": "ushio",
     "location": null,
-    "name": "chokchai",
+    "name": "ushio",
     "num_datasets": 0,
     "num_followers": 3,
     "num_following": 1,
@@ -1536,7 +2601,7 @@
     "username": "chokchai"
   },
   {
-    "avatar": "/avatars/f825fcee7368ebf34dcea2f594d04f80.svg",
+    "avatar": "https://huggingface.co/avatars/f825fcee7368ebf34dcea2f594d04f80.svg",
     "detail": {
       "bio": "king99 is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1550,7 +2615,7 @@
     },
     "fullname": "king",
     "location": null,
-    "name": "king99",
+    "name": "king",
     "num_datasets": 0,
     "num_followers": 3,
     "num_following": 6,
@@ -1572,7 +2637,7 @@
         "Interview Simulation",
         "LoRA Adaptation"
       ],
-      "sign": "ままならない日々は　終わらない🦉",
+      "sign": "\u307e\u307e\u306a\u3089\u306a\u3044\u65e5\u3005\u306f\u3000\u7d42\u308f\u3089\u306a\u3044\ud83e\udd89",
       "social": [
         {
           "platform": "HuggingFace",
@@ -1580,9 +2645,9 @@
         }
       ]
     },
-    "fullname": "みのD",
+    "fullname": "\u307f\u306eD",
     "location": null,
-    "name": "minoD",
+    "name": "\u307f\u306eD",
     "num_datasets": 3,
     "num_followers": 3,
     "num_following": 6,
@@ -1614,7 +2679,7 @@
     },
     "fullname": "SeASnAkE",
     "location": null,
-    "name": "seasnake",
+    "name": "SeASnAkE",
     "num_datasets": 2,
     "num_followers": 3,
     "num_following": 18,
@@ -1646,7 +2711,7 @@
     },
     "fullname": "Vinska Bun",
     "location": null,
-    "name": "vinniewakbae",
+    "name": "Vinska Bun",
     "num_datasets": 0,
     "num_followers": 3,
     "num_following": 6,
@@ -1678,7 +2743,7 @@
     },
     "fullname": "pi.kt",
     "location": null,
-    "name": "4pii4",
+    "name": "pi.kt",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 0,
@@ -1690,7 +2755,7 @@
     "username": "4pii4"
   },
   {
-    "avatar": "/avatars/6aa772203ebe81a343715e175bba3460.svg",
+    "avatar": "https://huggingface.co/avatars/6aa772203ebe81a343715e175bba3460.svg",
     "detail": {
       "bio": "AshleyMichael is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1704,7 +2769,7 @@
     },
     "fullname": "Ashley Michael ",
     "location": null,
-    "name": "AshleyMichael",
+    "name": "Ashley Michael ",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 0,
@@ -1716,7 +2781,7 @@
     "username": "AshleyMichael"
   },
   {
-    "avatar": "/avatars/39e2de9c948f7a39a14d0632b7a54322.svg",
+    "avatar": "https://huggingface.co/avatars/39e2de9c948f7a39a14d0632b7a54322.svg",
     "detail": {
       "bio": "Moeblack is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [
@@ -1735,7 +2800,7 @@
     },
     "fullname": "Galileo",
     "location": null,
-    "name": "Moeblack",
+    "name": "Galileo",
     "num_datasets": 1,
     "num_followers": 2,
     "num_following": 1,
@@ -1747,7 +2812,7 @@
     "username": "Moeblack"
   },
   {
-    "avatar": "/avatars/267a696723f50d72ed1042a21023a209.svg",
+    "avatar": "https://huggingface.co/avatars/267a696723f50d72ed1042a21023a209.svg",
     "detail": {
       "bio": "Motolov is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1761,7 +2826,7 @@
     },
     "fullname": "Goodman",
     "location": null,
-    "name": "Motolov",
+    "name": "Goodman",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 16,
@@ -1773,7 +2838,7 @@
     "username": "Motolov"
   },
   {
-    "avatar": "/avatars/92777236af55e5d871f719c088991da9.svg",
+    "avatar": "https://huggingface.co/avatars/92777236af55e5d871f719c088991da9.svg",
     "detail": {
       "bio": "OJ-1 is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1787,7 +2852,7 @@
     },
     "fullname": "OJ",
     "location": null,
-    "name": "OJ-1",
+    "name": "OJ",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 0,
@@ -1799,7 +2864,7 @@
     "username": "OJ-1"
   },
   {
-    "avatar": "/avatars/9226b942151cfc7a5e7e7a0001d1d4bf.svg",
+    "avatar": "https://huggingface.co/avatars/9226b942151cfc7a5e7e7a0001d1d4bf.svg",
     "detail": {
       "bio": "TetAzivi is a developer specializing in creating interactive web applications for anime image analysis and classification. Their work focuses on deploying deep learning models using ONNX-optimized architectures including CAFormer, MobileNetV3, SwinV2, ConvNeXt, ViT, and EVA02 variants. They develop practical tools for content moderation and automatic image annotation, implementing real-time inference systems with adjustable confidence thresholds. Their projects serve anime communities and platforms by providing content safety ratings and comprehensive tag predictions for artwork organization and filtering applications.",
       "expertise": [
@@ -1883,7 +2948,7 @@
     },
     "fullname": "Kamishiro Rui",
     "location": null,
-    "name": "Vynie",
+    "name": "Kamishiro Rui",
     "num_datasets": 1,
     "num_followers": 2,
     "num_following": 0,
@@ -1909,7 +2974,7 @@
     },
     "fullname": "Yanagi",
     "location": null,
-    "name": "Yanagi-aiai",
+    "name": "Yanagi",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 7,
@@ -1921,7 +2986,7 @@
     "username": "Yanagi-aiai"
   },
   {
-    "avatar": "/avatars/cc853c6c6df320e5e226b1ddb1a35a64.svg",
+    "avatar": "https://huggingface.co/avatars/cc853c6c6df320e5e226b1ddb1a35a64.svg",
     "detail": {
       "bio": "fabianyy is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1935,7 +3000,7 @@
     },
     "fullname": "fabian galindez",
     "location": null,
-    "name": "fabianyy",
+    "name": "fabian galindez",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 0,
@@ -1947,7 +3012,7 @@
     "username": "fabianyy"
   },
   {
-    "avatar": "/avatars/f3b0733b3eaaa5058fbec3ae648b880b.svg",
+    "avatar": "https://huggingface.co/avatars/f3b0733b3eaaa5058fbec3ae648b880b.svg",
     "detail": {
       "bio": "honestabelink is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -1961,7 +3026,7 @@
     },
     "fullname": "honest",
     "location": null,
-    "name": "honestabelink",
+    "name": "honest",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 9,
@@ -1991,9 +3056,9 @@
         }
       ]
     },
-    "fullname": "七倉 凛",
+    "fullname": "\u4e03\u5009 \u51db",
     "location": null,
-    "name": "nanakura",
+    "name": "\u4e03\u5009 \u51db",
     "num_datasets": 2,
     "num_followers": 2,
     "num_following": 0,
@@ -2019,7 +3084,7 @@
     },
     "fullname": "potato",
     "location": null,
-    "name": "potato4code",
+    "name": "potato",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 1,
@@ -2031,7 +3096,7 @@
     "username": "potato4code"
   },
   {
-    "avatar": "/avatars/f1694506559cad35e2318b8e9b26f26c.svg",
+    "avatar": "https://huggingface.co/avatars/f1694506559cad35e2318b8e9b26f26c.svg",
     "detail": {
       "bio": "sakuro is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -2043,9 +3108,9 @@
         }
       ]
     },
-    "fullname": "苏倩雪",
+    "fullname": "\u82cf\u5029\u96ea",
     "location": null,
-    "name": "sakuro",
+    "name": "\u82cf\u5029\u96ea",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 0,
@@ -2057,7 +3122,7 @@
     "username": "sakuro"
   },
   {
-    "avatar": "/avatars/8e22a814b641ba737024988a0fa48b7e.svg",
+    "avatar": "https://huggingface.co/avatars/8e22a814b641ba737024988a0fa48b7e.svg",
     "detail": {
       "bio": "samhax is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -2071,7 +3136,7 @@
     },
     "fullname": "Peter Anttila",
     "location": null,
-    "name": "samhax",
+    "name": "Peter Anttila",
     "num_datasets": 0,
     "num_followers": 2,
     "num_following": 0,
@@ -2083,7 +3148,7 @@
     "username": "samhax"
   },
   {
-    "avatar": "/avatars/646eeb3a80e25a3056df201f273b105e.svg",
+    "avatar": "https://huggingface.co/avatars/646eeb3a80e25a3056df201f273b105e.svg",
     "detail": {
       "bio": "AnimeZa is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -2097,7 +3162,7 @@
     },
     "fullname": "Anime",
     "location": null,
-    "name": "AnimeZa",
+    "name": "Anime",
     "num_datasets": 0,
     "num_followers": 1,
     "num_following": 0,
@@ -2129,7 +3194,7 @@
     },
     "fullname": "cyan calli",
     "location": null,
-    "name": "CyanCalli",
+    "name": "cyan calli",
     "num_datasets": 3,
     "num_followers": 1,
     "num_following": 1,
@@ -2141,7 +3206,7 @@
     "username": "CyanCalli"
   },
   {
-    "avatar": "/avatars/3e646bb5b163595e759c8635f69a9ffa.svg",
+    "avatar": "https://huggingface.co/avatars/3e646bb5b163595e759c8635f69a9ffa.svg",
     "detail": {
       "bio": "L3n4 is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [
@@ -2161,7 +3226,7 @@
     },
     "fullname": "Ludwig Weiss",
     "location": null,
-    "name": "L3n4",
+    "name": "Ludwig Weiss",
     "num_datasets": 0,
     "num_followers": 1,
     "num_following": 0,
@@ -2173,7 +3238,7 @@
     "username": "L3n4"
   },
   {
-    "avatar": "/avatars/e823d94174ff8cdf5d504f3595bfb355.svg",
+    "avatar": "https://huggingface.co/avatars/e823d94174ff8cdf5d504f3595bfb355.svg",
     "detail": {
       "bio": "St-reamline is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -2187,7 +3252,7 @@
     },
     "fullname": "Streamlineblanked",
     "location": null,
-    "name": "St-reamline",
+    "name": "Streamlineblanked",
     "num_datasets": 0,
     "num_followers": 1,
     "num_following": 0,
@@ -2199,7 +3264,7 @@
     "username": "St-reamline"
   },
   {
-    "avatar": "/avatars/d011fd8e77646178526369d974a08137.svg",
+    "avatar": "https://huggingface.co/avatars/d011fd8e77646178526369d974a08137.svg",
     "detail": {
       "bio": "ANOHA is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -2213,7 +3278,7 @@
     },
     "fullname": "ANOHA",
     "location": null,
-    "name": "anoha",
+    "name": "ANOHA",
     "num_datasets": 0,
     "num_followers": 1,
     "num_following": 0,
@@ -2225,7 +3290,7 @@
     "username": "anoha"
   },
   {
-    "avatar": "/avatars/30f93afdd796f995b51993e079287fba.svg",
+    "avatar": "https://huggingface.co/avatars/30f93afdd796f995b51993e079287fba.svg",
     "detail": {
       "bio": "catboxanon is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [],
@@ -2303,7 +3368,7 @@
     },
     "fullname": "Lluminartis",
     "location": null,
-    "name": "midastry",
+    "name": "Lluminartis",
     "num_datasets": 0,
     "num_followers": 1,
     "num_following": 0,
@@ -2334,7 +3399,7 @@
     },
     "fullname": "Katsuyuki Karasawa",
     "location": null,
-    "name": "L4Ph",
+    "name": "Katsuyuki Karasawa",
     "num_datasets": 0,
     "num_followers": 0,
     "num_following": 2,
@@ -2392,7 +3457,7 @@
     },
     "fullname": "Ren hoshi",
     "location": null,
-    "name": "Rensnns",
+    "name": "Ren hoshi",
     "num_datasets": 0,
     "num_followers": 0,
     "num_following": 0,
@@ -2404,7 +3469,7 @@
     "username": "Rensnns"
   },
   {
-    "avatar": "/avatars/eb42f9baa163f54b9d99ab48050670a0.svg",
+    "avatar": "https://huggingface.co/avatars/eb42f9baa163f54b9d99ab48050670a0.svg",
     "detail": {
       "bio": "Uijslkj is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [
@@ -2422,7 +3487,7 @@
     },
     "fullname": "Kokoiuiy",
     "location": null,
-    "name": "Uijslkj",
+    "name": "Kokoiuiy",
     "num_datasets": 1,
     "num_followers": 0,
     "num_following": 0,
