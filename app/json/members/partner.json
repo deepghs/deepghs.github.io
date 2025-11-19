@@ -350,5 +350,141 @@
     "role": "Data Engineer",
     "type": "partner",
     "username": "nebula"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6456f3ca1ca9debab0554f8b/pQuSK-pS3NnJgXewbODvh.png",
+    "detail": {
+      "bio": "DamarJati is a developer specializing in multimodal AI applications with expertise in text-to-image generation, computer vision, and natural language processing. Their work spans fine-tuning Stable Diffusion models for character generation, developing specialized diffusion models like FLUX.1 with ControlNet and LoRA adapters for photorealistic and anime-style image generation. They have created comprehensive computer vision models for environmental applications including waste classification, plastic recycling code identification, and face mask detection using Swin Transformer architectures. Additionally, they contribute to Indonesian language processing through curated text corpora and develop interactive Gradio spaces for AI-powered image manipulation, watermark removal, and real-time generation interfaces. Their open-source contributions demonstrate practical deployment of diffusion models across creative, environmental, and content moderation domains.",
+      "expertise": [
+        "Text-to-Image Generation",
+        "Computer Vision",
+        "Diffusion Models",
+        "Image Classification",
+        "Natural Language Processing"
+      ],
+      "sign": "Indonesian - Multimodal, Compvis, NLP | \r\nDiscord: @damarjati_",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/DamarJati"
+        },
+        {
+          "platform": "Discord",
+          "url": "discord:@damarjati_"
+        }
+      ]
+    },
+    "fullname": "Damar Jati \ud83c\udf6b",
+    "location": null,
+    "name": "Damar Jati \ud83c\udf6b",
+    "num_datasets": 16,
+    "num_followers": 174,
+    "num_following": 37,
+    "num_models": 9,
+    "num_papers": 0,
+    "num_spaces": 7,
+    "role": "Developer",
+    "type": "normal",
+    "username": "DamarJati"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6569216f9c96f1a47bf45788/mCLqmAs4dOjKdxNQVAp1w.png",
+    "detail": {
+      "bio": "SicariusSicariiStuff is an AI researcher specializing in developing and fine-tuning large language models for creative applications. Their work focuses on creating uncensored models optimized for role-playing, adventure scenarios, and creative writing with enhanced personality characteristics. They have developed numerous specialized models including philosophical dialogue systems, Hebrew language models, and character-driven storytelling architectures. Their research encompasses advanced quantization techniques across GGUF, EXL2, and GPTQ formats for efficient deployment. They contribute extensively to the open-source community through model development, dataset curation for mathematical reasoning and conversational AI, and alignment research to make AI models more accessible for creative applications.",
+      "expertise": [
+        "Language Model Fine-tuning",
+        "Creative Writing Models",
+        "Role-Play Systems",
+        "Quantization Techniques",
+        "Hebrew NLP"
+      ],
+      "sign": "Making interesting and engaging AI models, TTS & Creative writing accessible for everyone, alignment research.",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/SicariusSicariiStuff"
+        }
+      ]
+    },
+    "fullname": "Sica Rius",
+    "location": null,
+    "name": "Sica Rius",
+    "num_datasets": 26,
+    "num_followers": 542,
+    "num_following": 1,
+    "num_models": 483,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "SicariusSicariiStuff"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63b25a957804d5cadce4e08b/mPwuVn7KBjkLofkxkdamE.png",
+    "detail": {
+      "bio": "lodestones is an AI researcher specializing in multimodal text-to-image generation with extensive contributions to open-source generative AI. Their work focuses on developing foundation models like Chroma series based on FLUX architecture, featuring architectural optimizations and parameter efficiency. They have created large-scale datasets including PixelProse with 16.9 million dense image captions and ShareGPT4Video with 4.8M video-text pairs for training advanced multimodal systems. Their research spans diffusion models, spatial reasoning in vision-language tasks, and specialized applications including anthropomorphic character generation. They actively contribute to community-driven AI development through Apache 2.0 licensed models and comprehensive datasets supporting text-to-image generation, video understanding, and multimodal learning applications.",
+      "expertise": [
+        "Text-to-Image Generation",
+        "Diffusion Models",
+        "Multimodal AI",
+        "Foundation Models",
+        "Dataset Creation"
+      ],
+      "sign": "multimodal text to image",
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/lodestones"
+        },
+        {
+          "platform": "Ko-fi",
+          "url": "https://ko-fi.com/lodestonerock"
+        }
+      ]
+    },
+    "fullname": "rock",
+    "location": null,
+    "name": "Lodestones",
+    "num_datasets": 12,
+    "num_followers": 636,
+    "num_following": 0,
+    "num_models": 67,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "lodestones"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6430fffacd31d174a9fa96e4/9ZnVcC9FOxCS8rNDr5Qwa.png",
+    "detail": {
+      "bio": "NebulaeWis is a data engineer specializing in large-scale anime image datasets for text-to-image generation applications. They create and maintain extensive datasets including Gelbooru and e621 collections, processing millions of images with comprehensive metadata for machine learning training. Their work focuses on optimizing image formats using WebP conversion, implementing quality filtering, and developing structured metadata systems. They contribute to multi-modal AI training through curated image-text pairs and support distributed cluster processing workflows for internal data management systems. Their datasets serve as foundational resources for anime character generation and computer vision research.",
+      "expertise": [
+        "Anime Image Datasets",
+        "Text-to-Image Generation",
+        "Dataset Processing",
+        "Multi-Modal Data",
+        "WebP Optimization"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/NebulaeWis"
+        }
+      ]
+    },
+    "fullname": "Nebulae",
+    "location": null,
+    "name": "Nebulae",
+    "num_datasets": 24,
+    "num_followers": 35,
+    "num_following": 3,
+    "num_models": 6,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Data Engineer",
+    "type": "normal",
+    "username": "NebulaeWis"
   }
 ]
