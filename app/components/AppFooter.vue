@@ -55,7 +55,7 @@ const footerLinks = [{
 }, {
   label: 'Hugging Face',
   children: [{
-    label: 'Sapces',
+    label: 'Spaces',
     to: 'https://huggingface.co/deepghs/spaces',
     target: '_blank'
   }, {
