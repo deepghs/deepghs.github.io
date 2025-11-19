@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
@@ -21,6 +20,12 @@ export default defineNuxtConfig({
         commaDangle: 'never',
         braceStyle: '1tbs'
       }
+    }
+  },
+  icon: {
+    clientBundle: {
+      scan: true,
+      icons: ['mdi:location-on-outline', 'lucide:chevron-right', 'lucide:newspaper'] // Here include list of internal icons but has to be in the format: prefix:icon
     }
   }
 

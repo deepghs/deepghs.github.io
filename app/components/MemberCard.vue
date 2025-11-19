@@ -2,7 +2,7 @@
   <UCard class="select-none">
     <div class="flex items-center">
       <div class="mr-2">
-        <UAvatar :src="member.avatar" :alt="member.name" size="3xl" />
+        <UAvatar :src="avatar" :alt="member.name" size="3xl" />
       </div>
       <div class="flex-1 ml-2">
         <!-- member name -->
@@ -19,7 +19,7 @@
         </div>
         <!-- member location with icon -->
         <div v-if="member.location" class="flex items-center">
-          <UIcon name="mingcute:location-line" />
+          <UIcon name="mdi:location-on-outline" />
           <div class="ml-1">
             <span class="text-sm text-gray-500">
               {{ member.location }}
@@ -32,7 +32,7 @@
         <UPopover>
           <UButton class="rounded-full" label="Detail" color="neutral" variant="subtle" />
           <template #content>
-            <div class="max-w-md rounded-md p-4 select-none">
+            <div class="max-w-lg rounded-md p-4 select-none">
               <div v-if="member.detail.sign" class="mb-2">
                 <span class="text-sm font-bold">
                   "{{ member.detail.sign }}"
@@ -70,7 +70,7 @@
                     :key="social.platform"
                     target="_blank"
                     :to="social.url"
-                    :icon="social.icon"
+                    :icon="getSocialIcon(social)"
                     color="primary"
                     variant="ghost"
                   >
@@ -88,11 +88,33 @@
 
 <script setup lang="ts">
 import type { Member } from '@/types/members'
+import { getCommonSocialIcon, type SocialLink } from '~/types/common'
 
 const { member } = defineProps({
   member: {
     type: Object as () => Member,
     required: true
   }
+})
+
+function getSocialIcon(social: SocialLink) {
+  if (social.icon) return social.icon
+  const iconName = social.platform
+  if (!iconName) return getCommonSocialIcon['Default']
+  const icon = getCommonSocialIcon[iconName]
+  return icon || getCommonSocialIcon['Default']
+}
+
+const avatar = computed(() => {
+  const avatar = member.avatar
+  if (!avatar) {
+    return ''
+  }
+
+  if (avatar.startsWith('/')) {
+    return `https://huggingface.co${avatar}`
+  }
+
+  return avatar
 })
 </script>

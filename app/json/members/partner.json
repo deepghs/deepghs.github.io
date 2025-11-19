@@ -1,19 +1,95 @@
 [
-    {
-    "name": "Partner Test",
-    "type": "partner",
-    "location": "China",
+  {
+    "name": "jerrychi"
+  },
+  {
+    "name": "nyanko7",
+    "role": "Developer",
+    "type": "normal",
+    "location": null,
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63467f5a7fb9f11870c411ee/Ztk8IModHk8lDxZWnM1DJ.png",
     "detail": {
+      "bio": "Nyanko7 is a developer specializing in text-to-image generation and anime-style AI systems. They have created multiple diffusion models including FLUX fine-tunes, Stable Diffusion XL variants, and ControlNet implementations. Their work includes developing interactive web interfaces for AI art generation using Gradio and Streamlit. They have contributed large-scale anime image datasets like Danbooru2023 and yandere2023 with comprehensive tagging for computer vision applications. Their expertise spans model quantization, parameter-efficient fine-tuning with LoRA, and systematic model evaluation through comparative analysis platforms. They are actively involved in the open-source AI community through organizations like DeepGHS and StableDiffusion_CN.",
+      "expertise": [
+        "Text-to-Image Generation",
+        "Anime Image Datasets",
+        "Diffusion Models",
+        "Stable Diffusion",
+        "Multimodal Applications"
+      ],
+      "sign": null,
+      "social": [
+        { "platform": "HuggingFace", "url": "https://huggingface.co/nyanko7" }
+      ]
+    }
+  },
+  {
+    "name": "MrDragonFox",
+    "role": "AI Researcher",
+    "type": "normal",
+    "location": null,
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63de560a15266dd945f209ca/PeZf3IF-x7Qh8OcnKH12R.png",
+    "detail": {
+      "bio": "MrDragonFox is an AI researcher specializing in large language models and audio processing systems. Their work focuses on developing advanced text-to-speech models with paralinguistic capabilities, including specialized NSFW audio generation and emotional speech synthesis. They have extensive experience in model quantization techniques such as GPTQ and EXL2 for optimizing large language models like LLaMA variants. Their research encompasses multilingual speech datasets in German, English, and Japanese, with comprehensive quality metrics and timestamp annotations. They contribute to multimodal architectures including vision-language models and develop efficient inference systems for extended context processing using SuperHOT techniques.",
+      "expertise": [
+        "Text-to-Speech",
+        "Model Quantization",
+        "Speech Recognition",
+        "Large Language Models",
+        "Audio Processing"
+      ],
+      "sign": "llm + audio i/o, (un)alignment",
       "social": [
         {
-          "platform": "GitHub",
-          "url": "https://github.com/ntrwansuiBC",
-          "icon": "mdi:github"
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/MrDragonFox"
         }
+      ]
+    }
+  },
+  {
+    "name": "LAXMAYDAY",
+    "role": "Developer",
+    "type": "normal",
+    "location": null,
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63d3a01ae149f591b950f5e8/H8XLxLooMxkRnA_vBRTVK.jpeg",
+    "detail": {
+      "bio": "LAXMAYDAY is a contributor on Huggingface, member of DeepGHS.",
+      "expertise": [
+        "LoRA Models",
+        "Text-to-Image Generation",
+        "Anime Character Design",
+        "Stable Diffusion",
+        "Style Transfer"
       ],
-      "expertise": ["Full Stack Development", "Backend Development", "DevOps"],
-      "sign": "Moe is justice",
-      "bio": "maybe a minotaur coder?"
+      "sign": null,
+      "social": [
+        { "platform": "HuggingFace", "url": "https://huggingface.co/LAXMAYDAY" }
+      ]
+    }
+  },
+  {
+    "name": "windsingai",
+    "role": "Developer",
+    "type": "normal",
+    "location": null,
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6443a1cd5af87c73bbb7df90/yzZhAstyZfmtUtQD3pfY_.jpeg",
+    "detail": {
+      "bio": "windsingai is a developer specializing in multimodal AI systems with focus on text-to-image and text-to-video generation. Their work encompasses anime-style character generation using diffusion models, human pose estimation with OpenPose implementations, and LoRA fine-tuning for specialized image editing tasks. They have developed ControlNet Tile models for Illustrious-XL architecture and FLUX-based systems for pose-controlled image generation. Their datasets support anime character recognition and text-to-image training, featuring curated prompt collections and character-specific annotations from popular franchises. They contribute to multiple AI organizations including DeepGHS and focus on practical implementations of generative AI technologies for creative applications.",
+      "expertise": [
+        "Text-to-Image Generation",
+        "Human Pose Estimation",
+        "Anime Character Generation",
+        "LoRA Fine-tuning",
+        "ControlNet Processing"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/windsingai"
+        }
+      ]
     }
   }
 ]

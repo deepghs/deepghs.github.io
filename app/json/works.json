@@ -10,7 +10,7 @@
         "link": "https://huggingface.co/deepghs/anime_real_cls"
       },
       {
-        "icon": "mdi:art",
+        "icon": "dashicons:art",
         "name": "Image Type Classifier",
         "description": "Categorize artwork styles",
         "link": "https://huggingface.co/deepghs/anime_classification"
@@ -22,7 +22,7 @@
         "link": "https://huggingface.co/deepghs/anime_furry"
       },
       {
-        "icon": "ic:outline-sports-score",
+        "icon": "mdi:score",
         "name": "Aesthetic Scorer ",
         "description": "Predict visual appeal",
         "link": "https://huggingface.co/deepghs/anime_aesthetic"
@@ -52,7 +52,7 @@
         "link": "https://huggingface.co/deepghs/anime_person_detection"
       },
       {
-        "icon": "ph:person-fill",
+        "icon": "mdi:person",
         "name": "Person Detection",
         "description": "Full-body recognition",
         "link": "https://huggingface.co/deepghs/anime_person_detection"

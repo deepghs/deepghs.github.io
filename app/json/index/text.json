@@ -14,7 +14,7 @@
         "label": "Learn More",
         "to": "#",
         "target": "_blank",
-        "icon": "material-symbols:info-outline",
+        "icon": "mdi:info-outline",
         "size": "xl",
         "color": "neutral",
         "variant": "outline"

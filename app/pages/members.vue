@@ -7,14 +7,7 @@
       <template #description>
         <span>{{ textConfig.description }}</span>
       </template>
-      <UAvatarGroup size="3xl">
-        <UAvatar
-          v-for="(member, index) in fullMembers"
-          :key="`avatar-${index}`"
-          :src="member.avatar"
-          :alt="member.name"
-        />
-      </UAvatarGroup>
+      <DAvatarGroup class="flex flex-wrap gap-2" :max="47" size="3xl" :avatars="fullMemberAvatars" />
     </UPageSection>
     <UPageSection id="members">
       <template #body>
@@ -89,8 +82,15 @@ import partners from '@/json/members/partner.json'
 import normalMembers from '@/json/members/normal.json'
 import type { Member } from '@/types/members'
 import textConfig from '@/json/members/text.json'
+import type { Avatar } from '~/types/common'
 
 const founder: Member[] = coreMembers.filter(member => member.type === 'founder')
 const core: Member[] = coreMembers.filter(member => member.type === 'core')
 const fullMembers: Member[] = [...founder, ...core, ...partners, ...normalMembers]
+const fullMemberAvatars = computed<Avatar[]>(() => {
+  return fullMembers.map(member => ({
+    src: member.avatar || '',
+    name: member.name || 'Avatar'
+  }))
+})
 </script>

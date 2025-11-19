@@ -2,16 +2,16 @@ import type { SocialLink } from './common'
 
 export interface Member {
   name: string
-  role?: string
-  type?: string
-  location?: string
-  avatar?: string
-  detail?: MemberDetail
+  role?: string | null
+  type?: string | null
+  location?: string | null
+  avatar?: string | null
+  detail?: MemberDetail | null
 }
 
 export interface MemberDetail {
   social?: SocialLink[]
   expertise?: string[]
-  sign?: string
-  bio?: string
+  sign?: string | null
+  bio?: string | null
 }

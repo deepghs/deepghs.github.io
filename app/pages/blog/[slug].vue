@@ -119,7 +119,7 @@ const socialLinks = computed(() =>
     : [
         {
           label: 'Github',
-          icon: 'i-simple-icons-github',
+          icon: 'logos:github-icon',
           to: `https://github.com/deepghs`
         },
         {
@@ -145,7 +145,7 @@ function copyLink() {
 const links = [
   {
     icon: 'mdi:github',
-    label: 'GitHub',
+    label: 'Github',
     to: 'https://github.com/deepghs/',
     target: '_blank'
   },

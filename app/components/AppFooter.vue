@@ -20,7 +20,7 @@
       <UButton
         to="https://x.com/DeepGHS"
         target="_blank"
-        icon="line-md:twitter-x"
+        icon="i-simple-icons-x"
         aria-label="X"
         color="neutral"
         variant="ghost"
@@ -36,7 +36,7 @@
       <UButton
         to="https://github.com/deepghs"
         target="_blank"
-        icon="i-simple-icons-github"
+        icon="logos:github-icon"
         aria-label="GitHub"
         color="neutral"
         variant="ghost"

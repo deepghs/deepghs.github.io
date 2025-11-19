@@ -26,6 +26,11 @@
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "@iconify-json/dashicons": "^1.2.1",
+    "@iconify-json/lucide": "^1.2.73",
+    "@iconify-json/material-symbols": "^1.2.46",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/ph": "^1.2.2",
     "sass-embedded": "^1.93.3"
   },
   "packageManager": "pnpm@10.21.0"

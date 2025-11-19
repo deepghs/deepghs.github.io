@@ -10,12 +10,12 @@
         {
           "platform": "github",
           "url": "https://github.com/narugo1992",
-          "icon": "i-carbon-logo-github"
+          "icon": "logos:github-icon"
         },
         {
           "platform": "huggingface",
           "url": "https://huggingface.co/narugo1992",
-          "icon": "fluent-emoji-flat:hugging-face"
+          "icon": "logos:hugging-face-icon"
         }
       ],
       "expertise": [
@@ -30,6 +30,181 @@
     }
   },
   {
+    "name": "RainbowNeko",
+    "role": "Developer",
+    "type": "core",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1660224862358-noauth.png",
+    "detail": {
+      "social": [
+        {
+          "platform": "Github",
+          "url": "https://github.com/IrisRainbowNeko"
+        },
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/RainbowNeko"
+        }
+      ],
+      "expertise": [
+        "Text-to-Image Generation",
+        "Anime Image Processing",
+        "Computer Vision",
+        "Diffusion Models",
+        "Adversarial Attacks"
+      ],
+      "bio": "RainbowNeko is a developer specializing in computer vision and generative AI applications, with extensive work on text-to-image generation using diffusion models including Stable Diffusion variants and PixArt architectures. Their expertise includes anime image processing through super-resolution models like CDC_anime and multi-label classification systems such as ML-Danbooru for automated tagging. They have developed comprehensive datasets for training vision-language models and diffusion systems, including the HCP-Diffusion-datas collection with over 713,000 text-image pairs. Their work also encompasses practical applications in game automation using reinforcement learning for Genshin Impact and adversarial attack systems targeting anime AI detection models, demonstrating a strong focus on both creative AI generation and computer vision security applications."
+    }
+  },
+  {
+    "name": "KohakuBlueLeaf",
+    "role": "Developer",
+    "type": "core",
+    "avatar": "https://kblueleaf.net/_astro/kohaku-badge.qHLEJyD4.webp",
+    "location": "Taiwan",
+    "detail": {
+      "social": [
+        {
+          "platform": "Github",
+          "url": "https://github.com/KohakuBlueleaf"
+        },
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/KBlueLeaf"
+        },
+        {
+          "platform": "website",
+          "url": "https://kblueleaf.net/",
+          "icon": "i-carbon-earth"
+        }
+      ],
+      "expertise": [
+        "Machine Learning",
+        "Neural Networks",
+        "Full Stack Development",
+        "Research",
+        "Python",
+        "Vue3",
+        "Open Source"
+      ],
+      "bio": "Passionate about AI/ML research and open source development. Creator of LyCORIS and HDM. Believes in democratizing AI technology through accessible tools and education."
+    }
+  },
+  {
+    "name": "Crystal427",
+    "role": "Developer",
+    "type": "core",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63e2580bf0740bec2bfe526b/lE68kGYWqsB2Wd4CL4pod.png",
+    "detail": {
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/Crystal427"
+        }
+      ],
+      "expertise": [
+        "Parameter-Efficient Fine-Tuning",
+        "Text Generation",
+        "Diffusion Models",
+        "Language Modeling",
+        "Creative Writing"
+      ],
+      "bio": "Crystal427 specializes in parameter-efficient fine-tuning techniques for both language and diffusion models. Their work focuses on developing specialized models for creative applications including novel writing and text-to-image generation. They have created PEFT-adapted language models optimized for text generation tasks and LoKR fine-tuned versions of diffusion models for efficient image generation. Their contributions include developing adapter models for novel writing using CausalLM architectures and implementing efficient fine-tuning methods for large-scale diffusion models. They also maintain text datasets for language modeling applications and are involved with multiple AI development organizations including DeepGHS and BangumiBase.",
+      "sign": "Working on LDM&LLM finetune."
+    }
+  },
+  {
+    "name": "SumomoLee",
+    "role": "Developer",
+    "type": "core",
+    "detail": {
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/SumomoLee"
+        }
+      ],
+      "expertise": [
+        "Text-to-Image Generation",
+        "Parameter-Efficient Fine-Tuning",
+        "Multi-Modal Datasets",
+        "Image Classification",
+        "Anime Image Processing"
+      ],
+      "bio": "SumomoLee is a contributor on Huggingface, member of DeepGHS. They focus on text-to-image generation models and multi-modal datasets, specializing in parameter-efficient fine-tuning techniques like LoKR for Lumina models. Their work includes creating comprehensive anime-style image datasets with detailed metadata annotations for machine learning applications. They develop interactive demo spaces for image tagging using EVA02-Large models and contribute to computer vision applications through multi-label classification systems. Their repositories showcase expertise in low-rank adaptation methods and vision-language model training with AI-generated content."
+    }
+  },
+  {
+    "name": "Smiling Wolf",
+    "role": "AI Researcher",
+    "type": "core",
+    "avatar": "https://avatars.githubusercontent.com/u/4309301?v=4",
+    "detail": {
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/SmilingWolf"
+        }
+      ],
+      "expertise": [
+        "Image Tagging",
+        "Multi-Label Classification",
+        "Anime Content Analysis",
+        "Vision Transformers",
+        "Dataset Curation"
+      ],
+      "bio": "SmilingWolf is an AI researcher specializing in computer vision and multi-label image classification, with a focus on anime-style content analysis. Their work centers on developing advanced image tagging models using various architectures including Vision Transformers, SwinV2, ConvNeXT, and EVA02. They have created comprehensive taggers trained on Danbooru datasets that support ratings, character identification, and general content classification across thousands of tag categories. Their research includes developing large-scale datasets in TFRecord format and validation benchmarks for model comparison. They contribute to practical applications through interactive spaces for image similarity search and tag generation, demonstrating expertise in automated content analysis, multi-modal embeddings, and efficient training methodologies using TPU acceleration."
+    }
+  },
+  {
+    "name": "AngelBottomless",
+    "role": "Developer",
+    "type": "core",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63398de08f27255b6b50081a/xbaxEbylR-exfr_23lY5c.jpeg",
+    "detail": {
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/AngelBottomless"
+        },
+        {
+          "platform": "Ko-fi",
+          "url": "https://ko-fi.com/angelbottomless"
+        }
+      ],
+      "expertise": [
+        "Text-to-Image Generation",
+        "Anime Image Processing",
+        "Diffusion Models",
+        "Dataset Curation",
+        "ONNX Optimization"
+      ],
+      "bio": "AngelBottomless is a developer specializing in computer vision and anime-style image generation, with expertise in Python and Julia code conversion. Their work focuses on text-to-image diffusion models including Kohaku-Delta-Alpha and Illustrious series, capable of high-resolution generation up to 1536x1536. They have developed comprehensive datasets for anime image training including Danbooru and Gelbooru variants with SQLite databases, CSV formats, and pre-computed latent representations. Their contributions include ONNX-optimized image tagging models like Camie Tagger for automatic anime illustration classification with 70,527 distinct tags. Through interactive Gradio spaces, they demonstrate advanced image generation capabilities using Stable Diffusion XL and Lumina architectures, supporting research in character consistency, aesthetic scoring, and multi-modal AI applications."
+    }
+  },
+  {
+    "name": "bdsqlsz",
+    "role": "AI Researcher",
+    "type": "core",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676622044889-63ef38c81e695b35aa489104.jpeg",
+    "detail": {
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/bdsqlsz"
+        }
+      ],
+      "expertise": [
+        "Diffusion Models",
+        "LoRA Fine-tuning",
+        "Anime Generation",
+        "ControlNet",
+        "Text-to-Image"
+      ],
+      "sign": "diffusion model",
+      "bio": "bdsqlsz is an AI researcher specializing in diffusion models and text-to-image generation, with extensive expertise in Stable Diffusion optimization and LoRA fine-tuning techniques. Their work focuses on anime-style generation, developing specialized models like ControlNet-LLLite for precise image control and multiple SDXL anime variants with improved anatomical accuracy. They contribute to efficient inference through FP16 optimization, LCM acceleration, and model pruning while maintaining high visual quality. Their research spans multi-modal applications including VTuber character datasets, image captioning systems, and interactive spaces for anime segmentation and prompt generation. Active in open-source communities, they develop practical tools for creative applications and computational efficiency in diffusion-based workflows."
+    }
+  },
+  {
     "name": "ntrwansui",
     "role": "Developer",
     "type": "core",
@@ -38,7 +213,7 @@
     "detail": {
       "social": [
         {
-          "platform": "GitHub",
+          "platform": "Github",
           "url": "https://github.com/ntrwansuiBC",
           "icon": "mdi:github"
         }
