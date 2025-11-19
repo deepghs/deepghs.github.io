@@ -1,30 +1,5 @@
 [
   {
-    "name": "peacej",
-    "role": "AI Researcher",
-    "type": "normal",
-    "location": null,
-    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1661238040837-noauth.jpeg",
-    "detail": {
-      "bio": "Jerry Chi is an AI researcher specializing in creative AI applications with expertise in image generation, music generation, NLP, and recommendation systems. His work focuses on developing parameter-efficient fine-tuning methods for large diffusion models, particularly using DreamBooth and LoRA techniques with Stable Diffusion architectures. He has created multiple Stable Diffusion 3.5 models fine-tuned for personalized text-to-image generation, enabling subject-specific image creation while preserving base model capabilities. His research explores efficient adaptation of large diffusion models to custom concepts with minimal computational overhead, utilizing techniques like mixed precision training and cosine learning rate schedulers. Through his work with organizations including DeepGHS and PixAI Labs, he contributes to advancing creative AI applications and making personalized generation more accessible.",
-      "expertise": [
-        "Stable Diffusion",
-        "DreamBooth",
-        "LoRA Fine-Tuning",
-        "Text-to-Image Generation",
-        "Parameter-Efficient Adaptation"
-      ],
-      "sign": null,
-      "social": [
-        { "platform": "HuggingFace", "url": "https://huggingface.co/peacej" }
-      ]
-    }
-  },
-  {
-    "name": "nyanko7",
-    "role": "Developer",
-    "type": "normal",
-    "location": null,
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63467f5a7fb9f11870c411ee/Ztk8IModHk8lDxZWnM1DJ.png",
     "detail": {
       "bio": "Nyanko7 is a developer specializing in text-to-image generation and anime-style AI systems. They have created multiple diffusion models including FLUX fine-tunes, Stable Diffusion XL variants, and ControlNet implementations. Their work includes developing interactive web interfaces for AI art generation using Gradio and Streamlit. They have contributed large-scale anime image datasets like Danbooru2023 and yandere2023 with comprehensive tagging for computer vision applications. Their expertise spans model quantization, parameter-efficient fine-tuning with LoRA, and systematic model evaluation through comparative analysis platforms. They are actively involved in the open-source AI community through organizations like DeepGHS and StableDiffusion_CN.",
@@ -37,15 +12,58 @@
       ],
       "sign": null,
       "social": [
-        { "platform": "HuggingFace", "url": "https://huggingface.co/nyanko7" }
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/nyanko7"
+        }
       ]
-    }
+    },
+    "fullname": "Nyanko",
+    "location": null,
+    "name": "Nyanko",
+    "num_datasets": 10,
+    "num_followers": 224,
+    "num_following": 1,
+    "num_models": 14,
+    "num_papers": 0,
+    "num_spaces": 9,
+    "role": "Developer",
+    "type": "partner",
+    "username": "nyanko7"
   },
   {
-    "name": "MrDragonFox",
-    "role": "AI Researcher",
-    "type": "normal",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650375870480-noauth.png",
+    "detail": {
+      "bio": "skytnt is a developer specializing in creative AI applications with expertise in multiple domains. Their work includes transformer-based MIDI music generation models trained on comprehensive datasets like Los Angeles MIDI Dataset, achieving validation losses as low as 0.2159. They develop anime-focused computer vision systems including StyleGAN2 models for full-body character generation with FID scores of 1.4, segmentation models for background removal, and aesthetic quality assessment using ConvNeXt-V2 architecture. Additionally, they create Japanese language models fine-tuned for lyric generation using GPT-2 architectures and develop interactive web applications using Gradio for music composition, text-to-speech synthesis, and anime image processing. Their technical approach emphasizes ONNX runtime optimization and multi-modal deployment across audio, image, and text domains.",
+      "expertise": [
+        "MIDI Music Generation",
+        "Anime Image Synthesis",
+        "Japanese Language Processing",
+        "GAN Architectures",
+        "ONNX Deployment"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/skytnt"
+        }
+      ]
+    },
+    "fullname": "skytnt",
     "location": null,
+    "name": "skytnt",
+    "num_datasets": 3,
+    "num_followers": 199,
+    "num_following": 0,
+    "num_models": 12,
+    "num_papers": 0,
+    "num_spaces": 7,
+    "role": "Developer",
+    "type": "partner",
+    "username": "skytnt"
+  },
+  {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63de560a15266dd945f209ca/PeZf3IF-x7Qh8OcnKH12R.png",
     "detail": {
       "bio": "MrDragonFox is an AI researcher specializing in large language models and audio processing systems. Their work focuses on developing advanced text-to-speech models with paralinguistic capabilities, including specialized NSFW audio generation and emotional speech synthesis. They have extensive experience in model quantization techniques such as GPTQ and EXL2 for optimizing large language models like LLaMA variants. Their research encompasses multilingual speech datasets in German, English, and Japanese, with comprehensive quality metrics and timestamp annotations. They contribute to multimodal architectures including vision-language models and develop efficient inference systems for extended context processing using SuperHOT techniques.",
@@ -63,34 +81,53 @@
           "url": "https://huggingface.co/MrDragonFox"
         }
       ]
-    }
+    },
+    "fullname": "MrDragonFox",
+    "location": null,
+    "name": "MrDragonFox",
+    "num_datasets": 10,
+    "num_followers": 140,
+    "num_following": 32,
+    "num_models": 29,
+    "num_papers": 0,
+    "num_spaces": 1,
+    "role": "AI Researcher",
+    "type": "partner",
+    "username": "MrDragonFox"
   },
   {
-    "name": "LAXMAYDAY",
-    "role": "Developer",
-    "type": "normal",
-    "location": null,
-    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63d3a01ae149f591b950f5e8/H8XLxLooMxkRnA_vBRTVK.jpeg",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1675023519776-630ae5e01d1650ec2f943d20.png",
     "detail": {
-      "bio": "LAXMAYDAY is a contributor on Huggingface, member of DeepGHS.",
+      "bio": "alea31415 is an AI researcher specializing in DreamBooth fine-tuning of Stable Diffusion models for anime character generation. Their work focuses on creating specialized text-to-image models that generate high-quality anime-style artwork with character consistency across various prompts. They employ progressive training approaches with careful learning rate adjustments and regularization techniques to optimize multi-character generation. Their research addresses challenges in character-specific diffusion models including overfitting prevention, hairstyle accuracy, and background consistency. They contribute to anime art creation and character customization applications through extensive model training on diverse character datasets from popular anime series and games.",
       "expertise": [
-        "LoRA Models",
-        "Text-to-Image Generation",
-        "Anime Character Design",
         "Stable Diffusion",
-        "Style Transfer"
+        "DreamBooth Fine-Tuning",
+        "Anime Character Generation",
+        "Text-to-Image Models",
+        "Multi-Character Training"
       ],
       "sign": null,
       "social": [
-        { "platform": "HuggingFace", "url": "https://huggingface.co/LAXMAYDAY" }
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/alea31415"
+        }
       ]
-    }
+    },
+    "fullname": "alea",
+    "location": null,
+    "name": "alea",
+    "num_datasets": 4,
+    "num_followers": 46,
+    "num_following": 2,
+    "num_models": 32,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "partner",
+    "username": "alea31415"
   },
   {
-    "name": "windsingai",
-    "role": "Developer",
-    "type": "normal",
-    "location": null,
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6443a1cd5af87c73bbb7df90/yzZhAstyZfmtUtQD3pfY_.jpeg",
     "detail": {
       "bio": "windsingai is a developer specializing in multimodal AI systems with focus on text-to-image and text-to-video generation. Their work encompasses anime-style character generation using diffusion models, human pose estimation with OpenPose implementations, and LoRA fine-tuning for specialized image editing tasks. They have developed ControlNet Tile models for Illustrious-XL architecture and FLUX-based systems for pose-controlled image generation. Their datasets support anime character recognition and text-to-image training, featuring curated prompt collections and character-specific annotations from popular franchises. They contribute to multiple AI organizations including DeepGHS and focus on practical implementations of generative AI technologies for creative applications.",
@@ -108,55 +145,53 @@
           "url": "https://huggingface.co/windsingai"
         }
       ]
-    }
+    },
+    "fullname": "fengyin",
+    "location": null,
+    "name": "fengyin",
+    "num_datasets": 8,
+    "num_followers": 43,
+    "num_following": 11,
+    "num_models": 9,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Developer",
+    "type": "partner",
+    "username": "windsingai"
   },
   {
-    "name": "alea31415",
-    "role": "AI Researcher",
-    "type": "normal",
-    "location": null,
-    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1675023519776-630ae5e01d1650ec2f943d20.png",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63d3a01ae149f591b950f5e8/H8XLxLooMxkRnA_vBRTVK.jpeg",
     "detail": {
-      "bio": "alea31415 is an AI researcher specializing in DreamBooth fine-tuning of Stable Diffusion models for anime character generation. Their work focuses on creating specialized text-to-image models that generate high-quality anime-style artwork with character consistency across various prompts. They employ progressive training approaches with careful learning rate adjustments and regularization techniques to optimize multi-character generation. Their research addresses challenges in character-specific diffusion models including overfitting prevention, hairstyle accuracy, and background consistency. They contribute to anime art creation and character customization applications through extensive model training on diverse character datasets from popular anime series and games.",
+      "bio": "LAXMAYDAY is a contributor on Huggingface, member of DeepGHS.",
       "expertise": [
+        "LoRA Models",
+        "Text-to-Image Generation",
+        "Anime Character Design",
         "Stable Diffusion",
-        "DreamBooth Fine-Tuning",
-        "Anime Character Generation",
-        "Text-to-Image Models",
-        "Multi-Character Training"
+        "Style Transfer"
       ],
       "sign": null,
       "social": [
-        { "platform": "HuggingFace", "url": "https://huggingface.co/alea31415" }
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/LAXMAYDAY"
+        }
       ]
-    }
+    },
+    "fullname": "L_A_X",
+    "location": null,
+    "name": "L_A_X",
+    "num_datasets": 0,
+    "num_followers": 32,
+    "num_following": 3,
+    "num_models": 1,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Developer",
+    "type": "partner",
+    "username": "LAXMAYDAY"
   },
   {
-    "name": "skytnt",
-    "role": "Developer",
-    "type": "normal",
-    "location": null,
-    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1650375870480-noauth.png",
-    "detail": {
-      "bio": "skytnt is a developer specializing in creative AI applications with expertise in multiple domains. Their work includes transformer-based MIDI music generation models trained on comprehensive datasets like Los Angeles MIDI Dataset, achieving validation losses as low as 0.2159. They develop anime-focused computer vision systems including StyleGAN2 models for full-body character generation with FID scores of 1.4, segmentation models for background removal, and aesthetic quality assessment using ConvNeXt-V2 architecture. Additionally, they create Japanese language models fine-tuned for lyric generation using GPT-2 architectures and develop interactive web applications using Gradio for music composition, text-to-speech synthesis, and anime image processing. Their technical approach emphasizes ONNX runtime optimization and multi-modal deployment across audio, image, and text domains.",
-      "expertise": [
-        "MIDI Music Generation",
-        "Anime Image Synthesis",
-        "Japanese Language Processing",
-        "GAN Architectures",
-        "ONNX Deployment"
-      ],
-      "sign": null,
-      "social": [
-        { "platform": "HuggingFace", "url": "https://huggingface.co/skytnt" }
-      ]
-    }
-  },
-  {
-    "name": "X779",
-    "role": "Developer",
-    "type": "normal",
-    "location": null,
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ee7367190ddd6214f4e473/EmmUNhF5w-65ov8FdlNVk.jpeg",
     "detail": {
       "bio": "X779 is a developer specializing in text-to-image generation models with a focus on anime-style artwork creation. Their work encompasses developing and fine-tuning Stable Diffusion models including the Anything series variants optimized for anime character generation and artistic content creation. They have expertise in model optimization techniques such as FP16 precision and hypertile optimizations for improved computational efficiency. Their contributions include specialized models for pastel-style artwork with iridescent effects and comprehensive Danbooru wildcard datasets containing millions of tag combinations for dynamic prompt generation. The developer demonstrates proficiency in HCP-diffusion framework, safetensors implementation, and creating models compatible with popular AI art platforms like AUTOMATIC1111, Fooocus, and ComfyUI.",
@@ -169,15 +204,58 @@
       ],
       "sign": null,
       "social": [
-        { "platform": "HuggingFace", "url": "https://huggingface.co/X779" }
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/X779"
+        }
       ]
-    }
+    },
+    "fullname": "Aty",
+    "location": null,
+    "name": "Aty",
+    "num_datasets": 1,
+    "num_followers": 28,
+    "num_following": 21,
+    "num_models": 6,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Developer",
+    "type": "partner",
+    "username": "X779"
   },
   {
-    "name": "Shio-Koube",
-    "role": "AI Researcher",
-    "type": "normal",
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1661238040837-noauth.jpeg",
+    "detail": {
+      "bio": "Jerry Chi is an AI researcher specializing in creative AI applications with expertise in image generation, music generation, NLP, and recommendation systems. His work focuses on developing parameter-efficient fine-tuning methods for large diffusion models, particularly using DreamBooth and LoRA techniques with Stable Diffusion architectures. He has created multiple Stable Diffusion 3.5 models fine-tuned for personalized text-to-image generation, enabling subject-specific image creation while preserving base model capabilities. His research explores efficient adaptation of large diffusion models to custom concepts with minimal computational overhead, utilizing techniques like mixed precision training and cosine learning rate schedulers. Through his work with organizations including DeepGHS and PixAI Labs, he contributes to advancing creative AI applications and making personalized generation more accessible.",
+      "expertise": [
+        "Stable Diffusion",
+        "DreamBooth",
+        "LoRA Fine-Tuning",
+        "Text-to-Image Generation",
+        "Parameter-Efficient Adaptation"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/peacej"
+        }
+      ]
+    },
+    "fullname": "Jerry Chi",
     "location": null,
+    "name": "Jerry Chi",
+    "num_datasets": 0,
+    "num_followers": 27,
+    "num_following": 47,
+    "num_models": 6,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "partner",
+    "username": "peacej"
+  },
+  {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/iGF7x4eAKVQrh1U6ita_V.png",
     "detail": {
       "bio": "Shio-Koube is an AI researcher specializing in anime-style image generation and computer vision applications. Their work focuses on developing specialized Variational Autoencoders and diffusion models optimized for anime artwork, including models like Anime-Flux and EQ-VAE-Anime. They have created multiple Masked Autoencoder architectures for efficient image search and retrieval in anime datasets. Their research extends to developing comprehensive anime image datasets with detailed metadata annotations for training generative models. They contribute to multi-modal learning through pre-encoded representations and build interactive demos for computer vision applications using frameworks like Gradio and FastAPI.",
@@ -195,13 +273,21 @@
           "url": "https://huggingface.co/Shio-Koube"
         }
       ]
-    }
+    },
+    "fullname": "Shio K\u014dbe",
+    "location": null,
+    "name": "Shio K\u014dbe",
+    "num_datasets": 14,
+    "num_followers": 10,
+    "num_following": 1,
+    "num_models": 17,
+    "num_papers": 0,
+    "num_spaces": 3,
+    "role": "AI Researcher",
+    "type": "partner",
+    "username": "Shio-Koube"
   },
   {
-    "name": "nebula",
-    "role": "Data Engineer",
-    "type": "normal",
-    "location": null,
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62bf1683fbc7a6370ba7606d/wXr9k878_TLIsYhGse70F.png",
     "detail": {
       "bio": "Nebula is a data engineer specializing in creating comprehensive datasets for AI-generated content detection and digital forensics. Their work focuses on developing large-scale benchmark datasets for deepfake detection, synthetic image identification, and diffusion model forensics. They have created influential datasets including FakeCOCO with over 1 million AI-generated images, DFLIP-3K for deepfake detection, and OpenSDI datasets for spotting diffusion-generated images in open-world scenarios. Their datasets support research in AI safety, model evaluation, and content authentication across multiple generative architectures including Stable Diffusion variants, FLUX, and various GANs. Nebula contributes to organizations including DeepGHS, CyberHarem, and AI Starter Pack, advancing the field of AI forensics through systematic data curation and benchmark development.",
@@ -214,8 +300,23 @@
       ],
       "sign": null,
       "social": [
-        { "platform": "HuggingFace", "url": "https://huggingface.co/nebula" }
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/nebula"
+        }
       ]
-    }
+    },
+    "fullname": "binnng",
+    "location": null,
+    "name": "binnng",
+    "num_datasets": 13,
+    "num_followers": 6,
+    "num_following": 5,
+    "num_models": 3,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Data Engineer",
+    "type": "partner",
+    "username": "nebula"
   }
 ]
