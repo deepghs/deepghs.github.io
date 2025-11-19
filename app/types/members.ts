@@ -7,6 +7,8 @@ export interface Member {
   location?: string | null
   avatar?: string | null
   detail?: MemberDetail | null
+  num_papers?: number | null
+  num_followers?: number | null
 }
 
 export interface MemberDetail {
