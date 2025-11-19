@@ -86,7 +86,17 @@ import type { Avatar } from '~/types/common'
 
 const founder: Member[] = coreMembers.filter(member => member.type === 'founder')
 const core: Member[] = coreMembers.filter(member => member.type === 'core')
-const fullMembers: Member[] = [...founder, ...core, ...partners, ...normalMembers]
+
+const sortedNormalMembers = normalMembers.sort((a, b) => {
+  if (a.num_papers === b.num_papers) {
+    return b.num_followers - a.num_followers
+  } else {
+    return b.num_papers - a.num_papers
+  }
+})
+
+const fullMembers: Member[] = [...founder, ...core, ...partners, ...sortedNormalMembers]
+
 const fullMemberAvatars = computed<Avatar[]>(() => {
   return fullMembers.map(member => ({
     src: member.avatar || '',
