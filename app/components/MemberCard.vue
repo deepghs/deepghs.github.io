@@ -106,9 +106,9 @@ const { member } = defineProps({
 function getSocialIcon(social: SocialLink) {
   if (social.icon) return social.icon
   const iconName = social.platform
-  if (!iconName) return getCommonSocialIcon['Default']
+  if (!iconName) return getCommonSocialIcon['default']
   const icon = getCommonSocialIcon[iconName]
-  return icon || getCommonSocialIcon['Default']
+  return icon || getCommonSocialIcon['default']
 }
 
 const avatar = computed(() => {
