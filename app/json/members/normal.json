@@ -160,6 +160,38 @@
     "username": "alpindale"
   },
   {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/630ed69a31970d1cd4fd575d/HYm3BoNMUpfA1qg33P-X6.png",
+    "detail": {
+      "bio": "ShinoharaHare is an AI researcher specializing in large language models, generative models, and reinforcement learning. Their work focuses on developing specialized Stable Diffusion XL models for anime-themed image generation, including inpainting, colorization, and mosaic removal techniques. They have created comprehensive instruction-following datasets for multi-modal training and language model fine-tuning, with expertise in vision-language architectures like LLaVA. Their research contributions include text-to-image generation, evidence retrieval systems for claim verification, and curated anime datasets for machine learning applications. They actively contribute to open-source AI development through model sharing and dataset curation for the research community.",
+      "expertise": [
+        "Stable Diffusion",
+        "Multimodal Learning",
+        "Instruction Tuning",
+        "Image Inpainting",
+        "Anime Generation"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/ShinoharaHare"
+        }
+      ]
+    },
+    "fullname": "Shih-Kai Hsiao",
+    "location": null,
+    "name": "Shih-Kai Hsiao",
+    "num_datasets": 3,
+    "num_followers": 13,
+    "num_following": 4,
+    "num_models": 6,
+    "num_papers": 1,
+    "num_spaces": 0,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "ShinoharaHare"
+  },
+  {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62389d9c6dadcce9c7331451/MZmAKcJmE7Naxfxa10ps9.jpeg",
     "detail": {
       "bio": "RE-N-Y is an AI researcher specializing in computer vision and multimodal AI systems, with extensive work on image quality assessment models using DINOv2, CLIP, and SigLIP architectures for fidelity and overall rating tasks. Their research focuses on finite scalar quantization techniques for VQVAE models applied to ImageNet and anime face generation, developing advanced image compression and synthesis methods. They have created multimodal visual reasoning systems like Logic2Vision that generate Python pseudocode for complex visual tasks, and contributed large-scale datasets for text-to-image generation research. Their work demonstrates expertise in transfer learning, parameter-efficient fine-tuning with LoRA, and developing robust evaluation metrics for visual content quality assessment across diverse domains.",
@@ -764,6 +796,38 @@
     "role": "Developer",
     "type": "normal",
     "username": "licyk"
+  },
+  {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/644664555004f2cb3af0999f/Nkffr6kTyGkHT2jyphfG_.jpeg",
+    "detail": {
+      "bio": "Bt is a computer network worker and active contributor on Hugging Face, specializing in model quantization and optimization for efficient deployment. Their work focuses on creating GGUF-quantized versions of various language models, particularly RWKV architecture models optimized for Chinese text generation and role-playing chat applications. They also contribute quantized text-to-image models including Stable Diffusion variants, balancing model size, quantization quality, and inference speed. Their expertise spans multiple quantization levels from Q4_K_S to Q8_0 formats, enabling efficient deployment of large language models while maintaining competitive performance. As a member of DeepGHS organization, they actively share optimized models with the community.",
+      "expertise": [
+        "GGUF Quantization",
+        "Text Generation Models",
+        "Text-to-Image Generation",
+        "Chinese Language Models",
+        "RWKV Architecture"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/btaskel"
+        }
+      ]
+    },
+    "fullname": "Bt",
+    "location": null,
+    "name": "Bt",
+    "num_datasets": 0,
+    "num_followers": 42,
+    "num_following": 14,
+    "num_models": 17,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Developer",
+    "type": "normal",
+    "username": "btaskel"
   },
   {
     "avatar": "https://huggingface.co/avatars/4b236b35cc8a5e0a27431dc34f77a363.svg",
@@ -2111,6 +2175,32 @@
     "username": "Qubitium"
   },
   {
+    "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/7Z64KtUsE1OaxM0iqggCO.jpeg",
+    "detail": {
+      "bio": "gi0nyx is a contributor on Huggingface, member of DeepGHS.",
+      "expertise": [],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/gi0nyx"
+        }
+      ]
+    },
+    "fullname": "gion",
+    "location": null,
+    "name": "gion",
+    "num_datasets": 0,
+    "num_followers": 5,
+    "num_following": 7,
+    "num_models": 0,
+    "num_papers": 0,
+    "num_spaces": 0,
+    "role": "Contributor",
+    "type": "normal",
+    "username": "gi0nyx"
+  },
+  {
     "avatar": "https://huggingface.co/avatars/c76caeaeea33624511e98e0d01fd079b.svg",
     "detail": {
       "bio": "traltyaziking is a developer specializing in creating interactive AI applications and synthetic datasets. Their work focuses on text generation models including LLaMA variants, Vicuna, and specialized NSFW story generators. They develop comprehensive datasets for speech processing, material classification, LED screen patterns, and conversational analysis using synthetic data generation techniques. Their spaces demonstrate expertise in deploying language models through Gradio interfaces and implementing multi-modal applications like lip synchronization systems. They contribute to various organizations including DeepGHS and CyberHarem, working across text, image, audio, and video modalities.",
@@ -3305,6 +3395,38 @@
     "role": "Developer",
     "type": "normal",
     "username": "NenRinCake"
+  },
+  {
+    "avatar": "https://huggingface.co/avatars/f485060c863a8226ad926657d26080c6.svg",
+    "detail": {
+      "bio": "PANDATREE is an AI researcher specializing in diffusion models and text-to-image generation, with extensive expertise in DreamBooth fine-tuning and LoRA parameter-efficient adaptation techniques. Their work focuses on customizing FLUX.1-Fill-dev models for specialized image generation tasks, including photorealistic object synthesis and subject-specific generation for dogs and clocks. They have developed multiple LoRA weights optimized for different inference requirements, demonstrating proficiency in diffusion model training methodologies. Additionally, they contribute to the research community through datasets like bibimbap, which provides image-text pairs for text-guided image editing tasks, supporting multimodal learning and conditional generation applications. Their technical approach emphasizes seamless integration with diffusers library and practical deployment of fine-tuned models.",
+      "expertise": [
+        "DreamBooth Fine-tuning",
+        "LoRA Adaptation",
+        "Text-to-Image Generation",
+        "Diffusion Models",
+        "Image Editing"
+      ],
+      "sign": null,
+      "social": [
+        {
+          "platform": "HuggingFace",
+          "url": "https://huggingface.co/PANDATREE"
+        }
+      ]
+    },
+    "fullname": "PEILIN XIONG",
+    "location": null,
+    "name": "PEILIN XIONG",
+    "num_datasets": 1,
+    "num_followers": 0,
+    "num_following": 0,
+    "num_models": 5,
+    "num_papers": 0,
+    "num_spaces": 1,
+    "role": "AI Researcher",
+    "type": "normal",
+    "username": "PANDATREE"
   },
   {
     "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/uI5dunwLc7YljvfTflsab.png",
