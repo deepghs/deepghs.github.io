@@ -26,6 +26,7 @@
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "@iconify-json/basil": "^1.2.4",
     "@iconify-json/dashicons": "^1.2.1",
     "@iconify-json/lucide": "^1.2.73",
     "@iconify-json/material-symbols": "^1.2.46",

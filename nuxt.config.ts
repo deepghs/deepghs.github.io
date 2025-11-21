@@ -25,7 +25,7 @@ export default defineNuxtConfig({
   icon: {
     clientBundle: {
       scan: true,
-      icons: ['mdi:location-on-outline', 'lucide:chevron-right', 'lucide:newspaper', 'solar:global-outline'] // Here include list of internal icons but has to be in the format: prefix:icon
+      icons: ['mdi:location-on-outline', 'lucide:chevron-right', 'lucide:newspaper', 'solar:global-outline', 'basil:heart-solid']
     }
   }
 
