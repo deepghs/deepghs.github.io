@@ -1,0 +1,1146 @@
+[
+    {
+        "abstract": "This interactive Gradio space provides online image tagging capabilities using Waifu Diffusion models (WD14-ViT and WD14-ConvNeXt) for automatic content analysis. The system processes uploaded images through ONNX runtime inference to generate comprehensive tag predictions with confidence scores. Users can customize tagging parameters including confidence thresholds, text formatting options, and output organization. The application supports both rating categories (general, sensitive, questionable, explicit) and detailed content tags, enabling efficient image annotation for AI training datasets and content moderation workflows.",
+        "bio": "An online image tagging tool that automatically analyzes and labels images using Waifu Diffusion models to generate descriptive tags and content ratings.",
+        "created_at": 1763483683.9941177,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an online image tagging tool is clearly demonstrated through the application code and model integration",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README file and functional application code with clear configuration and dependencies",
+            "yes": true
+        },
+        "keywords": [
+            "Image Tagging",
+            "Waifu Diffusion",
+            "Content Analysis",
+            "ONNX Runtime"
+        ],
+        "libraries": [
+            "gradio",
+            "onnxruntime",
+            "huggingface_hub",
+            "opencv-python",
+            "PIL",
+            "numpy",
+            "pandas"
+        ],
+        "likes": 153,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/wd14_tagging_online",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification",
+            "Image-to-Text"
+        ]
+    },
+    {
+        "abstract": "This repository provides an interactive Gradio-based demo for the PixAI Tagger V0.9 model, which performs automated image tagging and classification. The system enables users to upload images and receive detailed tag predictions across multiple categories with adjustable confidence thresholds. Built on ONNX runtime for efficient inference, the demo showcases the model's capability to extract semantic features and generate comprehensive tag sets for images. The interface allows real-time experimentation with threshold parameters to fine-tune tag generation results, making it valuable for content analysis and image understanding applications.",
+        "bio": "This is an interactive demo for the PixAI Tagger V0.9 model that performs automated image tagging and classification with adjustable confidence thresholds.",
+        "created_at": 1763483703.902228,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an interactive demo for image tagging is clearly stated in both the README and application code, with well-documented functionality and user interface components.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly describes the purpose and provides configuration details, along with complete application code and requirements.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Tagging",
+            "ONNX",
+            "Gradio",
+            "Computer Vision",
+            "Content Analysis"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils",
+            "ONNX",
+            "hfutils",
+            "hbutils"
+        ],
+        "likes": 13,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/pixai-tagger-v0.9-demo",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification",
+            "Image Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "DeepDanbooru Online is an interactive Gradio-based web application that provides automated image tagging using the DeepDanbooru model. The system processes input images through a pre-trained ONNX model to generate descriptive tags with confidence scores. Users can customize tag extraction with adjustable confidence thresholds, formatting options for spaces and text escaping, and sorting preferences. This space enables practical applications for content organization, metadata generation, and automated image annotation workflows, bridging research-grade computer vision capabilities with user-friendly web interfaces for the broader community.",
+        "bio": "This space provides an online interface for automated image tagging using the DeepDanbooru model to generate descriptive tags from input images.",
+        "created_at": 1763483721.028532,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an online DeepDanbooru image tagging interface is clearly evident from the code structure, dependencies, and application implementation",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with configuration details, functional application code, and clear requirements specification",
+            "yes": true
+        },
+        "keywords": [
+            "Image Tagging",
+            "DeepDanbooru",
+            "Gradio Interface",
+            "ONNX Runtime",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "gradio",
+            "onnxruntime",
+            "PIL",
+            "numpy",
+            "huggingface_hub"
+        ],
+        "likes": 13,
+        "modality": [
+            "Image",
+            "Text"
+        ],
+        "repo_id": "deepghs/deepdanbooru_online",
+        "repo_type": "space",
+        "task_types": [
+            "Image-to-Text",
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents an adversarial attack system designed to fool AI-based anime image detection models. The system implements Projected Gradient Descent (PGD) and Fast Gradient Sign Method (FGSM) attacks against the 'saltacc/anime-ai-detect' classifier, which distinguishes between AI-generated and human-drawn anime images. Users can upload images and configure attack parameters including target class (AI/human), noise intensity, step size, and iteration count. The interactive Gradio interface demonstrates real-time adversarial example generation, showing both original and attacked predictions, providing insights into model vulnerabilities and robustness testing for anime image classification systems.",
+        "bio": "This Space demonstrates adversarial attacks against anime AI detection models to generate images that fool classification systems.",
+        "created_at": 1763483744.2686408,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an adversarial attack system for anime AI detection models, with explicit functionality demonstrated through the interactive interface and code implementation.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear configuration, a functional Gradio interface, and complete code implementation with proper documentation.",
+            "yes": true
+        },
+        "keywords": [
+            "Adversarial Attacks",
+            "Image Classification",
+            "Anime Detection",
+            "Model Robustness",
+            "PGD Attack"
+        ],
+        "libraries": [
+            "gradio",
+            "PyTorch",
+            "Transformers",
+            "torchvision",
+            "Pillow"
+        ],
+        "likes": 6,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime-ai-detect-fucker",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides an interactive Gradio-based demo for automated image tagging using ML-Danbooru models. The system leverages multiple ONNX-optimized neural network architectures including Caformer and TResNet variants trained on Danbooru-style image datasets. Users can upload images and receive comprehensive tag predictions with configurable confidence thresholds, output formatting options, and model selection. The interface supports real-time inference with GPU acceleration when available, making it accessible for both research and practical applications in content organization and automated annotation of anime-style artwork.",
+        "bio": "This Space provides an interactive demo for automated image tagging using ML-Danbooru models to generate descriptive tags for anime-style images.",
+        "created_at": 1763483761.2542205,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an ML-Danbooru image tagging demo is clearly evident from the code structure, model references, and interface design",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README file and complete application code with clear functionality",
+            "yes": true
+        },
+        "keywords": [
+            "Image Tagging",
+            "Danbooru",
+            "ONNX Runtime",
+            "Gradio Interface",
+            "Anime Classification"
+        ],
+        "libraries": [
+            "gradio",
+            "onnxruntime",
+            "PIL",
+            "numpy",
+            "huggingface_hub"
+        ],
+        "likes": 44,
+        "modality": [
+            "Image",
+            "Text"
+        ],
+        "repo_id": "deepghs/ml-danbooru-demo",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive web application for monochrome image detection using pre-trained ONNX models. The system employs computer vision models including MobileNetV3 and CAFormer architectures to classify images as monochrome or normal with confidence scores. Users can upload images through a Gradio interface and select from multiple model variants for inference. The implementation leverages ONNX Runtime for efficient model execution with GPU acceleration support when available, making it suitable for practical image analysis applications and educational demonstrations of monochrome detection technology.",
+        "bio": "This space provides an interactive tool for detecting monochrome images using computer vision models.",
+        "created_at": 1763483781.3400505,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as monochrome image detection, with well-structured code and multiple model options available",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README file, functional application code, and all necessary dependencies specified in requirements.txt",
+            "yes": true
+        },
+        "keywords": [
+            "Monochrome Detection",
+            "Image Classification",
+            "ONNX Runtime",
+            "Computer Vision",
+            "Gradio Interface"
+        ],
+        "libraries": [
+            "gradio",
+            "onnxruntime",
+            "PIL",
+            "numpy",
+            "huggingface_hub"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/monochrome_detection",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This interactive Gradio space provides a comprehensive suite of anime-specific object detection capabilities, featuring specialized models for face, head, person, half-body, eyes, hands, censor points, and general object detection using BooruYOLO. The system integrates multiple detection models from the deepghs ecosystem, offering configurable IOU and confidence thresholds for each detection type. It serves as an online demonstration for the imgutils.detect library, enabling users to test various anime object detection functionalities through an intuitive web interface with real-time visualization of bounding box annotations.",
+        "bio": "An interactive web application for detecting various objects in anime images including faces, persons, body parts, and censor points.",
+        "created_at": 1763483810.3481474,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime object detection demo space with multiple specialized detection modules, and the functionality is well-explained in the interface",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear description, well-structured code organization, and functional Gradio interface with multiple detection tabs",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Detection",
+            "Object Detection",
+            "Gradio Interface",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils",
+            "onnxruntime",
+            "opencv-python",
+            "huggingface_hub"
+        ],
+        "likes": 39,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_object_detection",
+        "repo_type": "space",
+        "task_types": [
+            "Object Detection",
+            "Face Detection",
+            "Person Detection",
+            "Keypoint Detection"
+        ]
+    },
+    {
+        "abstract": "This Gradio Space provides an interactive NSFW (Not Safe For Work) image classification system that predicts content ratings across multiple categories including drawings, hentai, neutral, porn, and sexy. The implementation leverages ONNX models for efficient inference, supporting two model variants with different input resolutions (224x224 and 299x299). Users can upload images and select between different pre-trained models to obtain probability scores for each content category, enabling automated content moderation and filtering applications.",
+        "bio": "This repository provides an interactive web application for classifying images into NSFW content categories using pre-trained machine learning models.",
+        "created_at": 1763483826.9033947,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as NSFW image prediction with explicit model descriptions and classification categories",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with configuration details, a functional app.py implementation, and clear requirements.txt file",
+            "yes": true
+        },
+        "keywords": [
+            "NSFW Classification",
+            "Image Moderation",
+            "Content Filtering",
+            "ONNX Models"
+        ],
+        "libraries": [
+            "gradio",
+            "numpy",
+            "pillow",
+            "onnxruntime",
+            "huggingface_hub",
+            "scikit-image",
+            "pandas",
+            "opencv-python",
+            "hbutils",
+            "dghs-imgutils"
+        ],
+        "likes": 23,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/nsfw_prediction",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This interactive Gradio space provides a comprehensive suite of anime image classification models for various visual analysis tasks. The system integrates multiple specialized classifiers including character attribute detection (sex, skin color, hair color, eye color), style classification, AI-generated image detection, content rating assessment, and aesthetic evaluation. Built on ONNX runtime with optimized inference pipelines, it supports multiple model variants with configurable input sizes and automatic GPU acceleration. The modular architecture enables seamless integration of diverse classification tasks through a unified web interface, making it valuable for anime content analysis, dataset curation, and automated tagging applications.",
+        "bio": "An interactive web application that provides multiple specialized anime image classification models for character analysis, style detection, and content assessment.",
+        "created_at": 1763483848.9870913,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime image classification system with multiple specialized models, and the implementation details are well-documented in the code structure.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with proper configuration, well-structured code files, and clear documentation for the Gradio space interface.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Image Analysis",
+            "Character Attributes",
+            "AI Detection",
+            "Visual Recognition"
+        ],
+        "libraries": [
+            "gradio",
+            "onnxruntime",
+            "huggingface_hub",
+            "dghs-imgutils",
+            "PIL",
+            "numpy"
+        ],
+        "likes": 38,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_image_classification",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents an interactive web application for character detection and segmentation in images, specifically designed for anime and manga content. The system employs computer vision models to detect full-body persons, half-body regions, and head regions with adjustable scaling parameters. Built using Gradio for the user interface and dghs-imgutils for detection capabilities, the tool provides visual feedback with bounding box overlays and generates cropped character segments. This application serves as a practical tool for content creators, researchers, and enthusiasts working with character extraction from visual media, offering automated segmentation capabilities with customizable head region scaling.",
+        "bio": "An interactive web application that detects and segments characters in images, specifically extracting full-body, half-body, and head regions with adjustable scaling parameters.",
+        "created_at": 1763483866.7586138,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a character splitter tool for detecting and cropping character regions from images, with well-documented functionality in the code and interface.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with configuration details, functional app.py implementation, and proper requirements.txt for dependencies.",
+            "yes": true
+        },
+        "keywords": [
+            "Character Detection",
+            "Image Segmentation",
+            "Anime Processing",
+            "Computer Vision",
+            "Gradio Application"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils",
+            "PIL",
+            "numpy",
+            "opencv-python",
+            "onnxruntime"
+        ],
+        "likes": 23,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/character_splitter",
+        "repo_type": "space",
+        "task_types": [
+            "Object Detection",
+            "Image-to-Image"
+        ]
+    },
+    {
+        "abstract": "This repository presents CCIP (Character Comparison and Identification Platform), an interactive web application for anime character identity verification using deep learning. The system employs transformer-based models (Caformer architectures) to extract discriminative feature vectors from anime character images and compute similarity scores. Users can upload two character images and receive a quantitative difference score with binary classification indicating whether the characters are the same. The platform supports multiple model variants including ccip-caformer-24-randaug-pruned and provides optimized ONNX runtime inference for efficient deployment.",
+        "bio": "An interactive web application for comparing anime character images to determine if they represent the same character using deep learning feature extraction.",
+        "created_at": 1763483885.4028664,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime character comparison tool, with well-documented code examples and comprehensive function descriptions that clearly explain the image comparison capabilities.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a functional README with proper configuration, complete application code, and clear documentation of the model functionality and usage.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Character",
+            "Image Comparison",
+            "Feature Extraction",
+            "Identity Verification",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "gradio",
+            "PyTorch",
+            "ONNX",
+            "huggingface_hub",
+            "imgutils"
+        ],
+        "likes": 11,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/ccip",
+        "repo_type": "space",
+        "task_types": [
+            "Image Feature Extraction",
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive text detection system using deep learning models for identifying text regions in images. The implementation leverages ONNX models from the Hugging Face Hub, specifically DBNet++ architectures like dbnetpp_resnet50_fpnc_1200e_icdar2015, to generate heatmaps and extract bounding boxes through contour detection. Users can upload images, select different text detection models, and adjust confidence thresholds to visualize detected text regions with bounding boxes. The system demonstrates practical computer vision applications for document analysis, OCR preprocessing, and automated text localization in various image types.",
+        "bio": "An interactive text detection system that identifies and visualizes text regions in images using deep learning models.",
+        "created_at": 1763483903.0014608,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as text detection in images, with well-documented code structure and model selection options",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a functional README with proper configuration and the app.py file provides a complete Gradio interface implementation",
+            "yes": true
+        },
+        "keywords": [
+            "Text Detection",
+            "Object Detection",
+            "Computer Vision",
+            "OCR Preprocessing",
+            "Image Analysis"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils",
+            "huggingface_hub",
+            "opencv-python",
+            "numpy"
+        ],
+        "likes": 6,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/text_detection",
+        "repo_type": "space",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive web interface for computing Learned Perceptual Image Patch Similarity (LPIPS) scores between two images. LPIPS is a perceptual similarity metric that aligns with human visual perception better than traditional metrics like PSNR or SSIM. The implementation uses the dghs-imgutils library with ONNX runtime for efficient computation, enabling researchers and developers to quantitatively assess image similarity for applications in image generation, quality assessment, and computer vision research.",
+        "bio": "This repository provides an interactive tool for calculating LPIPS (Learned Perceptual Image Patch Similarity) scores between two images to measure perceptual similarity.",
+        "created_at": 1763483935.8732312,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository name 'lpips' clearly indicates its purpose, and the code demonstrates a straightforward image similarity comparison tool using the LPIPS metric",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a functional README with proper configuration and the app.py file contains a complete Gradio interface implementation",
+            "yes": true
+        },
+        "keywords": [
+            "LPIPS",
+            "Image Similarity",
+            "Perceptual Metrics",
+            "Computer Vision",
+            "Image Quality Assessment"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils",
+            "PIL",
+            "numpy",
+            "onnxruntime"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/lpips",
+        "repo_type": "space",
+        "task_types": [
+            "Image Similarity",
+            "Image Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive web application for assessing the aesthetic quality of anime-style images using deep learning models. The system employs SwinV2-based neural networks trained on anime aesthetic datasets to classify images into seven quality tiers ranging from 'worst' to 'masterpiece'. Users can upload anime images and receive both a numerical aesthetic score (0-6 scale) and percentile ranking relative to the training distribution. The application supports multiple model variants and provides interpretable outputs including class probabilities and comparative rankings, making it valuable for artists, content creators, and anime enthusiasts seeking objective quality assessment of visual content.",
+        "bio": "An interactive web application that evaluates the aesthetic quality of anime-style images using deep learning models.",
+        "created_at": 1763483953.8499928,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime aesthetic evaluation tool with well-documented functionality and user interface",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with proper configuration, functional app.py file, and clear requirements.txt",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Aesthetic",
+            "Image Classification",
+            "Quality Assessment",
+            "SwinV2",
+            "Gradio"
+        ],
+        "libraries": [
+            "gradio",
+            "numpy",
+            "pandas",
+            "huggingface_hub",
+            "dghs-imgutils",
+            "onnxruntime",
+            "PIL",
+            "scikit-image",
+            "opencv-python"
+        ],
+        "likes": 7,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_aesthetic",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space implements a Laplacian-based blur detection algorithm for image quality assessment. The interactive application allows users to upload images and adjust threshold parameters to classify images as blurry or sharp based on the variance of Laplacian operator responses. Built with Gradio, the system provides real-time analysis with visual feedback, enabling practical evaluation of image sharpness for photography, computer vision preprocessing, and quality control applications in various domains.",
+        "bio": "An interactive tool for detecting blur in images using Laplacian variance analysis.",
+        "created_at": 1763483970.4677572,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as Laplacian-based blur detection with a working implementation and proper documentation",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with configuration details and the app.py file provides a fully functional Gradio interface",
+            "yes": true
+        },
+        "keywords": [
+            "Blur Detection",
+            "Image Quality",
+            "Computer Vision",
+            "Laplacian Operator"
+        ],
+        "libraries": [
+            "gradio",
+            "opencv-python",
+            "numpy",
+            "pillow",
+            "dghs-imgutils"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/laplacian_blur",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This interactive Space enables efficient character search and retrieval from the Danbooru dataset using content-based image retrieval techniques. The system employs CCIP (Content-based Character Identification and Processing) feature extraction combined with AutoFaiss indexing to identify similar anime characters based on visual similarity. Users can upload character images and retrieve the most similar characters with detailed metadata including gender predictions, copyright information, and similarity scores. The implementation provides configurable thresholds and sorting options, supporting both academic research in computer vision and practical applications for anime character identification and organization.",
+        "bio": "This Space provides an interactive character search system that identifies and retrieves similar anime characters from the Danbooru dataset using content-based image retrieval.",
+        "created_at": 1763483989.3327675,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a character search system for Danbooru dataset, with comprehensive code structure and functionality that aligns with the description",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README file, well-structured code with clear functionality, and all necessary dependencies specified in requirements.txt",
+            "yes": true
+        },
+        "keywords": [
+            "Character Search",
+            "Content-Based Retrieval",
+            "Anime Characters",
+            "Image Similarity",
+            "Danbooru Dataset"
+        ],
+        "libraries": [
+            "gradio",
+            "autofaiss",
+            "huggingface_hub",
+            "dghs-imgutils",
+            "pandas",
+            "numpy",
+            "PIL"
+        ],
+        "likes": 23,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/danbooru_character_search",
+        "repo_type": "space",
+        "task_types": [
+            "Image-to-Image",
+            "Visual Document Retrieval"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides a professional-grade anime image classification system featuring multiple specialized models for completeness assessment. The implementation utilizes ONNX runtime for efficient inference with support for both CPU and GPU execution. The system offers a Gradio-based web interface that enables users to upload anime images and obtain classification results across various model variants. While the underlying datasets and model files remain proprietary due to licensing restrictions, the space demonstrates advanced image preprocessing techniques and scalable deployment architecture suitable for anime content analysis applications.",
+        "bio": "A professional anime image classification system that provides multiple specialized models for completeness assessment through an interactive web interface.",
+        "created_at": 1763484011.2317538,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an anime image classification system is clearly stated in both the README and code, with explicit functionality for classifying anime images using multiple specialized models.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the purpose and limitations, along with complete code files and requirements for running the application.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Image Analysis",
+            "ONNX Runtime",
+            "Gradio Interface",
+            "Completeness Assessment"
+        ],
+        "libraries": [
+            "gradio",
+            "onnxruntime",
+            "huggingface_hub",
+            "dghs-imgutils",
+            "PIL",
+            "numpy"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_image_classification_pro",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This interactive Space generates visual heatmaps from WD Tagger v3 models to explain image classification predictions by highlighting image regions that contribute to specific tag scores. The system supports multiple transformer architectures including ConvNeXt, SwinV2, ViT, and EVA02 models, providing interpretable AI insights for image tagging tasks. Users can upload images, adjust confidence thresholds, and visualize which visual features activate particular tags through gradient-based attribution methods. The application bridges computer vision research with practical model interpretability, enabling users to understand how deep learning models make tagging decisions.",
+        "bio": "This Space generates visual heatmaps showing which parts of an image contribute to specific tag predictions using WD Tagger v3 models.",
+        "created_at": 1763484033.9506242,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as generating heatmaps for image tag predictions, with well-structured code and multiple example images",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear description, examples, and the application is fully functional with proper documentation",
+            "yes": true
+        },
+        "keywords": [
+            "Heatmap Visualization",
+            "Image Classification",
+            "Model Interpretability",
+            "Computer Vision",
+            "Gradient Attribution"
+        ],
+        "libraries": [
+            "gradio",
+            "timm",
+            "PyTorch",
+            "Transformers",
+            "huggingface-hub",
+            "OpenCV",
+            "Pillow",
+            "matplotlib"
+        ],
+        "likes": 28,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/wd-tagger-heatmap-more-models",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification",
+            "Visual Question Answering"
+        ]
+    },
+    {
+        "abstract": "This repository implements an interactive anime image search system that enables users to find visually similar images from multiple anime art databases using content-based image retrieval. The system leverages FAISS for efficient similarity search and SwinV2-based embeddings to extract visual features from input images. It supports searching across seven major anime image sites including Danbooru, Yandere, Zerochan, Gelbooru, Konachan, Anime Pictures, and Rule34, providing users with comprehensive coverage of anime artwork. The Gradio-based interface allows real-time similarity matching and customizable search parameters for both research and practical applications in anime content discovery.",
+        "bio": "An interactive image search system that finds visually similar anime images from multiple online databases using content-based retrieval.",
+        "created_at": 1763484052.713968,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime image search system, with detailed implementation showing how it processes images and retrieves similar results from multiple anime art databases.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear title, emoji, and configuration details, along with complete application code and requirements files.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Retrieval",
+            "Anime Art",
+            "Similarity Search",
+            "Content-Based Search",
+            "Multi-Source Database"
+        ],
+        "libraries": [
+            "gradio",
+            "faiss-cpu",
+            "dghs-imgutils",
+            "cheesechaser",
+            "PIL"
+        ],
+        "likes": 29,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/search_image_by_image",
+        "repo_type": "space",
+        "task_types": [
+            "Image-to-Image Retrieval",
+            "Similarity Search"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive demonstration of YOLO-based object detection specifically trained on the Manga109 dataset. The application enables users to upload manga-style images and detect various objects using pre-trained YOLO models. Built with Gradio for user-friendly web interface, it supports adjustable detection parameters including IoU threshold settings. The system showcases practical applications of computer vision for manga analysis, offering researchers and developers a tool to explore object detection capabilities in comic and graphic novel imagery.",
+        "bio": "This repository provides an interactive demo for YOLO-based object detection trained on the Manga109 dataset.",
+        "created_at": 1763484068.0355203,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The purpose is clearly stated as a YOLO demo for Manga109 dataset with specific implementation details provided",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with clear description, working app.py file, and proper requirements.txt",
+            "yes": true
+        },
+        "keywords": [
+            "YOLO",
+            "Object Detection",
+            "Manga109",
+            "Computer Vision",
+            "Manga Analysis"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils"
+        ],
+        "likes": 4,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/manga109_yolo",
+        "repo_type": "space",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This interactive Space enables comparative analysis of zero-shot image classification models, specifically CLIP and SigLIP architectures. Built with Gradio, it provides a user-friendly interface for uploading images and testing classification performance across custom label sets. The system demonstrates practical model comparison capabilities for researchers and developers working with vision-language models, facilitating direct performance evaluation and qualitative assessment of different model architectures on identical inputs.",
+        "bio": "An interactive demo for comparing CLIP and SigLIP models on zero-shot image classification tasks.",
+        "created_at": 1763484084.6405993,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The purpose is clearly stated as comparing CLIP and SigLIP models for zero-shot image classification, with functional code and examples",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with proper configuration, clear app structure, and working example implementation",
+            "yes": true
+        },
+        "keywords": [
+            "Zero-Shot Classification",
+            "Vision-Language Models",
+            "Model Comparison",
+            "CLIP",
+            "SigLIP"
+        ],
+        "libraries": [
+            "gradio",
+            "transformers",
+            "PyTorch"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/compare_clip_siglip",
+        "repo_type": "space",
+        "task_types": [
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive demo for generic YOLO (You Only Look Once) object detection models trained on the COCO dataset. The implementation leverages the dghs-imgutils library to deploy YOLO models with configurable confidence and IoU thresholds. Users can test object detection capabilities through a Gradio-based web interface, enabling real-time inference on uploaded images. The system supports multiple YOLO model variants including YOLO11s, making it accessible for educational and practical computer vision applications.",
+        "bio": "This repository provides an interactive demo for YOLO object detection models trained on COCO dataset.",
+        "created_at": 1763484099.817276,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The purpose is clearly stated as providing generic YOLO models trained on COCO with an interactive demo interface",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with description, configuration, and clear instructions for usage",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "YOLO",
+            "COCO Dataset",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/yolos",
+        "repo_type": "space",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "Timms is a Hugging Face Space that provides interactive access to ONNX models converted from the Timm (PyTorch Image Models) library. The space implements a user-friendly Gradio interface for image classification tasks, allowing users to upload images and obtain predictions using various pre-trained models. By default, it utilizes the MobileNetV4 Conv Large model trained on ImageNet-1K with 600 epochs and 384 resolution. This space bridges the gap between research models and practical applications by offering an accessible web interface for computer vision experimentation and demonstration.",
+        "bio": "This space provides an interactive demo for running ONNX models converted from Timm library for image classification tasks.",
+        "created_at": 1763484115.7699633,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly stated in the README as 'ONNX Models From Timm' and the app.py demonstrates image classification functionality",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with proper configuration, app.py file with working demo code, and requirements.txt for dependencies",
+            "yes": true
+        },
+        "keywords": [
+            "ONNX",
+            "Timm",
+            "Image Classification",
+            "Gradio",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/timms",
+        "repo_type": "space",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive demonstration of YOLO-based face detection using the deepghs/yolo-face model. The implementation leverages the dghs-imgutils library with a Gradio interface for real-time face detection in images. Users can adjust detection parameters including IoU threshold (default 0.7) and confidence threshold (default 0.25) to optimize detection performance. The system supports multiple YOLO model variants, with yolov11s-face as the default configuration, enabling robust face localization for various computer vision applications.",
+        "bio": "This Space provides an interactive demo for YOLO-based face detection with adjustable detection parameters.",
+        "created_at": 1763484131.3262477,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as a YOLO-based face detection demo is clearly stated in both the README and code implementation",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a complete README with clear description and the app.py file provides functional demo implementation",
+            "yes": true
+        },
+        "keywords": [
+            "Face Detection",
+            "YOLO",
+            "Object Detection",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/yolo-face",
+        "repo_type": "space",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive demonstration of YOLO-based person detection using the deepghs/yolo-person model. The application leverages YOLOv8n-person architecture with configurable confidence and IoU thresholds for precise person detection in images. Built with Gradio interface, it offers real-time detection capabilities with adjustable parameters to balance detection accuracy and computational efficiency. The system enables users to upload images and visualize bounding box predictions, serving as both a practical tool for person detection tasks and an educational demonstration of YOLO object detection technology.",
+        "bio": "This Space provides an interactive demo for YOLO-based person detection in images with adjustable detection thresholds.",
+        "created_at": 1763484148.376832,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly stated as YOLO-based person detection and the implementation is straightforward with well-defined functionality",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a functional README with clear description, working app.py file, and proper requirements.txt",
+            "yes": true
+        },
+        "keywords": [
+            "YOLO",
+            "Person Detection",
+            "Object Detection",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/yolo-person",
+        "repo_type": "space",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive web interface for real-world object detection using YOLO-based models. The application demonstrates multiple specialized detection capabilities including face detection, head detection, person detection, and generic object detection through a user-friendly Gradio interface. Built on the imgutils.detect library, it showcases practical implementations of computer vision models for analyzing generic photos with configurable confidence thresholds and model selection options.",
+        "bio": "An interactive web application for real-world object detection using multiple YOLO-based models for face, head, person, and generic object detection in images.",
+        "created_at": 1763484164.2028294,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly stated as an object detection demo for real photos with multiple detection tabs and explicit model references",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear description, working app.py file, and proper requirements.txt for dependencies",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "YOLO",
+            "Computer Vision",
+            "Face Detection",
+            "Person Detection"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils",
+            "YOLOModel"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/real_object_detection",
+        "repo_type": "space",
+        "task_types": [
+            "Object Detection",
+            "Face Detection",
+            "Head Detection",
+            "Person Detection"
+        ]
+    },
+    {
+        "abstract": "This interactive Space demonstrates a sophisticated anime image search system that enables both image-based and text-based retrieval across multiple anime image databases including Danbooru, Yande.re, Zerochan, Gelbooru, Konachan, Anime Pictures, and Rule34. The system leverages SigLIP vision-language embeddings and FAISS indexing for efficient similarity search, supporting flexible query modalities where users can search using either an input image or descriptive text. Built with Gradio for user-friendly interaction, it provides scalable retrieval capabilities with configurable result counts and model selection, making it valuable for anime art discovery, character reference finding, and content-based image retrieval research.",
+        "bio": "An interactive anime image search system that allows users to find similar images using either image uploads or text descriptions across multiple anime image databases.",
+        "created_at": 1763484184.3616726,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an anime image search system is clearly stated in the README title and supported by the implementation details showing both image and text query capabilities",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear title, description, and configuration details, along with well-structured code files that demonstrate the functionality",
+            "yes": true
+        },
+        "keywords": [
+            "Image Retrieval",
+            "Anime Images",
+            "Multi-Modal Search",
+            "FAISS Indexing",
+            "SigLIP Embeddings"
+        ],
+        "libraries": [
+            "gradio",
+            "faiss-cpu",
+            "dghs-imgutils",
+            "cheesechaser",
+            "onnxruntime",
+            "PIL"
+        ],
+        "likes": 8,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/search_image_by_image_or_text",
+        "repo_type": "space",
+        "task_types": [
+            "Image-to-Image",
+            "Text-to-Image",
+            "Image Retrieval"
+        ]
+    },
+    {
+        "abstract": "RDLicence is a static web application that provides a Model Redistribution Disclaimer License for AI model distribution. This space serves as a standardized licensing framework to address legal and ethical considerations in model redistribution scenarios. It offers clear terms and conditions for redistributing AI models, helping developers and organizations establish proper licensing protocols. The implementation uses static web technologies to ensure accessibility and ease of deployment across different platforms.",
+        "bio": "This repository provides a standardized Model Redistribution Disclaimer License for AI model distribution scenarios.",
+        "created_at": 1763484197.2753382,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as a Model Redistribution Disclaimer License is clearly stated in the README and aligns with the static web application structure",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a README file and basic web structure with HTML and CSS files, providing clear documentation for a static web application",
+            "yes": true
+        },
+        "keywords": [
+            "Model Redistribution",
+            "Disclaimer License",
+            "Legal Framework",
+            "AI Licensing"
+        ],
+        "libraries": [
+            "static"
+        ],
+        "likes": 0,
+        "modality": [
+            "Text"
+        ],
+        "repo_id": "deepghs/RDLicence",
+        "repo_type": "space",
+        "task_types": []
+    },
+    {
+        "abstract": "This Hugging Face Space provides an interactive demonstration of YOLO12 models specifically trained for anime text detection. The application enables users to upload images and visualize bounding box predictions for text regions in anime-style content. Built with Gradio and the dghs-imgutils library, the demo offers configurable confidence and IoU thresholds to fine-tune detection sensitivity. This tool serves as both a practical utility for anime content analysis and an educational resource for understanding YOLO-based object detection in specialized domains.",
+        "bio": "This Space provides an interactive demo for YOLO12-based anime text detection models.",
+        "created_at": 1763484213.5346987,
+        "downloads": null,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly stated as a YOLO12 demo for anime text detection, with specific model configuration and clear functionality description",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a functional README with proper configuration and the app.py file contains complete implementation for launching the demo",
+            "yes": true
+        },
+        "keywords": [
+            "YOLO12",
+            "Anime Text Detection",
+            "Object Detection",
+            "Gradio Demo"
+        ],
+        "libraries": [
+            "gradio",
+            "dghs-imgutils"
+        ],
+        "likes": 5,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/AnimeText_yolo",
+        "repo_type": "space",
+        "task_types": [
+            "Object Detection"
+        ]
+    }
+]

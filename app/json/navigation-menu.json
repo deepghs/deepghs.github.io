@@ -4,6 +4,38 @@
     "to": "/"
   },
   {
+    "label": "Projects",
+    "icon": "i-lucide-book-open",
+    "type": "trigger",
+    "children": [
+      {
+        "label": "Spaces",
+        "description": "Our AI App Spaces on Hugging Face.",
+        "icon": "mdi:application",
+        "to": "/projects/spaces"
+      },
+      {
+        "label": "Datasets",
+        "description": "Danbooru2024, Sankaku, Gelbooru, Yand.re, Rule34, and more.",
+        "icon": "solar:database-bold",
+        "to": "/projects/datasets"
+      },
+      {
+        "label": "Models",
+        "icon": "oui:nav-models",
+        "description": "models for distinguishing anime from real images, categorizing artwork styles, detecting anthropomorphic characters, predicting visual appeal, and recognizing decade-specific styles",
+        "to": "/projects/models"
+      },
+      {
+        "label": "Tools",
+        "icon": "mdi:tools",
+        "description": "a specialized toolkit for anime-style image generation and data processing",
+        "to": "/projects/tools",
+        "disabled": "true"
+      }
+    ]
+  },
+  {
     "label": "Blog",
     "to": "/blog"
   },

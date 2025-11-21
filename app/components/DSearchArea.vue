@@ -22,11 +22,13 @@
         ref="list-result"
         class="scrollcheck-y search-result"
       >
-        <DSearchItem
-          v-for="(item) in result"
-          :key="item.id"
-          v-bind="item"
-        />
+        <slot :items="result">
+          <DSearchItem
+            v-for="(item) in result"
+            :key="item.id"
+            v-bind="item"
+          />
+        </slot>
       </ol>
     </TransitionGroup>
   </div>
@@ -35,15 +37,34 @@
 <script lang="ts" setup>
 import MiniSearch from 'minisearch'
 
-const { data, status } = useAsyncData('search', () =>
-  queryCollectionSearchSections('blog', {
-    ignoredTags: ['pre']
-  })
-)
+const { data, status, fields, storeFields, showResult } = defineProps({
+  status: {
+    type: String,
+    default: 'success'
+  },
+  data: {
+    type: Array as () => Array<any>,
+    default: () => []
+  },
+  fields: {
+    type: Array as () => Array<string>,
+    default: () => []
+  },
+  storeFields: {
+    type: Array as () => Array<string>,
+    default: () => []
+  },
+  showResult: {
+    type: Boolean,
+    default: true
+  }
+})
+
+const emit = defineEmits(['after-search'])
 
 const miniSearch = new MiniSearch({
-  fields: ['title', 'content'],
-  storeFields: ['title', 'titles', 'content', 'level'],
+  fields,
+  storeFields,
   searchOptions: {
     prefix: true,
     fuzzy: 0.2
@@ -51,11 +72,12 @@ const miniSearch = new MiniSearch({
 })
 
 const isNoResult = computed(() => {
+  if (!showResult) return false
   return word.value && result.value.length === 0
 })
 
 const inSearching = computed(() => {
-  return status.value === 'pending'
+  return status === 'pending'
 })
 
 const searchInput = ref<HTMLInputElement>()
@@ -64,15 +86,23 @@ const word = ref<string>('')
 // const { word } = storeToRefs(searchStore)
 
 const result = computed(() => {
-  void data.value
-  return miniSearch.search(word.value)
-})
+  void data
+  const searchResult = miniSearch.search(toValue(word.value))
 
-watch(status, (newStatus) => {
-  if (newStatus === 'success' && data.value) {
-    miniSearch.addAll(data.value)
+  if (word.value && word.value !== '') {
+    emit('after-search', searchResult)
+  } else {
+    emit('after-search', null)
+  }
+
+  if (showResult) {
+    return searchResult
+  } else {
+    return []
   }
 })
+
+miniSearch.addAll(toValue(data || []))
 </script>
 
 <style lang="scss" scoped>

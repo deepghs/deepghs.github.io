@@ -62,10 +62,22 @@ const route = useRoute()
 
 const items = computed<NavigationMenuItem[]>(() => {
   const menuItems = NavMenuItems.map((item) => {
+    let isActived = false
+    if (item.label === 'Home') {
+      isActived = route.path === '/'
+    } else if (!item.to && item.children && item.children.length > 0) {
+      isActived = item.children.some(child => route.path.startsWith(child.to || ''))
+    } else if (item.to) {
+      isActived = route.path.startsWith(item.to)
+    } else {
+      isActived = false
+    }
+
     return {
       label: item.label,
       to: item.to,
-      active: item.label === 'Home' ? route.path === '/' : route.path.startsWith(item.to)
+      active: isActived,
+      children: item.children ? item.children : []
     }
   })
   return menuItems

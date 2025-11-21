@@ -4,7 +4,12 @@
       title="Blog"
       description="Latest news and updates from the DeepGHS team"
     >
-      <DSearchArea />
+      <DSearchArea
+        :data="searchData"
+        :status="searchDataStatus"
+        :fields="['title', 'content']"
+        :store-fields="['title', 'titles', 'content', 'level']"
+      />
       <UBlogPosts>
         <UBlogPost
           v-for="(post, index) in posts"
@@ -22,6 +27,13 @@
 const { data: posts } = await useAsyncData('blog', () =>
   queryCollection('blog').all()
 )
+
+const { data: searchData, status: searchDataStatus } = await useAsyncData('search', () => {
+  return queryCollectionSearchSections('blog', {
+    ignoredTags: ['pre']
+  })
+})
+
 // const { data: sections } = await useAsyncData('search-sections', () => {
 //   return queryCollectionSearchSections('blog')
 // })

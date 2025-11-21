@@ -1,0 +1,3020 @@
+[
+    {
+        "abstract": "This dataset provides a comprehensive collection of 7,371 anime-style characters from diverse franchises for evaluating character generation capabilities in anime-style base models. It systematically organizes character data with extracted visual features stored as numpy arrays and metadata including core tags, copyright information, and gender classification. The dataset spans major franchises including Kantai Collection, Pokémon, Fate series, Hololive, and Blue Archive, offering diverse character representations for testing model robustness in anime character synthesis and recognition tasks.",
+        "bio": "A comprehensive dataset for testing anime-style base models' character generation capabilities through extracted features and metadata from 7,371 diverse characters.",
+        "created_at": 1763389537.349579,
+        "downloads": 432739,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Clear purpose stated for testing character generation models, well-organized data structure with consistent file formats across all character entries",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with detailed documentation, clear directory structure, and extensive character metadata",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Characters",
+            "Feature Extraction",
+            "Character Generation",
+            "Style Analysis",
+            "Image Classification"
+        ],
+        "libraries": [
+            "NumPy",
+            "PyTorch"
+        ],
+        "likes": 22,
+        "modality": [
+            "Image",
+            "Text"
+        ],
+        "repo_id": "deepghs/character_index",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Feature Extraction",
+            "Character Recognition",
+            "Style Analysis",
+            "Content Generation Evaluation"
+        ]
+    },
+    {
+        "abstract": "This dataset presents a comprehensive re-encoded collection of 11,463,682 anime-style images sourced from Gelbooru, featuring high-resolution WebP format images up to 4 megapixels. The dataset includes pre-computed SwinV2 visual embeddings for efficient model training and supports multi-modal applications through image-text pairs. With extensive coverage across diverse anime art styles and characters, this resource enables large-scale training for computer vision models in anime image generation, classification, and retrieval tasks. The dataset addresses the need for high-quality, curated anime image collections in AI research and creative applications.",
+        "bio": "A large-scale anime image dataset with 11.4 million WebP-encoded images and pre-computed visual embeddings for computer vision and generative AI applications.",
+        "created_at": 1763390298.783476,
+        "downloads": 196694,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as a re-encoded anime image dataset with embeddings, supported by detailed metadata and file organization",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with clear usage instructions, data structure explanation, and code examples for accessing the dataset",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "WebP Encoding",
+            "Visual Embeddings",
+            "Multi-Modal Dataset",
+            "Image Classification"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 11,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/gelbooru-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This comprehensive dataset contains character skin and costume artwork from multiple popular mobile games including Arknights, Azur Lane, Blue Archive, Fate/Grand Order, Genshin Impact, Girls' Frontline, Neural Cloud, Nikke, Path to Nowhere, and Honkai: Star Rail. The collection features high-quality PNG images organized by game and character, with multiple costume variants, promotional skins, and special event outfits. Each character folder contains default outfits alongside seasonal, holiday, and limited-time skins, providing rich visual data for character design analysis, style variation studies, and anime-style image generation. The dataset supports research in character recognition, costume classification, and artistic style analysis across diverse game universes.",
+        "bio": "A comprehensive collection of character skin and costume artwork from multiple popular mobile games for computer vision and image processing research.",
+        "created_at": 1763388864.5957606,
+        "downloads": 128849,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly evident from the directory structure showing character skins from multiple popular games with organized naming conventions",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Repository has well-organized directory structure with clear game categorization and character folders",
+            "yes": true
+        },
+        "keywords": [
+            "Game Characters",
+            "Costume Artwork",
+            "Image Dataset",
+            "Anime Style",
+            "Mobile Games"
+        ],
+        "libraries": [
+            "PyTorch",
+            "TensorFlow",
+            "OpenCV",
+            "PIL"
+        ],
+        "likes": 9,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/game_character_skins",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Object Detection",
+            "Image Generation",
+            "Character Recognition",
+            "Style Transfer"
+        ]
+    },
+    {
+        "abstract": "This repository provides comprehensive index files for the Danbooru2023 WebP 4Mpixel dataset, containing metadata for millions of anime-style images with detailed annotations. The dataset features high-resolution WebP format images optimized for efficient storage and retrieval, with structured JSON index files mapping file locations, sizes, and cryptographic hashes. It supports large-scale machine learning applications in anime image generation and classification through the cheesechaser download utility. The dataset includes regular updates with additional image batches, making it a valuable resource for training diffusion models and other computer vision systems focused on anime art.",
+        "bio": "This repository provides index files for downloading and accessing the Danbooru2023 WebP 4Mpixel dataset containing millions of anime-style images.",
+        "created_at": 1763390233.449511,
+        "downloads": 110843,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an index dataset for Danbooru2023 WebP images is clearly stated in the README, supported by extensive metadata files showing the structure and organization of image references.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the purpose, provides usage examples with code snippets, and documents the relationship with the original dataset.",
+            "yes": true
+        },
+        "keywords": [
+            "Danbooru",
+            "WebP",
+            "Image Index",
+            "Anime Dataset",
+            "Large-Scale"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/danbooru2023-webp-4Mpixel_index",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Text-to-Image",
+            "Image-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive collection of 23,167,456 Midjourney-generated images paired with their corresponding text prompts, addressing the need for large-scale synthetic image-text data for multimodal AI research. The dataset features diverse artistic styles including anime, art, and fantasy content, with images ranging from 816x1456 to 1680x720 pixels. Each entry includes detailed metadata such as generation parameters, timestamps, and user information, enabling research in text-to-image synthesis, prompt engineering, and AI-generated content analysis. The dataset's scale and annotation quality make it valuable for training and evaluating multimodal models while providing insights into AI art generation patterns and user behavior.",
+        "bio": "A comprehensive dataset containing 23 million Midjourney-generated images paired with their text prompts for multimodal AI research.",
+        "created_at": 1763391786.7914603,
+        "downloads": 82336,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a Midjourney image-prompt dataset with extensive documentation and sample data",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed information about the dataset structure, sample data, and metadata specifications",
+            "yes": true
+        },
+        "keywords": [
+            "Midjourney",
+            "Text-to-Image",
+            "Image Captioning",
+            "Multimodal AI",
+            "Synthetic Data"
+        ],
+        "libraries": [
+            "datasets",
+            "PyTorch",
+            "TensorFlow",
+            "JAX"
+        ],
+        "likes": 27,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/midjourney_captioned_23m_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text-to-Image",
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Image-to-Text",
+            "Image Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "The Sankaku Full Dataset is a comprehensive collection of 16,498,615 images sourced from chan.sankakucomplex.com, representing one of the largest publicly available anime and art image repositories. This dataset features extensive metadata including detailed tags for characters, artists, genres, and visual attributes, with images spanning multiple resolutions and formats (PNG, JPEG, AVIF). The collection covers diverse artistic styles from official artwork to fan creations, with comprehensive annotations for content classification, character recognition, and stylistic analysis. This dataset serves as a valuable resource for training computer vision models, content filtering systems, and generative AI applications in the anime and illustration domains.",
+        "bio": "This repository provides a comprehensive dataset of anime and illustration images with detailed metadata for computer vision and machine learning applications.",
+        "created_at": 1763387670.228956,
+        "downloads": 78699,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a complete dataset from sankakucomplex.com, with extensive samples, metadata, and documentation that clearly communicates its scope and intended use cases",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, data access methods, and detailed documentation about the dataset structure and content",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Art",
+            "Image Classification",
+            "Content Tagging",
+            "Computer Vision",
+            "Multi-Modal Dataset"
+        ],
+        "libraries": [
+            "cheesechaser",
+            "PyTorch",
+            "Transformers"
+        ],
+        "likes": 95,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/sankaku_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image",
+            "Image Generation",
+            "Content Analysis"
+        ]
+    },
+    {
+        "abstract": "The Danbooru2024-Webp 4MPixel dataset provides a comprehensive collection of 8.05 million high-quality anime and illustration artworks sourced from the Danbooru platform. This dataset features WebP-formatted images resized to 4-megapixel resolution, accompanied by extensive metadata including user-generated tags, character annotations, copyright information, and quality metrics. The rich annotations support multi-modal learning applications, with detailed categorization by artists, characters, and copyrights. The dataset includes pre-computed SwinV2 embeddings for efficient feature extraction and supports partial downloads through the CheeseChaser library, making it valuable for training and evaluating computer vision models in anime-style image generation and classification tasks.",
+        "bio": "This dataset provides 8.05 million anime-style images with comprehensive metadata for training and evaluating computer vision models in multi-modal learning applications.",
+        "created_at": 1763388732.1705198,
+        "downloads": 77546,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as a 4MP-focused WebP resized version of Danbooru2024 dataset with comprehensive documentation and sample data structure",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with detailed usage examples, metadata descriptions, and clear instructions for data access and processing",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Art",
+            "Image Classification",
+            "Multi-Modal Learning",
+            "WebP Dataset",
+            "Tag Annotation"
+        ],
+        "libraries": [
+            "pandas",
+            "pyarrow",
+            "cheesechaser"
+        ],
+        "likes": 17,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/danbooru2024-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image",
+            "Image-to-Text",
+            "Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This dataset addresses the challenge of inverting image embeddings from prediction results for content-based image retrieval applications. Generated from 7 million anime images sourced from Danbooru2023, it contains prediction results and corresponding embeddings extracted using multiple vision architectures including ConvNext, ViT, SwinV2, EVA02, and MOAT. The dataset enables training models to map tag predictions back to embedding space, facilitating semantic image search capabilities. Each model variant provides embeddings of varying dimensions (768-1024) across 68 partitions, supporting research in embedding inversion and multi-modal representation learning for artistic content analysis.",
+        "bio": "This dataset provides image embeddings and prediction results for training models to invert tag predictions back to embedding space for semantic image search applications.",
+        "created_at": 1763390146.2491174,
+        "downloads": 69209,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing data for embedding inversion from prediction results, with consistent file naming and metadata that clearly indicates the content and structure across multiple model architectures.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the dataset's purpose, generation methodology, and intended applications, with well-organized directory structure and metadata files.",
+            "yes": true
+        },
+        "keywords": [
+            "Embedding Inversion",
+            "Image Retrieval",
+            "Multi-Modal Learning",
+            "Anime Images",
+            "Feature Extraction"
+        ],
+        "libraries": [
+            "NumPy",
+            "PyTorch"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/wd14_tagger_inversion",
+        "repo_type": "dataset",
+        "task_types": [
+            "Feature Extraction",
+            "Image-to-Text",
+            "Multi-Modal Learning"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive anime metadata integration from SubsPlease, MyAnimeList, and Nyaa.si, featuring 957 anime series with 12,971 episodes as of September 2025. It includes detailed information such as anime titles, episode counts, airing status, user ratings, and magnet links for torrent downloads. The dataset supports research in anime recommendation systems, content popularity analysis, and multimedia information retrieval. With daily updates and comprehensive coverage including images, ratings, and download statistics, it enables temporal analysis of anime trends and peer-to-peer distribution patterns across global anime communities.",
+        "bio": "A comprehensive dataset integrating anime metadata from SubsPlease, MyAnimeList, and Nyaa.si for tracking current anime trends and availability.",
+        "created_at": 1763393917.5393147,
+        "downloads": 68241,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an integration database for anime tracking, with well-organized data structure and comprehensive metadata that clearly communicates its functionality.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear documentation, sample data display, and detailed information about the dataset structure and sources.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Metadata",
+            "Torrent Tracking",
+            "Content Popularity",
+            "Recommendation Systems",
+            "Multi-Source Integration"
+        ],
+        "libraries": [
+            "PyTorch",
+            "Transformers",
+            "datasets"
+        ],
+        "likes": 12,
+        "modality": [
+            "Text",
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/subsplease_animes",
+        "repo_type": "dataset",
+        "task_types": [
+            "Recommendation Systems",
+            "Content Analysis",
+            "Popularity Prediction"
+        ]
+    },
+    {
+        "abstract": "This comprehensive dataset collection provides structured tag metadata from 18 popular image hosting and booru websites, offering a unified repository for multilingual tag analysis and content classification. The dataset encompasses over 2.5 million unique tags across platforms including Danbooru, Gelbooru, Pixiv, and Wallhaven, with rich semantic relationships captured through tag categories, post counts, aliases, and hierarchical relationships. Available in multiple formats (JSON, CSV, Parquet, SQLite), it supports research in content recommendation, automated tagging systems, semantic search, and cross-lingual information retrieval across English, Japanese, and Russian languages.",
+        "bio": "A comprehensive collection of structured tag metadata from 18 popular image hosting platforms for multilingual tag analysis and content classification research.",
+        "created_at": 1763405978.97185,
+        "downloads": 52150,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a collection of structured tag metadata from image hosting platforms, with well-documented samples and comprehensive platform coverage",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed usage examples, data schema documentation, and clear directory structure",
+            "yes": true
+        },
+        "keywords": [
+            "Tag Metadata",
+            "Image Annotation",
+            "Multilingual Classification",
+            "Content Recommendation",
+            "Semantic Search"
+        ],
+        "libraries": [
+            "pandas",
+            "sqlite3",
+            "json"
+        ],
+        "likes": 8,
+        "modality": [
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/site_tags",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text Classification",
+            "Text Retrieval",
+            "Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive character information from popular mobile games including Arknights, Fate/Grand Order, Azur Lane, Genshin Impact, and others. It contains structured character data with multilingual names, game statistics, rarity classifications, and extensive image collections including character illustrations and skins. The dataset is automatically updated daily through scheduled crawling from official game wikis and community sources, featuring character tags from multiple booru platforms for enhanced content organization. This resource supports research in character recognition, game analytics, and anime-style image classification tasks.",
+        "bio": "A comprehensive dataset containing character information, images, and tags from popular mobile games for character recognition and image classification tasks.",
+        "created_at": 1763388781.1770608,
+        "downloads": 51161,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a database of mobile game characters with detailed character information, images, and tags from multiple sources, with consistent structure across different game categories",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the dataset's purpose, supported games, data sources, and update frequency, with well-organized directory structure and sample files",
+            "yes": true
+        },
+        "keywords": [
+            "Game Characters",
+            "Image Classification",
+            "Character Recognition",
+            "Mobile Games",
+            "Anime Art"
+        ],
+        "libraries": [
+            "datasets",
+            "gchar"
+        ],
+        "likes": 31,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/game_characters",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Character Recognition",
+            "Multi-label Classification",
+            "Image Retrieval",
+            "Content-based Image Retrieval"
+        ]
+    },
+    {
+        "abstract": "The Gelbooru Full Dataset represents a comprehensive collection of 11,463,704 anime-style images sourced from gelbooru.com, making it one of the largest publicly available anime image datasets. This meticulously curated repository includes extensive metadata with over 1 million unique tags organized by type (general, artist, copyright, character, metadata), providing rich semantic annotations for each image. The dataset features diverse image resolutions, formats (JPEG, PNG, GIF), and content ratings (general, sensitive, explicit), supporting research in anime-style image generation, content classification, and multi-modal learning. With detailed tag hierarchies and comprehensive image metadata, this dataset enables advanced studies in anime character recognition, style analysis, and automated content tagging systems.",
+        "bio": "This is a comprehensive dataset containing 11.4 million anime-style images from Gelbooru with extensive tag annotations for machine learning research.",
+        "created_at": 1763388418.6003947,
+        "downloads": 45374,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a complete Gelbooru image dataset with extensive metadata, supported by detailed data samples, comprehensive tag statistics, and well-organized file structure.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, detailed dataset statistics, and working code examples for accessing the data through the cheesechaser library.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "Image Classification",
+            "Tagging System",
+            "Multi-Modal Dataset",
+            "Content Analysis"
+        ],
+        "libraries": [
+            "cheesechaser",
+            "datasets"
+        ],
+        "likes": 49,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/gelbooru_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image",
+            "Image-to-Text",
+            "Image Generation",
+            "Content Analysis"
+        ]
+    },
+    {
+        "abstract": "This comprehensive dataset provides an extensive collection of character images sourced from Zerochan across multiple popular anime, game, and manga franchises. The dataset contains meticulously organized character artwork spanning diverse genres including gacha games, idol franchises, fantasy series, and action RPGs. With over 2,000 character folders and thousands of high-quality images, this repository serves as a valuable resource for character recognition, style transfer, and anime art analysis tasks. The dataset features character images from major franchises such as Arknights, Genshin Impact, Bang Dream, Fire Emblem, and Granblue Fantasy, organized in a hierarchical structure with franchise-level categorization.",
+        "bio": "A comprehensive collection of anime character images from multiple franchises sourced from Zerochan for character recognition and art analysis tasks.",
+        "created_at": 1763406088.7946067,
+        "downloads": 44969,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a character image dataset for anime, game, and manga franchises with well-organized structure and comprehensive documentation",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed documentation, directory structure explanation, supported franchises list, and proper citation information",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Characters",
+            "Image Classification",
+            "Style Transfer",
+            "Multi-Franchise",
+            "Zerochan"
+        ],
+        "libraries": [
+            "datasets",
+            "PIL",
+            "torchvision",
+            "transformers"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/generic_character_skins",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Image-to-Text",
+            "Style Transfer",
+            "Character Recognition",
+            "Art Style Analysis"
+        ]
+    },
+    {
+        "abstract": "This repository provides comprehensive index files for the Danbooru2023 dataset, containing metadata and file organization for millions of anime-style images with detailed tag annotations. The dataset structure includes original, recent, and updated partitions with file hashes, sizes, and SHA256 checksums for data integrity verification. With over 7 million image entries organized across thousands of JSON index files, this resource enables efficient access to the Danbooru2023 collection for computer vision research and anime-style image generation tasks. The dataset supports multi-modal learning applications through its combination of visual content and rich textual descriptions.",
+        "bio": "This repository provides index files for the Danbooru2023 dataset containing metadata for millions of anime-style images with detailed tag annotations.",
+        "created_at": 1763389884.2509577,
+        "downloads": 44183,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an index dataset for Danbooru2023 images is clearly stated in the README and supported by the organized file structure and metadata samples",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, code examples, and links to related datasets and tools",
+            "yes": true
+        },
+        "keywords": [
+            "Danbooru2023",
+            "Image Classification",
+            "Text-to-Image",
+            "Anime Images",
+            "Multi-Modal"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 4,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/danbooru2023_index",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Text-to-Image",
+            "Image-to-Image"
+        ]
+    },
+    {
+        "abstract": "The Danbooru2024 dataset is a comprehensive collection of 8.05 million high-quality anime and illustration artwork images sourced from the Danbooru platform. This dataset provides extensive metadata including detailed tag annotations, image dimensions, upload timestamps, user ratings, and copyright information. Each image is accompanied by rich textual descriptions with character, artist, and copyright tags, enabling diverse computer vision and multi-modal learning applications. The dataset supports research in image classification, zero-shot learning, and text-to-image generation, with comprehensive documentation for data filtering and partial downloading capabilities.",
+        "bio": "This dataset provides 8.05 million anime and illustration images with comprehensive metadata and tags for computer vision and multi-modal AI research.",
+        "created_at": 1763387540.5847812,
+        "downloads": 40288,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository clearly describes the dataset's purpose, content structure, and provides sample data showing image metadata and tag annotations",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with detailed usage examples, installation instructions, and code snippets for data access and filtering",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Art",
+            "Image Classification",
+            "Multi-Modal",
+            "Tag Annotation",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "pandas",
+            "pyarrow",
+            "fastparquet",
+            "cheesechaser"
+        ],
+        "likes": 36,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/danbooru2024",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image",
+            "Image-to-Text",
+            "Multi-Modal Learning"
+        ]
+    },
+    {
+        "abstract": "This comprehensive dataset contains the complete collection from rule34.xxx, featuring 11,336,807 explicit anime-style images with extensive metadata. The dataset includes detailed tag annotations across multiple categories (general, artist, copyright, character, metadata), image dimensions, file formats, and source information. Spanning over 11 million samples with maximum ID 13,078,768, this dataset provides rich multi-modal content for training and evaluation of computer vision models. The structured organization in parquet files and JSON metadata enables efficient data loading and processing for large-scale machine learning applications in anime-style image generation and classification.",
+        "bio": "A comprehensive dataset containing over 11 million explicit anime-style images with detailed metadata and tag annotations from rule34.xxx.",
+        "created_at": 1763390034.2350829,
+        "downloads": 30671,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as a comprehensive anime-style image dataset with extensive metadata is clearly defined in the README and supported by detailed data samples and statistics",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear dataset information, sample data, and detailed documentation about the dataset structure and content",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Art",
+            "Image Classification",
+            "Tag Annotation",
+            "Multi-Modal Dataset",
+            "Explicit Content"
+        ],
+        "libraries": [
+            "datasets",
+            "PyTorch",
+            "TensorFlow"
+        ],
+        "likes": 17,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/rule34_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image",
+            "Image-to-Text",
+            "Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This dataset presents a comprehensive collection of 16,492,859 anime-style images re-encoded from the Sankaku platform, featuring WebP format optimization for efficient storage and processing. The repository includes both original images and SwinV2 visual embeddings, enabling diverse computer vision applications. With extensive metadata and structured organization, this dataset supports large-scale training for image classification, zero-shot learning, and text-to-image generation tasks. The gated repository requires proper authorization but provides substantial value for anime art research and generative model development.",
+        "bio": "A large-scale anime image dataset containing 16+ million WebP-encoded images with visual embeddings for computer vision research.",
+        "created_at": 1763391616.3253798,
+        "downloads": 30604,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a re-encoded dataset of anime images with visual embeddings, and the structure, content samples, and metadata all align with this description.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, code examples, and proper documentation for accessing the dataset through the cheesechaser library.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Art",
+            "WebP Images",
+            "Visual Embeddings",
+            "Large-Scale Dataset",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 10,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/sankaku-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "The Zerochan Full Dataset is a comprehensive collection of 4,107,862 anime-style images sourced from zerochan.net, providing extensive coverage of Japanese pop culture and fan art. This dataset features rich metadata including character tags, series classifications, artist attributions, and thematic annotations across 560,360 distinct tags organized into categories such as character, game, series, and theme. The dataset supports computer vision research in anime image generation, classification, and content understanding, with detailed annotations for character recognition, style analysis, and multi-label classification tasks. It represents one of the largest publicly available anime image collections with comprehensive tagging, enabling research in anime-specific computer vision applications and cultural content analysis.",
+        "bio": "A comprehensive dataset of 4.1 million anime-style images with detailed character, series, and thematic annotations for computer vision research.",
+        "created_at": 1763389845.865793,
+        "downloads": 29554,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a full dataset from zerochan.net with anime images and comprehensive tagging, supported by detailed examples and metadata samples that demonstrate the dataset's structure and content.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, dataset statistics, and examples of how to access and use the data through the provided cheesechaser library.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "Image Classification",
+            "Character Recognition",
+            "Fan Art",
+            "Multi-Label"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 8,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/zerochan_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "The Fancaps Full Dataset is a comprehensive collection of 29,004,217 anime-style images sourced from Fancaps.net, providing extensive coverage of anime characters, scenes, and artwork. This dataset features detailed metadata including character tags, facial detection coordinates, episode information, and content ratings. With over 10,327 unique tags spanning character names, visual attributes, and scene descriptions, it enables diverse computer vision applications. The dataset supports anime character recognition, style analysis, and content classification tasks, offering researchers and developers a massive-scale resource for anime image analysis and generative model training.",
+        "bio": "This dataset provides a comprehensive collection of 29+ million anime images with detailed metadata for computer vision and anime content analysis.",
+        "created_at": 1763389658.6305568,
+        "downloads": 23353,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as the full Fancaps dataset with anime images, supported by extensive metadata, sample images, and detailed documentation about the dataset structure and content",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset information, sample data, statistics, and clear organization of image files and metadata tables",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "Character Recognition",
+            "Multi-Label Classification",
+            "Facial Detection",
+            "Content Analysis"
+        ],
+        "libraries": [
+            "datasets",
+            "PyTorch",
+            "TensorFlow",
+            "transformers",
+            "fastai"
+        ],
+        "likes": 5,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/fancaps_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image",
+            "Object Detection",
+            "Image Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive collection of 4,106,075 anime-style images sourced from Zerochan, re-encoded into WebP format with maintained resolution quality. The dataset includes pre-computed SwinV2 embeddings for efficient feature extraction and supports various computer vision tasks. With extensive metadata tracking through ID management files, it offers researchers a large-scale resource for anime image analysis, content generation, and multi-modal learning applications. The dataset's structured organization and companion tools facilitate scalable data access and processing workflows.",
+        "bio": "A large-scale anime image dataset containing 4.1 million WebP-encoded images with pre-computed embeddings for computer vision research and content generation.",
+        "created_at": 1763390455.3843265,
+        "downloads": 22830,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a re-encoded anime image dataset with pre-computed embeddings, and the directory structure and sample files confirm this functionality",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, data statistics, and code examples for accessing the dataset",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "WebP Encoding",
+            "SwinV2 Embeddings",
+            "Image Classification",
+            "Content Generation"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/zerochan-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "The Nozomi Full Dataset is a comprehensive collection of 22,435,997 anime-style images sourced from nozomi.la, representing one of the largest publicly available anime art datasets. This dataset provides extensive metadata including detailed character tags, artist information, copyright sources, and image attributes, enabling research in anime-style image generation and classification. The images span diverse categories including original artwork, fan art of popular franchises like Touhou, Kantai Collection, and Vocaloid, with rich annotations covering character features, clothing, and artistic styles. This dataset supports training and evaluation of generative models, content-based retrieval systems, and anime-style image understanding algorithms, though users should be aware of the not-for-all-audiences content warnings.",
+        "bio": "This dataset contains over 22 million anime-style images with comprehensive metadata for training image classification and generation models.",
+        "created_at": 1763390418.7834358,
+        "downloads": 20392,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an anime image dataset is clearly stated in the README and supported by extensive sample data showing image metadata and tag structure",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed information about the dataset structure, image counts, and sample data, along with clear directory organization",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Art",
+            "Image Classification",
+            "Text-to-Image",
+            "Character Tags",
+            "Fan Art"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 6,
+        "modality": [
+            "Image",
+            "Text"
+        ],
+        "repo_id": "deepghs/nozomi_standalone_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "The Yande Full Dataset is a comprehensive collection of 1,124,996 anime-style images sourced from yande.re, featuring extensive metadata including detailed tags, image dimensions, and copyright information. This dataset provides rich annotations with 129,083 tags categorized into general attributes, artists, copyrights, characters, and quality assessments. The images span diverse anime genres and character archetypes, making it valuable for training multi-modal AI systems, content classification models, and generative art applications. With its large scale and detailed tagging system, this dataset supports research in anime-style image understanding, tag prediction, and cross-modal retrieval tasks.",
+        "bio": "This repository contains a comprehensive dataset of anime-style images with extensive metadata and tagging for multi-modal AI research and content classification.",
+        "created_at": 1763389802.039285,
+        "downloads": 15799,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a full dataset from yande.re with anime images and metadata, supported by extensive documentation and sample data that clearly demonstrates the dataset's scope and organization",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset information, sample data previews, and clear documentation about the dataset structure and contents",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "Multi-Modal Dataset",
+            "Image Classification",
+            "Tag Prediction",
+            "Content Filtering"
+        ],
+        "libraries": [
+            "datasets",
+            "PyTorch",
+            "TensorFlow",
+            "transformers",
+            "diffusers"
+        ],
+        "likes": 23,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/yande_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image",
+            "Image-to-Text",
+            "Multi-Modal Learning"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive collection of 963,455 anime-style images sourced from e621, re-encoded in WebP format with 4-megapixel resolution. It serves as an updated version of the original e621 dataset, containing the newest images up to ID 5,753,265 as of August 2025. The dataset includes both image files and pre-computed SwinV2 embeddings, enabling efficient training and evaluation for anime image generation and classification tasks. With its large-scale curated collection of anime artwork, this dataset supports research in computer vision, generative models, and anime-style image understanding applications.",
+        "bio": "A large-scale dataset of anime-style images in WebP format with pre-computed embeddings for computer vision and generative AI applications.",
+        "created_at": 1763391537.3538425,
+        "downloads": 15329,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a re-encoded version of the e621 dataset containing newest anime-style images in WebP format with 4-megapixel resolution, including both images and embeddings for various computer vision tasks.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, data statistics, and examples of how to access the dataset using the provided cheesechaser library.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "WebP",
+            "Image Classification",
+            "Text-to-Image",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 4,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/e621_newest-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive collection of 11,336,686 anime-style images sourced from Rule34, re-encoded in WebP format with 4-megapixel resolution. It includes pre-computed SwinV2 embeddings for efficient machine learning applications. The dataset supports anime art generation, content classification, and multimodal learning tasks. With extensive metadata and organized storage in tar archives, it enables large-scale training for computer vision models while maintaining image quality through optimized compression.",
+        "bio": "A large-scale anime-style image dataset with 11+ million WebP-encoded images and pre-computed embeddings for computer vision and generative AI applications.",
+        "created_at": 1763391825.9129481,
+        "downloads": 14999,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as a re-encoded image dataset with embeddings, though the content is marked as 'not-for-all-audiences'",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with clear usage instructions, code examples, and repository structure documentation",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Art",
+            "WebP Dataset",
+            "Image Classification",
+            "SwinV2 Embeddings",
+            "Rule34"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 6,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/rule34-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive collection of 1,124,961 anime-style images re-encoded from the yande_full dataset, featuring WebP format images optimized for efficient storage and retrieval. The repository includes pre-computed SwinV2 embeddings for enhanced image analysis capabilities, making it suitable for training and evaluating computer vision models. With extensive coverage of anime art content and structured organization across tar archives, this dataset supports research in image classification, content-based retrieval, and generative modeling applications within the anime domain.",
+        "bio": "A large-scale anime image dataset with WebP-encoded images and pre-computed embeddings for computer vision research.",
+        "created_at": 1763390626.644194,
+        "downloads": 14944,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as a re-encoded anime image dataset with embeddings, and the content structure aligns with this description",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with clear usage instructions, data structure explanation, and code examples for accessing the dataset",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "WebP Encoding",
+            "Computer Vision",
+            "Image Embeddings",
+            "Content Retrieval"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/yande-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset provides index files for the e621-2024-webp-4Mpixel dataset, containing metadata and file references for millions of WebP images sourced from the e621 platform. The index structure enables efficient batch downloading and management of the underlying image collection through the cheesechaser library. With comprehensive file hashes, sizes, and offsets, this dataset supports large-scale image processing workflows for computer vision research. The multi-million image scale and detailed metadata make it suitable for training and evaluating image generation and classification models.",
+        "bio": "This repository provides index files for efficiently accessing and downloading the e621-2024-webp-4Mpixel image dataset through the cheesechaser library.",
+        "created_at": 1763391492.5022144,
+        "downloads": 11748,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an index dataset for the e621 image collection is clearly stated in the README and supported by the structured JSON index files and metadata",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the purpose, provides installation instructions, and demonstrates usage examples with code snippets",
+            "yes": true
+        },
+        "keywords": [
+            "WebP",
+            "Image Index",
+            "Batch Download",
+            "Computer Vision",
+            "Multi-Modal"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/e621-2024-webp-4Mpixel_index",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Image-to-Image",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset presents a comprehensive collection of 22,427,878 anime-style images re-encoded from the Nozomi standalone dataset, featuring WebP format optimization for efficient storage and retrieval. The repository includes pre-computed SwinV2 embeddings for enhanced machine learning applications, organized in tar archives with JSON metadata. With a maximum image ID of 36,722,740, this large-scale dataset supports anime art generation, style classification, and content analysis research. The curated collection maintains image quality while providing systematic access through dedicated data loading utilities.",
+        "bio": "A large-scale anime image dataset containing over 22 million WebP-encoded images with pre-computed embeddings for machine learning applications.",
+        "created_at": 1763391929.9789324,
+        "downloads": 10834,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as a large-scale anime image dataset is clearly stated in the README, supported by detailed metadata and organized file structure",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, installation guidance, and code examples for accessing the dataset",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "WebP",
+            "Image Classification",
+            "SwinV2",
+            "Large-Scale"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/nozomi_standalone-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "The Danbooru2024-SFW dataset is a curated collection of 6.5 million anime and illustration artworks filtered from the original Danbooru database, excluding NSFW content to create an audience-friendly resource. It provides comprehensive metadata in Parquet format including detailed tag annotations, image dimensions, ratings, and user engagement metrics. The dataset supports image classification, zero-shot learning, and text-to-image generation tasks with rich multi-label annotations covering characters, copyrights, artists, and visual attributes. This structured dataset addresses challenges in booru data accessibility while maintaining the extensive tagging system that makes Danbooru valuable for computer vision research.",
+        "bio": "A curated dataset of 6.5 million anime and illustration images with comprehensive metadata for image classification and text-to-image generation tasks.",
+        "created_at": 1763391892.2220898,
+        "downloads": 9304,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a filtered SFW version of the Danbooru dataset for anime and illustration artwork, with well-documented metadata structure and supported tasks.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed usage instructions, code examples, and clear dataset description including license terms and usage guidelines.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Art",
+            "Image Classification",
+            "Text-to-Image",
+            "Multi-Label Annotation",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "pandas",
+            "pyarrow",
+            "cheesechaser"
+        ],
+        "likes": 11,
+        "modality": [
+            "Image",
+            "Text"
+        ],
+        "repo_id": "deepghs/danbooru2024-sfw",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This comprehensive dataset contains the complete collection from Safebooru.org, featuring 5,756,673 anime-style images with extensive metadata annotations. The dataset provides detailed tag annotations across multiple categories including general descriptors, artist information, copyright sources, character identities, and metadata attributes. With over 820,000 unique tags and comprehensive image metadata including dimensions, file sizes, and source URLs, this dataset serves as a valuable resource for anime image generation, classification, and tagging research. The data is organized in efficient parquet format and tar archives, enabling scalable processing for large-scale computer vision applications in the anime and illustration domain.",
+        "bio": "A comprehensive dataset containing the full collection of anime-style images from Safebooru.org with extensive metadata and tag annotations.",
+        "created_at": 1763392019.5279715,
+        "downloads": 9035,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as the full Safebooru dataset with detailed metadata, and the content samples and directory structure clearly demonstrate the dataset's organization and scope.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, data statistics, and examples of how to access the dataset using the recommended cheesechaser library.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "Image Classification",
+            "Tagging",
+            "Safebooru",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "cheesechaser",
+            "datasets"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image",
+            "Text"
+        ],
+        "repo_id": "deepghs/safebooru_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset contains 3,863,451 images sourced from Reddit, focusing on human-centric content with metadata including image dimensions, file sizes, Reddit post IDs, engagement metrics (scores and comments), and human verification flags. The collection spans diverse image resolutions and formats (JPEG, PNG), providing a large-scale resource for computer vision research. Each image includes associated social media metadata, enabling studies on content popularity, image quality assessment, and human-centric visual analysis. The dataset supports training and evaluation of image classification models, content filtering systems, and generative AI applications.",
+        "bio": "A comprehensive dataset of 3.8 million human-centric images from Reddit with detailed metadata for computer vision research and model training.",
+        "created_at": 1763391581.4313197,
+        "downloads": 8554,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a Reddit-sourced image dataset focused on human-centric content, with well-documented metadata structure and sample data that aligns with the description.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset information, sample data structure, and clear documentation about the dataset's composition and usage.",
+            "yes": true
+        },
+        "keywords": [
+            "Reddit Images",
+            "Human Classification",
+            "Computer Vision",
+            "Social Media",
+            "Image Metadata"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 27,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/reddit_mostlyhumans_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset integrates anime metadata from MyAnimeList with screenshot collections from Fancaps, providing a comprehensive multi-modal resource for anime analysis. It contains 221 anime series spanning from 1981 to 2023, with detailed metadata including titles, episode counts, ratings, airing seasons, and user scores. The dataset features cover images and episode screenshots, enabling research in anime classification, content analysis, and cross-modal learning. With daily updates and extensive coverage of popular series like One Piece, Attack on Titan, and Demon Slayer, it serves as a valuable resource for computer vision, recommendation systems, and anime studies research.",
+        "bio": "A comprehensive dataset integrating MyAnimeList metadata with Fancaps screenshot collections for multi-modal anime analysis and research.",
+        "created_at": 1763390569.4761064,
+        "downloads": 8358,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an anime metadata and screenshot integration dataset is clearly defined with extensive examples and structured data",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed anime listings, metadata descriptions, and clear data structure documentation",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Dataset",
+            "Multi-Modal Learning",
+            "Image Classification",
+            "Content Analysis",
+            "Metadata Integration"
+        ],
+        "libraries": [
+            "datasets",
+            "pandas",
+            "PyTorch",
+            "TensorFlow"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/fancaps_animes",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Image-to-Text",
+            "Visual Question Answering",
+            "Multi-Modal Learning",
+            "Content-Based Image Retrieval"
+        ]
+    },
+    {
+        "abstract": "The E621 Newest Supplement dataset provides continuously updated multimedia content from e621.net, containing 989,873 records with comprehensive metadata including image dimensions, file formats, and detailed tag annotations. This dataset supports various computer vision tasks through its extensive collection of anthropomorphic artwork spanning multiple file types (PNG, JPG, GIF, MP4, WEBM, SWF). The repository maintains up-to-date content with rich tagging information covering character attributes, species classification, and content descriptors, making it valuable for training image classification models, text-to-image generation systems, and content analysis algorithms in the anthropomorphic art domain.",
+        "bio": "This dataset provides continuously updated anthropomorphic artwork and multimedia content from e621.net with comprehensive metadata for computer vision research.",
+        "created_at": 1763391468.6085882,
+        "downloads": 8301,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as a continuously updated supplement to e621.net dataset with explicit content descriptions and sample data",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with clear usage instructions, data description, and integration guidance with cheesechaser library",
+            "yes": true
+        },
+        "keywords": [
+            "Anthropomorphic Art",
+            "Image Classification",
+            "Text-to-Image",
+            "Multimedia Dataset",
+            "Content Tagging"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image",
+            "Text",
+            "Video"
+        ],
+        "repo_id": "deepghs/e621_newest",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a re-encoded collection of 642,979 anime-style images from the Anime-Pictures repository, resized to 4-megapixel resolution and stored in WebP format for efficient storage and transmission. The dataset includes pre-computed SwinV2 embeddings for enhanced machine learning applications, supporting tasks such as image classification, zero-shot classification, and text-to-image generation. With comprehensive metadata and organized file structure, it serves as a valuable resource for anime art analysis, style transfer, and generative model training in the computer vision domain.",
+        "bio": "A curated dataset of anime-style images optimized for computer vision research and generative AI applications.",
+        "created_at": 1763391118.7355635,
+        "downloads": 8028,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a re-encoded anime image dataset with specific technical specifications and intended use cases explicitly stated in the README and metadata.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, code examples, and detailed documentation about the dataset structure and access methods.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "WebP Format",
+            "Image Classification",
+            "SwinV2 Embeddings",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_pictures-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset addresses character similarity recognition in anime images, specifically determining whether two single-person images depict the same character. Collected from zerochan.net, it contains multiple versions ranging from 100 to 37,886 characters with 1,814 to 836,217 images across different scales. The dataset includes various curated versions: v0/v1 with full character sets, tiny/xtiny subsets for experimentation, pruned versions removing monochrome and non-solo images, and v2 focusing exclusively on face crops with larger image sizes. This comprehensive collection supports training and evaluation of models for character identification in anime artwork.",
+        "bio": "A dataset for training models to determine whether two anime images containing single characters depict the same character.",
+        "created_at": 1763388884.321047,
+        "downloads": 7831,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as character similarity detection in anime images, with detailed version descriptions and sample data structure",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly documents all dataset versions, their specifications, and usage guidelines",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Character Recognition",
+            "Similarity Learning",
+            "Face Recognition",
+            "Zero-Shot Classification"
+        ],
+        "libraries": [],
+        "likes": 10,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/character_similarity",
+        "repo_type": "dataset",
+        "task_types": [
+            "Zero-Shot Classification",
+            "Image Classification",
+            "Face Recognition",
+            "Similarity Learning"
+        ]
+    },
+    {
+        "abstract": "This dataset comprises 7,930,631 high-quality images from DeviantArt with at least 2,000 likes each, providing a curated collection of popular digital artwork. It includes comprehensive metadata such as image dimensions, author information, engagement metrics (likes, views, comments), AI generation flags, and NSFW classifications. The dataset supports computer vision research, particularly for training and evaluating image generation models, content classification systems, and multimodal AI applications. With diverse artistic styles ranging from anime to photorealistic content, it offers valuable training data for understanding visual aesthetics and social media popularity patterns in digital art communities.",
+        "bio": "A comprehensive dataset of 7.9 million popular DeviantArt images with captions and metadata for computer vision and multimodal AI research.",
+        "created_at": 1763391661.4270961,
+        "downloads": 7293,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a curated dataset of popular DeviantArt images with captions and metadata for AI research applications",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset information, sample data, and clear structure including metadata tables and file organization",
+            "yes": true
+        },
+        "keywords": [
+            "DeviantArt",
+            "Image Classification",
+            "Text-to-Image",
+            "Digital Art",
+            "Multimodal"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 18,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/deviantart_gt2likes_captioned_8m_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset presents a comprehensive collection of 5,756,655 anime-style images re-encoded from the Safebooru repository, featuring WebP format optimization for efficient storage and processing. The dataset includes pre-computed SwinV2 embeddings for advanced computer vision applications and supports multi-modal learning with image-text pairs. With extensive coverage of anime art and character illustrations, it serves as a valuable resource for training generative models, classification systems, and content recommendation algorithms in the anime domain.",
+        "bio": "A large-scale anime image dataset with 5.7 million WebP-encoded images and SwinV2 embeddings for computer vision and generative AI applications.",
+        "created_at": 1763392051.367552,
+        "downloads": 7259,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as a re-encoded Safebooru dataset with WebP images and embeddings, with well-documented structure and content",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with clear usage instructions, dataset statistics, and code examples for accessing the data",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "WebP Encoding",
+            "SwinV2 Embeddings",
+            "Computer Vision",
+            "Multi-Modal Learning"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/safebooru-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This comprehensive dataset contains 642,980 anime-style images sourced from anime-pictures.net, representing one of the largest publicly available collections of anime artwork. The dataset features extensive metadata including character names, series information, visual attributes, and detailed tags covering character traits, clothing, poses, and artistic styles. Each image is accompanied by technical specifications such as resolution, file size, and color information, making it valuable for training computer vision models, particularly for anime-style image generation and classification tasks. The dataset supports research in anime character recognition, style transfer, and content-based image retrieval systems.",
+        "bio": "A comprehensive dataset of 642,980 anime-style images with detailed metadata for computer vision and image generation research.",
+        "created_at": 1763389721.5719063,
+        "downloads": 7005,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a complete anime pictures dataset with extensive metadata, and the content samples demonstrate the dataset's scope and organization effectively.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, sample data previews, and detailed documentation about the dataset structure and access methods.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Art",
+            "Image Classification",
+            "Text-to-Image",
+            "Character Recognition",
+            "Art Dataset"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 9,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/anime_pictures_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive collection of 8,057 anime background and wallpaper images derived from the skytnt/anime-segmentation dataset. The images are organized in indexed tar archives with accompanying JSON metadata files, enabling efficient random access and selective downloading. Each image includes technical specifications such as width, height, file size, and SHA256 hashes for verification. The dataset supports anime-style image generation tasks and background creation applications through specialized libraries like dghs-imgutils, which provide convenient access methods for both individual and random image retrieval.",
+        "bio": "A curated dataset of anime background and wallpaper images organized for efficient access and use in image generation applications.",
+        "created_at": 1763390069.996469,
+        "downloads": 6086,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an anime background image dataset is clearly stated in the README, supported by detailed file organization and usage examples",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage examples, documentation links, and well-organized file structure with metadata",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Background",
+            "Image Generation",
+            "Wallpaper Dataset",
+            "Indexed Archives"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "hfutils"
+        ],
+        "likes": 9,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime-bg",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text-to-Image",
+            "Image-to-Image",
+            "Unconditional Image Generation"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive collection of 29,004,217 anime-style images re-encoded from the original Fancaps dataset, featuring WebP format optimization for efficient storage and retrieval. The repository includes both original images and pre-computed SwinV2 embeddings, enabling direct use for computer vision tasks without additional preprocessing. With extensive coverage of anime art and character imagery, this dataset supports training and evaluation of image classification models, zero-shot learning approaches, and text-to-image generation systems. The gated access ensures controlled distribution while maintaining data quality and copyright compliance.",
+        "bio": "A large-scale anime image dataset with 29 million WebP-encoded images and pre-computed embeddings for computer vision applications.",
+        "created_at": 1763392410.1172986,
+        "downloads": 5860,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a re-encoded version of the Fancaps dataset with WebP images and embeddings, with explicit task categories and data structure",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, code examples, and detailed dataset specifications",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "WebP Encoding",
+            "Image Classification",
+            "SwinV2 Embeddings",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/fancaps-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "The Konachan Full Dataset is a comprehensive collection of 319,040 anime-style images sourced from konachan.com, featuring extensive metadata and detailed tag annotations. This dataset provides rich visual content spanning various anime characters, series, and artistic styles, with comprehensive tagging including character attributes, clothing, settings, and thematic elements. Each image is accompanied by detailed metadata including dimensions, file formats, ratings, and source information. The dataset's extensive tag system with 74,385 unique tags across multiple categories (general, artist, copyright, character, style) enables diverse research applications in anime image understanding, content generation, and multi-modal learning. This collection serves as a valuable resource for anime art analysis and generative model training.",
+        "bio": "This dataset provides a comprehensive collection of anime-style images with detailed metadata and tag annotations for multi-modal AI research and content generation.",
+        "created_at": 1763387733.3645701,
+        "downloads": 5661,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an anime image dataset is clearly defined with extensive metadata, sample images, and detailed tag information that clearly communicates its scope and applications",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset information, sample data, statistics, and clear documentation about the data structure and content",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "Multi-Modal Dataset",
+            "Image Classification",
+            "Content Generation",
+            "Tag Annotation"
+        ],
+        "libraries": [
+            "datasets",
+            "PyTorch",
+            "TensorFlow",
+            "Transformers",
+            "Diffusers"
+        ],
+        "likes": 14,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/konachan_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image",
+            "Image-to-Text",
+            "Multi-Modal Learning",
+            "Content-Based Image Retrieval"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive benchmark for NSFW (Not Safe For Work) content detection in artistic contexts, featuring five distinct image categories: drawing, hentai, neutral, porn, and sexy. Following established categorization formats from popular NSFW detection implementations, it enables fine-grained multi-class classification beyond simple binary detection. With 10K-100K samples, the dataset supports training robust content moderation systems for online platforms, particularly valuable for distinguishing between various sensitivity levels in creative and artistic content where traditional detection might produce false positives.",
+        "bio": "A multi-class image classification dataset designed for training NSFW content detection models with fine-grained categorization of artistic and sensitive content.",
+        "created_at": 1763405948.5658977,
+        "downloads": 4427,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an NSFW detection dataset for image classification with well-documented categories and usage guidelines",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, dataset structure description, and proper categorization information",
+            "yes": true
+        },
+        "keywords": [
+            "NSFW Detection",
+            "Image Classification",
+            "Content Moderation",
+            "Artistic Content",
+            "Multi-Class Categorization"
+        ],
+        "libraries": [],
+        "likes": 54,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/nsfw_detect",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This dataset is specifically curated for monochrome image classification tasks, containing images sourced from danbooru and pixiv platforms. It features three distinct versions with varying complexity and balance between monochrome and normal images, ranging from 478 to 4,458 total samples. All images are guaranteed to be in JPEG format with .jpg extensions, ensuring consistent data quality and format compatibility for training classification models that distinguish between monochrome and colored artwork.",
+        "bio": "A curated dataset for training monochrome image classification models using artwork from danbooru and pixiv.",
+        "created_at": 1763388810.512976,
+        "downloads": 4398,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a dataset for monochrome image classification with detailed version information and source attribution",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly describes the dataset versions, image counts, and intended use case",
+            "yes": true
+        },
+        "keywords": [
+            "Monochrome Classification",
+            "Image Dataset",
+            "Danbooru",
+            "Pixiv",
+            "Artwork Analysis"
+        ],
+        "libraries": [],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/monochrome_danbooru",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive information integration of 2,056 anime series sourced from Erai-raws and MyAnimeList platforms. It offers structured metadata including anime identifiers, titles, publication dates, resource counts, and cross-platform links to major anime databases such as AniDB, AniList, Kitsu, LiveChart, and MAL. The collection features associated cover images and RSS feed links, enabling research in anime recommendation systems, content analysis, and multimedia information retrieval across diverse anime genres and release periods.",
+        "bio": "A comprehensive anime metadata dataset integrating information from Erai-raws and MyAnimeList with cross-platform identifiers and publication details.",
+        "created_at": 1763394060.48646,
+        "downloads": 4110,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an anime information integration dataset is clearly defined in the README, supported by extensive sample data showing anime metadata structure and cross-platform linking.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a clear README with comprehensive documentation, sample data display, and well-organized directory structure with images and parquet files.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Metadata",
+            "Cross-Platform Integration",
+            "Information Retrieval",
+            "Multimedia Databases"
+        ],
+        "libraries": [
+            "pandas",
+            "parquet"
+        ],
+        "likes": 1,
+        "modality": [
+            "Text",
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/erairaws_infos",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text Classification",
+            "Recommendation Systems",
+            "Information Retrieval",
+            "Named Entity Recognition"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive character frequency analysis derived from the CC-100 corpus across 116 languages, covering 50,882 unique characters. It enables quantitative assessment of character distributions and supports applications in font development, language modeling, and multilingual text processing. The data includes both raw character counts and normalized frequency ratios, organized by Unicode categories and character types. This resource facilitates cross-linguistic analysis and practical applications in typography, computational linguistics, and character encoding validation.",
+        "bio": "This dataset provides character frequency statistics for 116 languages derived from the CC-100 corpus for font support analysis and language processing applications.",
+        "created_at": 1763392195.9509861,
+        "downloads": 3558,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as character frequency analysis for font support checking and language processing, with detailed data samples and comprehensive language coverage",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the dataset's purpose, structure, and usage, with well-organized data files and clear documentation",
+            "yes": true
+        },
+        "keywords": [
+            "Character Frequency",
+            "Multilingual Analysis",
+            "Font Support",
+            "Text Processing",
+            "Language Modeling"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 0,
+        "modality": [
+            "Text"
+        ],
+        "repo_id": "deepghs/cc100_char_freq",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text Classification",
+            "Feature Extraction",
+            "Text Generation"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a re-encoded and resized collection of 319,012 anime-style images from Konachan, optimized for machine learning applications. All images are converted to WebP format with a maximum resolution of 4 megapixels, offering efficient storage and processing. The repository includes pre-computed SwinV2 embeddings for enhanced feature extraction capabilities. This curated dataset serves as a valuable resource for anime image generation, classification tasks, and computer vision research, providing comprehensive metadata and organized file structures for streamlined access and analysis.",
+        "bio": "A curated dataset of 319,012 anime-style images in WebP format with pre-computed embeddings for computer vision applications.",
+        "created_at": 1763391086.9544983,
+        "downloads": 3511,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a re-encoded anime image dataset with pre-computed embeddings, and the content structure aligns with this description.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, file structure documentation, and code examples for accessing the dataset.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Images",
+            "WebP Format",
+            "Image Classification",
+            "SwinV2 Embeddings",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/konachan-webp-4Mpixel",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This dataset repository provides comprehensive index files for the e621-2024 image dataset, containing metadata and file organization information for millions of images. The dataset supports various computer vision tasks including image classification, image-to-image translation, and text-to-image generation. It includes detailed file specifications with hash values, sizes, and offsets for efficient data management. The repository serves as an indexing system that enables selective downloading of specific image ranges using the cheesechaser library, facilitating research in large-scale image processing and multi-modal AI applications.",
+        "bio": "This repository provides index files for the e621-2024 dataset, enabling efficient downloading and management of millions of images for computer vision research.",
+        "created_at": 1763391399.4666967,
+        "downloads": 2033,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an index dataset for e621-2024 is clearly stated, with detailed file structure and sample data showing the indexing format and organization",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the purpose, provides usage examples with code, and references related datasets and tools",
+            "yes": true
+        },
+        "keywords": [
+            "Image Index",
+            "Computer Vision",
+            "Multi-Modal",
+            "Large-Scale Dataset",
+            "File Management"
+        ],
+        "libraries": [
+            "cheesechaser"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/e621-2024_index",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Image-to-Image",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "The AIBooru Full Dataset is a comprehensive collection of 111,292 anime-style images sourced from aibooru.online, featuring extensive metadata and detailed tagging. This dataset provides high-resolution images with rich annotations including character names, copyright information, artist details, and content descriptors. With over 32,000 unique tags organized by categories (general, artist, copyright, character, meta, model), it serves as a valuable resource for training text-to-image generation models, image classification systems, and content analysis algorithms. The dataset includes diverse image formats (JPEG, PNG, WebP) and comprehensive metadata tables, making it suitable for research in anime-style image generation and multimodal learning applications.",
+        "bio": "This dataset provides a comprehensive collection of anime-style images with detailed metadata and tagging for text-to-image generation and image classification research.",
+        "created_at": 1763389601.6142812,
+        "downloads": 1738,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a full dataset from aibooru.online with anime-style images and comprehensive metadata, and the content samples and descriptions align well with this purpose.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed information about the dataset structure, statistics, and sample data, making it easy for users to understand and use the dataset.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "Text-to-Image",
+            "Image Classification",
+            "Tagging",
+            "Multi-Modal"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 10,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/aibooru_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text-to-Image",
+            "Image Classification",
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "The E6ai Dataset Newest Archive provides a comprehensive collection of 110,875 anthropomorphic and furry-themed multimedia content sourced from e6ai.net, featuring up-to-date maintenance through September 2025. This dataset includes diverse image formats (PNG, JPG, GIF) and video content (WEBM) with extensive metadata annotations covering character attributes, anatomical features, species classifications, and contextual settings. Each entry contains detailed tag annotations, file specifications, and generation parameters, supporting research in generative AI, content classification, and anthropomorphic character analysis. The dataset's structured organization with parquet metadata files and tar archives facilitates efficient data access and analysis for computer vision applications.",
+        "bio": "This dataset provides a comprehensive collection of anthropomorphic and furry-themed multimedia content with detailed metadata annotations for AI research and content analysis.",
+        "created_at": 1763392264.508156,
+        "downloads": 1698,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an anthropomorphic and furry-themed multimedia dataset is clearly defined through the README, metadata structure, and sample content, with explicit descriptions of data sources and organization.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear data organization, file formats, and sample information, making it easy for users to understand the dataset structure and access methods.",
+            "yes": true
+        },
+        "keywords": [
+            "Anthropomorphic",
+            "Furry Art",
+            "Content Classification",
+            "Multimedia Dataset",
+            "Tag Annotations"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Video",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/e6ai_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text-to-Image",
+            "Image Classification",
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive metadata for anime image tagging systems, particularly focusing on WD14 taggers. It contains detailed annotations for attire, character, cosplay, and general tags across multiple languages including English, Japanese, Chinese, Korean, and Russian. The dataset includes 3,025 attire tags with detailed positional and stylistic annotations, 2,800 character tags, 8,252 general tags, and specialized collections for cosplay and uniform classifications. Annotated using GPT-4o, this resource enables improved tag prediction accuracy, cross-lingual tag mapping, and enhanced understanding of anime character attributes and clothing classifications for computer vision applications.",
+        "bio": "A comprehensive metadata collection for anime image tagging systems containing multi-language tag translations and detailed attribute annotations.",
+        "created_at": 1763390191.8772898,
+        "downloads": 1413,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as metadata for anime taggers is clearly stated in the README and supported by the comprehensive file structure showing various tag categories and translations.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a clear README that explains the dataset contents, file structure, and usage recommendations for different file types.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Tagging",
+            "Multi-Lingual Tags",
+            "Image Classification",
+            "WD14 Tagger",
+            "Character Attributes"
+        ],
+        "libraries": [
+            "pandas",
+            "numpy",
+            "transformers",
+            "datasets"
+        ],
+        "likes": 4,
+        "modality": [
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/tags_meta",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text Classification",
+            "Multi-Label Classification",
+            "Image Classification",
+            "Image Tagging",
+            "Multilingual Text Processing"
+        ]
+    },
+    {
+        "abstract": "This repository serves as an index dataset for the yandere2023 image collection, providing structured metadata and file access information for efficient retrieval of individual images from large archive files. The dataset contains comprehensive indexing information including file sizes, SHA256 hashes, and byte offsets for over 974 archive files containing millions of images. It enables selective downloading of specific images without requiring full archive downloads, significantly reducing bandwidth and storage requirements for researchers and developers working with large-scale image datasets for generative AI and computer vision applications.",
+        "bio": "This repository provides index metadata for efficient selective access to individual images within the yandere2023 dataset archives.",
+        "created_at": 1763390105.8976388,
+        "downloads": 1405,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an index dataset for the yandere2023 image collection is clearly stated in the README and supported by the structured metadata files",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a clear README with usage examples and the directory structure is well-organized with comprehensive metadata files",
+            "yes": true
+        },
+        "keywords": [
+            "Image Indexing",
+            "Selective Download",
+            "Large-Scale Dataset",
+            "Archive Metadata"
+        ],
+        "libraries": [
+            "hfutils"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/yandere2023_index",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text-to-Image",
+            "Image-to-Image",
+            "Unconditional Image Generation"
+        ]
+    },
+    {
+        "abstract": "This dataset provides the complete wiki documentation from Danbooru, a large-scale anime and art image tagging community, containing 189,161 wiki pages, 1.3 million tags, 38,454 tag aliases, and 24,569 tag implications. The dataset captures comprehensive metadata including character descriptions, artistic terminology, and semantic relationships between tags. It serves as a rich knowledge base for training language models, developing tag classification systems, and studying anime art culture. The structured format with timestamps and cross-references enables temporal analysis of community-driven knowledge evolution.",
+        "bio": "A comprehensive dataset containing the full wiki documentation and tag metadata from Danbooru for training language models and tag classification systems.",
+        "created_at": 1763390272.4344053,
+        "downloads": 1089,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing Danbooru wiki data for training language models, with well-documented structure and sample content",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed information about dataset structure, sample data, and usage instructions",
+            "yes": true
+        },
+        "keywords": [
+            "Danbooru",
+            "Wiki Documentation",
+            "Tag Classification",
+            "Anime Art",
+            "Knowledge Base"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 12,
+        "modality": [
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/danbooru_wikis_full",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text Classification",
+            "Text Generation",
+            "Feature Extraction",
+            "Tag Classification",
+            "Knowledge Base Construction"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive test assets for the soundutils library, featuring multilingual audio samples across four languages (English, Japanese, Korean, Chinese) and multiple speaker identities. It includes stereo sine wave files at various sampling rates for audio processing validation, speaker-specific recordings for voice analysis, and video files with extracted audio tracks. The dataset serves as a standardized benchmark for testing audio manipulation, format conversion, and speech processing algorithms, ensuring consistent evaluation of audio utility functions across different languages and technical specifications.",
+        "bio": "This repository contains test assets for unit testing the soundutils audio processing library.",
+        "created_at": 1763390900.672311,
+        "downloads": 998,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly stated as providing test assets for unit testing audio processing utilities, with organized audio files by language and speaker",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a clear README that explains its purpose as unittest assets for the soundutils library",
+            "yes": true
+        },
+        "keywords": [
+            "Audio Processing",
+            "Unit Testing",
+            "Multilingual Audio",
+            "Speaker Verification",
+            "Audio Conversion"
+        ],
+        "libraries": [
+            "soundutils"
+        ],
+        "likes": 1,
+        "modality": [
+            "Audio",
+            "Video"
+        ],
+        "repo_id": "deepghs/soundutils_unittest",
+        "repo_type": "dataset",
+        "task_types": [
+            "Audio Classification",
+            "Automatic Speech Recognition",
+            "Speaker Verification",
+            "Audio-to-Audio",
+            "Audio Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This dataset provides Japanese voice-text pairs extracted from Fate/Grand Order (FGO) playable characters, specifically curated for automatic speech recognition and voice analysis tasks. It contains 30,800 audio samples totaling 66.4 hours of speech data with an average duration of 7.76 seconds per sample. The dataset is carefully filtered to include only voices with single voice actors to reduce noise, and includes comprehensive metadata such as character information, voice actor names, voice types (dialogue, battle, skills), and technical specifications. Each audio file is accompanied by precise Japanese transcriptions, making it valuable for training and evaluating Japanese ASR systems and voice classification models in anime/gaming contexts.",
+        "bio": "A Japanese voice-text dataset containing 30,800 audio samples from Fate/Grand Order characters for automatic speech recognition and voice analysis applications.",
+        "created_at": 1763391012.0030084,
+        "downloads": 902,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a Japanese voice-text dataset for FGO characters, with detailed samples showing audio-text pairs and comprehensive metadata that clearly indicates its intended use for ASR and voice analysis tasks.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear dataset description, sample data, statistics, and usage instructions, along with well-organized data files and metadata.",
+            "yes": true
+        },
+        "keywords": [
+            "Automatic Speech Recognition",
+            "Japanese Audio",
+            "Voice Dataset",
+            "Fate Grand Order",
+            "Audio Classification"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 12,
+        "modality": [
+            "Audio",
+            "Text"
+        ],
+        "repo_id": "deepghs/fgo_voices_jp",
+        "repo_type": "dataset",
+        "task_types": [
+            "Automatic Speech Recognition",
+            "Audio Classification",
+            "Voice Activity Detection"
+        ]
+    },
+    {
+        "abstract": "This Japanese voice-text dataset contains 10,905 audio recordings (26.3 hours total) from Arknights game characters, specifically curated for automatic speech recognition and voice synthesis tasks. The dataset features high-quality WAV audio files at 44.1kHz sample rate with corresponding Japanese transcriptions, organized by character and voice actor. Each entry includes detailed metadata such as character ID, voice actor name, voice title, and timing information. The dataset is carefully filtered to include only voices with single voice actors to reduce noise, making it particularly valuable for fine-tuning Japanese ASR models and developing anime-style voice synthesis systems.",
+        "bio": "A Japanese voice-text dataset containing 10,905 audio recordings from Arknights game characters for automatic speech recognition and voice synthesis applications.",
+        "created_at": 1763390970.9418023,
+        "downloads": 874,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a Japanese voice-text dataset for Arknights characters, with well-organized structure and comprehensive metadata that clearly indicates its intended use for speech recognition and voice synthesis tasks",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset description, statistics, sample data, and clear usage instructions for ASR/ASV model training",
+            "yes": true
+        },
+        "keywords": [
+            "Arknights",
+            "Japanese ASR",
+            "Voice Synthesis",
+            "Game Audio",
+            "Anime Voices"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 2,
+        "modality": [
+            "Audio",
+            "Text"
+        ],
+        "repo_id": "deepghs/arknights_voices_jp",
+        "repo_type": "dataset",
+        "task_types": [
+            "Automatic Speech Recognition",
+            "Audio Classification",
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "abstract": "This dataset provides 12,431 Chinese voice-text pairs from the Arknights mobile game, comprising 25.9 hours of high-quality audio recordings with precise transcriptions. Each entry includes character metadata, voice actor information, and contextual labels for various in-game scenarios. The dataset is specifically curated to include only voices with single voice actors to minimize acoustic variability, making it ideal for training and evaluating automatic speech recognition systems. With an average duration of 7.49 seconds per sample and consistent 44.1kHz sampling rate, this collection represents a valuable resource for Chinese speech processing research and anime-style voice synthesis applications.",
+        "bio": "A comprehensive Chinese voice-text dataset featuring character dialogues from the Arknights game for speech recognition and audio classification tasks.",
+        "created_at": 1763390948.1730194,
+        "downloads": 873,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a Chinese voice-text dataset for Arknights characters, with well-documented samples and metadata that clearly indicate its intended use for ASR and audio classification tasks",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset description, statistics, sample data, and clear documentation of the data structure and usage",
+            "yes": true
+        },
+        "keywords": [
+            "Arknights",
+            "Speech Recognition",
+            "Chinese Audio",
+            "Voice Dataset",
+            "Game Voices"
+        ],
+        "libraries": [],
+        "likes": 4,
+        "modality": [
+            "Audio",
+            "Text"
+        ],
+        "repo_id": "deepghs/arknights_voices_zh",
+        "repo_type": "dataset",
+        "task_types": [
+            "Automatic Speech Recognition",
+            "Audio Classification",
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive annotations for anime face detection, focusing specifically on facial features rather than entire heads. It contains multiple versions with varying preprocessing levels, including v1.4 with 12,798 training images and manual corrections of auto-annotated data. The collection supports object detection tasks with COCO and YOLOv8 formats, combining original annotations with third-party data from Roboflow for enhanced training capabilities. The dataset addresses the specialized domain of anime character detection with carefully curated bounding box annotations.",
+        "bio": "A specialized dataset for anime face detection containing annotated images with bounding boxes for training object detection models.",
+        "created_at": 1763388933.1345298,
+        "downloads": 841,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime face detection dataset with multiple versions and formats, supported by detailed documentation and sample file organization.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset descriptions, file structure, and usage guidance including dataset statistics and format explanations.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Face Detection",
+            "Object Detection",
+            "Computer Vision",
+            "Bounding Box",
+            "Image Annotation"
+        ],
+        "libraries": [
+            "Roboflow"
+        ],
+        "likes": 6,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_face_detection",
+        "repo_type": "dataset",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive annotations for anime head detection, featuring multiple versions with varying quality levels and preprocessing. Version 2.0 contains 16,050 training images with high-quality manual annotations from bangumi and complex multi-person illustrations, while Version 1.0 includes 20,889 training samples from gelbooru and fancaps. The dataset covers diverse head orientations including front, side, and back views, with all human-characteristic heads annotated while excluding non-humanoid heads. Available in both COCO and YOLOv8 formats, it supports robust training for anime-specific object detection models.",
+        "bio": "A comprehensive dataset for anime head detection containing multiple versions with high-quality manual annotations for training object detection models.",
+        "created_at": 1763388917.6105037,
+        "downloads": 829,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime head detection dataset with well-documented versions, sample counts, and format specifications that align with the content.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset descriptions, statistics, and clear organization of multiple dataset versions in different formats.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Head Detection",
+            "Object Detection",
+            "YOLOv8",
+            "COCO Format",
+            "Image Annotation"
+        ],
+        "libraries": [
+            "YOLOv8",
+            "COCO"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_head_detection",
+        "repo_type": "dataset",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This dataset provides Japanese voice-text pairs extracted from the mobile game Girls Front Line, featuring 12,508 audio recordings totaling 20.9 hours with an average duration of 6.01 seconds per sample. The collection includes character voice lines across multiple categories including combat commands, greetings, skill activations, and event dialogues, all recorded at 44.1kHz sample rate in OGG format. Each audio file is meticulously paired with its corresponding Japanese transcript and includes metadata such as character information, voice actor details, and contextual labels. The dataset is specifically curated to include only voices with consistent voice actors, ensuring high quality for speech processing tasks and making it particularly valuable for fine-tuning Japanese ASR systems and voice classification models.",
+        "bio": "A Japanese voice-text dataset containing character dialogues from Girls Front Line for automatic speech recognition and audio classification tasks.",
+        "created_at": 1763391054.6254594,
+        "downloads": 774,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a Japanese voice-text dataset for Girls Front Line characters, with explicit descriptions of content, format, and intended use cases.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed metadata, sample data preview, and clear documentation about the dataset structure and usage.",
+            "yes": true
+        },
+        "keywords": [
+            "Speech Recognition",
+            "Japanese Audio",
+            "Game Voices",
+            "Voice Classification",
+            "Audio-Text Pairs"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 8,
+        "modality": [
+            "Audio",
+            "Text"
+        ],
+        "repo_id": "deepghs/girlsfrontline_voices_jp",
+        "repo_type": "dataset",
+        "task_types": [
+            "Automatic Speech Recognition",
+            "Audio Classification",
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "abstract": "This dataset provides Japanese voice-text pairs extracted from the mobile game Azur Lane, featuring 30,160 audio samples totaling 75.8 hours with an average duration of 9.05 seconds per sample. The collection exclusively includes characters with single voice actors to maintain data quality and reduce annotation noise. Each audio file in OGG format (44.1kHz sample rate) is paired with accurate Japanese transcriptions and comprehensive metadata including character information, voice actor details, and contextual voice titles. The dataset supports research in Japanese speech recognition, voice classification, and anime-style text-to-speech systems, offering a specialized resource for game dialogue processing and character voice modeling applications.",
+        "bio": "A Japanese voice-text dataset containing 30,160 audio samples from Azur Lane characters for automatic speech recognition and audio classification tasks.",
+        "created_at": 1763391033.282246,
+        "downloads": 760,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as a Japanese voice-text dataset for Azur Lane characters with specific use cases for ASR and audio classification",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with detailed dataset description, statistics, sample table, and clear usage instructions",
+            "yes": true
+        },
+        "keywords": [
+            "Azur Lane",
+            "Japanese Speech",
+            "Voice Recognition",
+            "Anime Voices",
+            "Game Audio"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 8,
+        "modality": [
+            "Audio",
+            "Text"
+        ],
+        "repo_id": "deepghs/azurlane_voices_jp",
+        "repo_type": "dataset",
+        "task_types": [
+            "Automatic Speech Recognition",
+            "Audio Classification",
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "abstract": "This dataset provides 8,216 English voice-text pairs from the Arknights mobile game, totaling 16.1 hours of audio with an average duration of 7.05 seconds per sample. The collection features character voices from playable operators with strict single-voice-actor curation to minimize dataset noise. Each entry includes character metadata, voice actor information, and corresponding transcribed text, making it valuable for speech recognition model training and voice analysis. The dataset supports research in anime-style voice processing and game audio applications with professionally recorded English voice acting.",
+        "bio": "An English voice-text dataset containing character dialogues from the Arknights mobile game for automatic speech recognition and audio classification tasks.",
+        "created_at": 1763390990.8240309,
+        "downloads": 712,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an English voice-text dataset for Arknights characters with well-documented samples and metadata",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset description, sample data, and clear metadata structure",
+            "yes": true
+        },
+        "keywords": [
+            "Arknights",
+            "Speech Recognition",
+            "Voice Dataset",
+            "Game Audio",
+            "Character Voices"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 3,
+        "modality": [
+            "Audio",
+            "Text"
+        ],
+        "repo_id": "deepghs/arknights_voices_en",
+        "repo_type": "dataset",
+        "task_types": [
+            "Automatic Speech Recognition",
+            "Audio Classification",
+            "Text-to-Speech"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive annotations for anime person detection across various artistic styles including illustrations, comics, and anime series. The collection includes multiple versions: v1.1 with 9,255 training images featuring data augmentation, raw data with 3,085 training images without preprocessing, and AniDet3.v3i with 16,124 training images focused on anime series. The dataset supports object detection tasks and is formatted for both COCO and YOLOv8 frameworks, enabling robust model training for detecting characters in diverse anime media formats.",
+        "bio": "A specialized dataset for detecting anime characters in various artistic styles including illustrations, comics, and anime series.",
+        "created_at": 1763388751.0907443,
+        "downloads": 620,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime person detection dataset with well-documented versions and sample statistics",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the dataset structure, different versions, and provides usage recommendations",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Detection",
+            "Object Detection",
+            "Character Recognition",
+            "Computer Vision"
+        ],
+        "libraries": [],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_person_detection",
+        "repo_type": "dataset",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This dataset addresses the binary image classification task of distinguishing between monochrome and colored images, containing 260 annotated samples with significant class imbalance (98.5% colored vs 1.5% monochrome). The dataset features web-sourced images from multiple sources including Gelbooru, BangumiBase, and FanCaps, organized in nested directory structures with metadata stored in JSON and Parquet formats. Each image includes technical specifications such as width, height, and annotation labels, providing a specialized benchmark for color-based image classification models and imbalanced learning scenarios in computer vision research.",
+        "bio": "This dataset provides labeled images for binary classification of monochrome versus colored images.",
+        "created_at": 1763390665.3277729,
+        "downloads": 574,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a binary image classification dataset for monochrome vs colored detection, with well-organized structure and sample data",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear task description, sample statistics, and visual examples of both classes",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "Monochrome Detection",
+            "Color Classification",
+            "Imbalanced Dataset",
+            "Web Images"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/test_nested_dataset",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "The CSIP (Contrastive Anime Style Image Pre-Training) dataset is a comprehensive collection of anime-style images designed for style classification and artist recognition tasks. This uncleaned raw version contains 1-10 million images from various anime artists, organized across 13 zip archives to facilitate contrastive learning approaches. The dataset enables models to distinguish between different artistic styles and identify characteristic features of individual artists, supporting zero-shot classification and transfer learning scenarios. It serves as valuable resource for computer vision research focused on artistic style analysis and content-based image retrieval within the anime genre.",
+        "bio": "A comprehensive collection of anime-style images designed for style classification, artist recognition, and contrastive learning applications in computer vision.",
+        "created_at": 1763406214.8282204,
+        "downloads": 555,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime style image dataset for contrastive learning and style classification, with detailed documentation about its structure and intended applications.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly describes the dataset structure, purpose, usage instructions, and provides links to related cleaned versions.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "Style Classification",
+            "Contrastive Learning",
+            "Computer Vision",
+            "Artistic Analysis"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/csip",
+        "repo_type": "dataset",
+        "task_types": [
+            "Zero-Shot Classification",
+            "Image Classification",
+            "Content-based Image Retrieval",
+            "Style Transfer",
+            "Artist Recognition"
+        ]
+    },
+    {
+        "abstract": "The CSIP v1 dataset is a roughly cleaned version of the Contrastive Anime Style Image Pre-training collection designed for zero-shot image classification in the anime art domain. This comprehensive dataset contains diverse images from various anime artists, organized to facilitate style recognition and classification models. Through initial cleaning procedures that remove obvious duplicates and low-quality samples, it preserves rich stylistic diversity while providing 100K to 1M samples suitable for large-scale pre-training applications. The dataset serves as an intermediate step between raw collections and curated evaluation sets, offering balanced compromise between data volume and quality for contrastive learning approaches.",
+        "bio": "A cleaned anime style image dataset designed for zero-shot classification and contrastive learning tasks in computer vision.",
+        "created_at": 1763406264.9042156,
+        "downloads": 523,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a cleaned anime style image dataset for zero-shot classification tasks, with detailed documentation about its structure, intended use cases, and relationship to other datasets in the series.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly describes the dataset's purpose, structure, usage, and provides links to related datasets, making it easy for users to understand and utilize the resource.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "Style Classification",
+            "Zero-Shot Learning",
+            "Computer Vision",
+            "Contrastive Learning"
+        ],
+        "libraries": [],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/csip_v1",
+        "repo_type": "dataset",
+        "task_types": [
+            "Zero-Shot Image Classification",
+            "Image Classification",
+            "Style Transfer",
+            "Content-based Image Retrieval"
+        ]
+    },
+    {
+        "abstract": "This dataset provides Korean voice-text pairs extracted from the Arknights mobile game, featuring 9,996 audio recordings totaling 23.1 hours with an average duration of 8.34 seconds per sample. The collection includes character dialogues, battle commands, and interactive responses from playable characters, with strict quality control ensuring single voice actor per character to minimize dataset noise. Each audio file in WAV format (44.1kHz sample rate) is paired with corresponding Korean text transcripts, making it particularly valuable for Korean automatic speech recognition model training and voice classification tasks. The dataset's structured organization by character and voice type enables diverse applications in game audio processing and Korean language speech technology development.",
+        "bio": "A Korean voice-text dataset extracted from Arknights game characters for automatic speech recognition and voice classification tasks.",
+        "created_at": 1763390926.1094136,
+        "downloads": 513,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a Korean voice-text dataset for Arknights game characters, with specific use cases mentioned for ASR and voice classification",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset description, sample data, statistics, and clear file organization structure",
+            "yes": true
+        },
+        "keywords": [
+            "Arknights",
+            "Korean Speech",
+            "Voice Recognition",
+            "Game Audio",
+            "Speech Dataset"
+        ],
+        "libraries": [],
+        "likes": 1,
+        "modality": [
+            "Audio",
+            "Text"
+        ],
+        "repo_id": "deepghs/arknights_voices_kr",
+        "repo_type": "dataset",
+        "task_types": [
+            "Automatic Speech Recognition",
+            "Audio Classification",
+            "Text-to-Speech",
+            "Voice Activity Detection"
+        ]
+    },
+    {
+        "abstract": "AnimeText is a large-scale dataset specifically designed for robust complex anime scene text detection, containing 735K high-resolution images and 4.2M annotated text blocks. Unlike existing natural scene or document-centric text detection datasets, AnimeText focuses on text in anime scenes characterized by diverse styles, irregular arrangements, and complex visual elements that can be easily confused with symbols and decorative patterns. The dataset provides hierarchical annotations, hard negative samples, and polygon annotations for irregular text, supporting multilingual text detection in English, Chinese, Japanese, Korean, and Russian. Experimental results demonstrate that models trained on AnimeText significantly outperform those trained on existing datasets in anime-specific scenarios, achieving state-of-the-art performance metrics including 0.851 F1-score and 0.806 mAP.",
+        "bio": "A large-scale dataset for robust complex anime scene text detection containing multilingual text annotations and hard negative samples.",
+        "created_at": 1763394115.262429,
+        "downloads": 501,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a dataset for anime scene text detection, with detailed documentation, sample data structure, and visual examples that demonstrate its specific focus on anime text detection challenges.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with dataset summary, features, structure, usage examples, benchmarks, and clear instructions for using with datasets library and ultralytics framework.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Text Detection",
+            "Object Detection",
+            "Multilingual Text",
+            "Hard Negative Samples",
+            "Polygon Annotations"
+        ],
+        "libraries": [
+            "datasets",
+            "ultralytics"
+        ],
+        "likes": 4,
+        "modality": [
+            "Image",
+            "Text"
+        ],
+        "repo_id": "deepghs/AnimeText",
+        "repo_type": "dataset",
+        "task_types": [
+            "Object Detection",
+            "Text Detection"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive vocabulary collections for image tagging systems, featuring structured tag vocabularies from popular models including DeepDanbooru, MLDanbooru, and Waifu Diffusion variants. Each JSON file contains detailed metadata for thousands of tags with aliases, categories, usage counts, and semantic word breakdowns. The dataset supports robust natural language processing and computer vision applications, enabling researchers to build sophisticated tagging systems, improve model interpretability, and enhance cross-model compatibility through standardized vocabulary formats across different annotation frameworks.",
+        "bio": "This repository provides structured vocabulary datasets for image tagging models to support natural language processing and computer vision applications.",
+        "created_at": 1763406198.995443,
+        "downloads": 475,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as a vocabulary dataset for image tagging systems is clearly defined in the README, supported by detailed descriptions of available tagger models and structured data samples showing the consistent JSON format across all vocabulary files.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, file descriptions, data structure documentation, and code examples for accessing the vocabulary files.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Tagging",
+            "Vocabulary Dataset",
+            "Multi-Modal Learning",
+            "Natural Language Processing",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "json",
+            "huggingface_hub"
+        ],
+        "likes": 1,
+        "modality": [
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/tagger_vocabs",
+        "repo_type": "dataset",
+        "task_types": [
+            "Feature Extraction",
+            "Image Classification",
+            "Multi-Modal Learning",
+            "Text Classification"
+        ]
+    },
+    {
+        "abstract": "This dataset provides an integrated database combining anime metadata from MyAnimeList with torrent availability data from Nyaa.si and Erai-raws. It contains comprehensive information on 5 anime series with 45 total episodes, including detailed metadata such as titles, episode counts, ratings, popularity metrics, and torrent statistics. The dataset enables analysis of anime popularity trends, content availability, and seed distribution patterns. It supports research in recommendation systems, content analysis, and digital distribution studies within the anime domain, with daily updates ensuring current information on trending series and their download accessibility.",
+        "bio": "This dataset integrates anime metadata with torrent availability data to track popular anime series and their download accessibility.",
+        "created_at": 1763390591.8102572,
+        "downloads": 427,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an integration database for anime metadata and torrent availability, with well-structured data files and descriptive naming conventions.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the dataset's purpose, structure, and data sources, with detailed examples and current statistics.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Metadata",
+            "Torrent Analytics",
+            "Content Recommendation",
+            "Digital Distribution"
+        ],
+        "libraries": [
+            "pandas",
+            "PyTorch",
+            "TensorFlow"
+        ],
+        "likes": 0,
+        "modality": [
+            "Text",
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/public_unittest_repo",
+        "repo_type": "dataset",
+        "task_types": [
+            "Recommendation Systems",
+            "Content Analysis",
+            "Popularity Prediction"
+        ]
+    },
+    {
+        "abstract": "This dataset addresses the problem of detecting censorship elements in anime-style artwork, providing annotated training data for object detection models. The repository contains multiple dataset versions in both COCO and YOLOv8 formats, with v1.0 representing the processed version and v1.0-raw containing the original unprocessed data. With a size category between 10K-100K samples, this dataset supports research in content moderation, automated censorship detection, and anime image analysis applications.",
+        "bio": "A dataset for detecting censorship elements in anime-style artwork using object detection models.",
+        "created_at": 1763388948.221962,
+        "downloads": 416,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly indicated by the name 'anime_censor_detection' and the task category 'object-detection' in the metadata, with dataset files organized in standard formats",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a README.md file that provides basic metadata including license, task categories, tags, and size information",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "Anime Art",
+            "Censorship Detection",
+            "Computer Vision"
+        ],
+        "libraries": [],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_censor_detection",
+        "repo_type": "dataset",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "The CSIP Evaluation Dataset is a human-curated collection of anime-style images specifically designed for evaluating zero-shot image classification models trained on artistic styles. This dataset represents the highest quality subset from the Contrastive anime Style Image Pre-Training project, containing carefully selected images that showcase distinct artistic characteristics from various anime artists. The human-picked selection process ensures each image has been manually reviewed for quality and stylistic consistency, making it particularly valuable for fine-grained style analysis and model validation. The dataset serves as a benchmark evaluation tool for assessing model performance on style recognition tasks in the anime art domain.",
+        "bio": "This repository provides a human-curated evaluation dataset of anime-style images for benchmarking zero-shot image classification models on artistic style recognition.",
+        "created_at": 1763406244.8367462,
+        "downloads": 408,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as a human-curated anime style evaluation dataset for zero-shot classification is clearly defined in the README and supported by appropriate tags and descriptions.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear documentation, usage instructions, dataset structure, and related resources.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Styles",
+            "Zero-Shot Classification",
+            "Human-Curated",
+            "Evaluation Benchmark",
+            "Contrastive Learning"
+        ],
+        "libraries": [],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/csip_eval",
+        "repo_type": "dataset",
+        "task_types": [
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This dataset addresses the specialized task of anime character halfbody detection through comprehensive bounding box annotations of character upper bodies in anime artwork. It provides both original raw data and augmented versions in multiple formats including COCO and YOLOv8, supporting diverse training scenarios. With precise annotations across various artistic styles, the dataset enables robust model development for anime image processing applications. The dual-format approach ensures compatibility with popular detection frameworks while maintaining data purity for research purposes.",
+        "bio": "A specialized dataset for training object detection models to identify and localize anime character halfbodies in images.",
+        "created_at": 1763406120.001174,
+        "downloads": 343,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime halfbody detection dataset with specific annotations for character upper bodies, supported by detailed documentation and multiple data format options.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage examples, dataset structure explanation, and multiple format options for different frameworks.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "Halfbody Detection",
+            "Object Detection",
+            "YOLOv8",
+            "Bounding Box"
+        ],
+        "libraries": [
+            "Ultralytics",
+            "YOLOv8"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_halfbody_detection",
+        "repo_type": "dataset",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive image tagging annotations for anime-style artwork, containing 5.9 million samples across training, validation, and test splits. Each entry includes detailed metadata with image IDs, content ratings (general, sensitive, questionable, explicit), and multi-category tags covering general attributes, character identities, and artist information. The dataset supports training and evaluation of multi-label classification models for automated image tagging, content filtering, and metadata generation. With its extensive scale and structured annotation format, it enables research in content analysis, recommendation systems, and automated metadata extraction for anime-style visual content.",
+        "bio": "A large-scale dataset for anime image tagging and classification with comprehensive metadata annotations.",
+        "created_at": 1763392612.2808614,
+        "downloads": 342,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Purpose is clearly defined as an image tagging dataset with detailed metadata structure and sample data showing the annotation format",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Repository has a comprehensive README with dataset structure, features description, and clear data splits with sample counts",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Image",
+            "Multi-Label Classification",
+            "Content Tagging",
+            "Metadata Extraction",
+            "Image Annotation"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/wdtagger-v4-extended-seed",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Multi-Label Classification",
+            "Image-to-Text",
+            "Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive collection of anthropomorphic artwork with detailed metadata annotations, containing over 4.6 million samples across training, validation, test, and rejected splits. The dataset features extensive tagging including general tags, character tags, species classifications, artist attribution, and content ratings. Each entry includes structured metadata for image-text pairs, enabling research in multi-modal learning, content generation, and classification tasks. The dataset's rich annotation schema supports diverse applications in creative AI, content filtering, and anthropomorphic character analysis while maintaining detailed categorical organization.",
+        "bio": "This dataset provides a large-scale collection of anthropomorphic artwork with comprehensive metadata annotations for multi-modal AI research.",
+        "created_at": 1763392576.0350113,
+        "downloads": 304,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The dataset's purpose is clearly defined as a collection of anthropomorphic artwork with detailed metadata annotations, supported by comprehensive feature descriptions and sample data",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with dataset configuration, feature descriptions, and split statistics, along with well-organized data files in parquet format",
+            "yes": true
+        },
+        "keywords": [
+            "Anthropomorphic Art",
+            "Multi-Modal Dataset",
+            "Content Tagging",
+            "Image-Text Pairs",
+            "Creative AI"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/e621-v1-seed",
+        "repo_type": "dataset",
+        "task_types": [
+            "Text-to-Image",
+            "Image-to-Text",
+            "Multi-Modal Learning"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive tag categorization system specifically designed for enhancing the WD14Tagger model with Sankaku Complex metadata. It contains 10,861 meticulously classified tags from the Sankaku Complex platform, organized into distinct categories to improve tag-based image classification and generation tasks. Each entry includes Sankaku tag ID, tag name, assigned category, and usage count, enabling fine-grained control over tag processing in image recognition pipelines. The categorical organization follows a structured approach that aligns with common image annotation requirements, facilitating more intelligent tag filtering and prioritization in automated image tagging systems.",
+        "bio": "This dataset provides categorized tag metadata from Sankaku Complex to enhance WD14Tagger's image annotation capabilities for anime-style artwork.",
+        "created_at": 1763392428.5866456,
+        "downloads": 214,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing categorized tag metadata from Sankaku Complex for enhancing WD14Tagger's image annotation capabilities, with detailed documentation and sample data.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear documentation, usage examples, dataset structure description, and integration instructions.",
+            "yes": true
+        },
+        "keywords": [
+            "Tag Classification",
+            "Image Annotation",
+            "WD14Tagger",
+            "Sankaku Complex",
+            "Metadata Enhancement"
+        ],
+        "libraries": [
+            "pandas"
+        ],
+        "likes": 1,
+        "modality": [
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/sankaku_tags_categorize_for_WD14Tagger",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "The Anime Blurry Preparation Dataset addresses the challenge of image quality assessment in computer-generated anime content through a specialized binary classification framework. This dataset contains approximately 5GB of 3D anime-style image pairs, with each clear image matched to a corresponding blurry counterpart simulating various degradation types. Using automatic BLIP annotation for reliable labeling, it provides structured directories of thousands of curated JPEG images organized for clear vs blurry classification. The dataset enables development of robust models for detecting low-quality images in anime content pipelines, supporting research in computer vision and image quality assessment for synthetic media.",
+        "bio": "This is a binary classification dataset for distinguishing between clear and blurry 3D anime-style images using automatic BLIP annotation.",
+        "created_at": 1763406318.7235558,
+        "downloads": 153,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a binary classification dataset for clear vs blurry 3D anime images, with well-documented structure and automatic BLIP annotation methodology.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset description, structure, statistics, and usage information, making it ready for users to understand and utilize.",
+            "yes": true
+        },
+        "keywords": [
+            "Binary Classification",
+            "Image Classification",
+            "Computer Vision",
+            "Anime",
+            "3D"
+        ],
+        "libraries": [
+            "BLIP"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_blurry_preparation",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Binary Classification"
+        ]
+    },
+    {
+        "abstract": "This dataset provides comprehensive danbooru rating classifications for anime-style images, organized into four distinct categories based on content safety levels. The dataset contains over 1.2 million images distributed across explicit, general, questionable, and sensitive rating classes, making it ideal for training content moderation systems and image classification models specifically tailored for anime and manga-style artwork. The rating system follows established danbooru tagging conventions, enabling both multi-class classification and binary SFW/NSFW classification tasks for robust automated moderation tools in anime-focused platforms.",
+        "bio": "A large-scale dataset for anime image rating classification using the danbooru tagging system to train content moderation and image classification models.",
+        "created_at": 1763406229.863921,
+        "downloads": 119,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a dataset for anime image rating classification using danbooru tags, with well-documented categories and applications",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed dataset structure, categories, applications, and usage information",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "Image Classification",
+            "Content Moderation",
+            "Danbooru",
+            "Rating Classification"
+        ],
+        "libraries": [
+            "datasets"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_dbrating",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides an ultralytics-compatible dataset specifically designed for anime character eye detection, containing annotated bounding boxes for eyes in anime-style character images. The dataset addresses the unique challenges of anime eye detection, including exaggerated proportions and diverse artistic styles. Available in both COCO and YOLOv8 formats, it includes processed and raw versions to accommodate different preprocessing needs. With comprehensive annotations and multiple format options, this dataset enables rapid development of computer vision models for anime content analysis and supports research in domain-specific object detection applications.",
+        "bio": "This dataset provides annotated bounding boxes for detecting eyes in anime-style character images, formatted for object detection models.",
+        "created_at": 1763406336.17769,
+        "downloads": 109,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an anime eye detection dataset with specific annotations for bounding boxes, supported by detailed documentation and multiple format versions for different use cases.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, dataset structure description, and multiple format options with code examples for both YOLOv8 and COCO frameworks.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "Eye Detection",
+            "Object Detection",
+            "Ultralytics",
+            "YOLOv8"
+        ],
+        "libraries": [
+            "Ultralytics",
+            "YOLOv8"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_eye_detection",
+        "repo_type": "dataset",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This dataset provides a comprehensive index of 1,089 timm (PyTorch Image Models) models organized by computational size levels from nano to colossal. It systematically categorizes models based on parameter count and performance metrics, including top-1 and top-5 accuracy on ImageNet-1K. For each size level, the index includes the top-30 most popular pretrained weights per architecture, offering researchers and practitioners a curated selection of efficient computer vision models across different computational budgets. The dataset enables rapid model selection and comparison for various image classification tasks and deployment scenarios.",
+        "bio": "This repository provides a curated index of timm models organized by size levels for efficient computer vision model selection.",
+        "created_at": 1763392449.9513142,
+        "downloads": 64,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an index for timm models organized by different size levels, with well-structured tables showing model architectures, parameters, performance metrics, and direct links to model repositories.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly explains the dataset structure, organization by size levels, and provides detailed model information including performance metrics and links to individual model repositories.",
+            "yes": true
+        },
+        "keywords": [
+            "Timm Models",
+            "Image Classification",
+            "Model Index",
+            "Computer Vision",
+            "Pretrained Weights"
+        ],
+        "libraries": [
+            "timm",
+            "animetimm",
+            "dghs-imgutils"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/timms_index",
+        "repo_type": "dataset",
+        "task_types": [
+            "Image Classification"
+        ]
+    }
+]

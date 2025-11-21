@@ -1,0 +1,2430 @@
+[
+    {
+        "abstract": "This repository provides an ONNX-exported version of the Whisper-medium-fleurs-lang-id model, which is specifically fine-tuned for audio classification tasks focused on language identification. The model leverages the Whisper architecture with 24 encoder and decoder layers, a d_model of 1024, and classifier projection size of 256. Originally trained on the XTREME-S dataset, this ONNX conversion enables optimized inference performance across various deployment environments while maintaining the original model's accuracy in identifying languages from audio inputs.",
+        "bio": "This is an ONNX-exported Whisper model fine-tuned for language identification from audio inputs.",
+        "created_at": 1763379011.3844392,
+        "downloads": 693,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an ONNX-exported language identification model is clearly stated in both the README and configuration files",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The README clearly explains that this is an ONNX export of an existing model and provides the source model reference",
+            "yes": true
+        },
+        "keywords": [
+            "Language Identification",
+            "Audio Classification",
+            "ONNX",
+            "Whisper",
+            "XTREME-S"
+        ],
+        "libraries": [
+            "transformers",
+            "ONNX"
+        ],
+        "likes": 0,
+        "modality": [
+            "Audio"
+        ],
+        "repo_id": "deepghs/whisper-medium-fleurs-lang-id-onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents the IdolSankaku EVA02-Large Tagger v1, an advanced image classification model trained on human-annotated real-world photos using JAX-CV framework. The model employs an EVA02-Large architecture with 24 layers, 1024 embedding dimensions, and 573 output classes covering ratings, characters, and general tags. It achieves a Macro-F1 score of 0.6017 and supports multiple inference formats including timm, ONNX, and JAX. The model features improved batch processing capabilities and represents a significant advancement in automated image tagging for real-world photography applications.",
+        "bio": "This is an image classification model for tagging real-world photos with ratings, characters, and general tags.",
+        "created_at": 1763379309.1934936,
+        "downloads": 214,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an image tagging model is clearly defined with detailed technical specifications, validation results, and practical implementation examples across different frameworks.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, inference examples, performance metrics, and multiple format support documentation.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "EVA02",
+            "Tagger",
+            "Real-World Photos",
+            "Multi-Format Inference"
+        ],
+        "libraries": [
+            "timm",
+            "onnxruntime",
+            "JAX"
+        ],
+        "likes": 6,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/idolsankaku-eva02-large-tagger-v1",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents IdolSankaku SwinV2 Tagger v1, a computer vision model for multi-label image classification specifically designed for anime-style content analysis. Built on the SwinV2 architecture with 573 output classes, the model supports ratings, character identification, and general tag classification. Trained using JAX-CV on human-annotated real-world photos and achieving a Macro-F1 score of 0.6161, it offers multiple deployment options including timm compatibility, ONNX runtime support with batch inference capabilities, and JAX implementations. The model represents an advancement in anime content understanding with practical applications for content moderation and organization.",
+        "bio": "This is an image classification model specifically designed for tagging anime-style content with ratings, characters, and general tags.",
+        "created_at": 1763379331.5022774,
+        "downloads": 184,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as an anime content tagging model with well-documented capabilities and supported formats",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with clear usage instructions, multiple inference examples, and detailed model specifications",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "SwinV2",
+            "Anime Tagging",
+            "Multi-label Classification"
+        ],
+        "libraries": [
+            "timm",
+            "JAX",
+            "ONNX",
+            "onnxruntime"
+        ],
+        "likes": 4,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/idolsankaku-swinv2-tagger-v1",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides an ONNX-optimized version of the Whisper-base model fine-tuned for language identification across 45 languages. The model leverages the Whisper architecture adapted for audio classification tasks, enabling efficient inference deployment. It was trained on the Common Language dataset and achieves high accuracy in identifying diverse languages including Arabic, Chinese variants, English, French, German, and many others. The ONNX format ensures cross-platform compatibility and optimized performance for production environments, making it suitable for multilingual speech processing applications.",
+        "bio": "This is an ONNX-optimized Whisper model fine-tuned for identifying 45 different languages from audio input.",
+        "created_at": 1763379031.6719458,
+        "downloads": 159,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an ONNX export of a language identification model, with comprehensive configuration files showing the supported languages and model architecture",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a clear README that explains the model's purpose, origin, and format, along with configuration files",
+            "yes": true
+        },
+        "keywords": [
+            "Language Identification",
+            "Audio Classification",
+            "ONNX",
+            "Multilingual",
+            "Whisper"
+        ],
+        "libraries": [
+            "ONNX",
+            "Transformers"
+        ],
+        "likes": 0,
+        "modality": [
+            "Audio"
+        ],
+        "repo_id": "deepghs/whisper-base-ft-common-language-id-onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides an ONNX-exported version of the Whisper-small model fine-tuned for audio language identification. The model is based on Whisper architecture and specialized for classifying spoken audio into 45 different languages including Arabic, English, Chinese variants, and various European and Asian languages. It achieves audio classification through the WhisperForAudioClassification architecture with optimized ONNX runtime compatibility, enabling efficient inference deployment across different platforms while maintaining the original model's language identification capabilities trained on the Common Language dataset.",
+        "bio": "This is an ONNX-optimized Whisper model fine-tuned for identifying 45 different languages from audio input.",
+        "created_at": 1763379050.8189077,
+        "downloads": 108,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an ONNX export of a language identification model with comprehensive configuration files showing the supported languages and model architecture",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a clear README that explains the model's origin, purpose, and provides links to the original model",
+            "yes": true
+        },
+        "keywords": [
+            "Language Identification",
+            "Audio Classification",
+            "ONNX",
+            "Whisper",
+            "Multilingual"
+        ],
+        "libraries": [
+            "Transformers",
+            "ONNX"
+        ],
+        "likes": 0,
+        "modality": [
+            "Audio"
+        ],
+        "repo_id": "deepghs/whisper-small-ft-common-language-id-onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX models from the InsightFace project for comprehensive face analysis tasks. The models support face detection, recognition, and feature extraction with high accuracy across multiple benchmark datasets. Two model variants (buffalo_l and buffalo_s) are included, achieving up to 99.88% detection rate and 98.34% recognition F1 score. The models are optimized for practical deployment with ONNX runtime and include evaluation results on standard face recognition benchmarks including LFW, CALFW, CFPW, and CPLFW datasets.",
+        "bio": "This repository provides ONNX models for face detection, recognition, and analysis with high accuracy across multiple benchmark datasets.",
+        "created_at": 1763377675.4978752,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing InsightFace ONNX models for face analysis, with detailed documentation and evaluation results that align with the stated functionality",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear installation instructions, usage examples, and detailed performance metrics across multiple benchmark datasets",
+            "yes": true
+        },
+        "keywords": [
+            "Face Recognition",
+            "ONNX Models",
+            "Feature Extraction",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "ONNX",
+            "dghs-realutils"
+        ],
+        "likes": 7,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/insightface",
+        "repo_type": "model",
+        "task_types": [
+            "Face Detection",
+            "Face Recognition",
+            "Feature Extraction",
+            "Keypoint Detection"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-format implementations of CDC (Content-adaptive Downsampling and Content-adaptive Upsampling) super-resolution models specifically optimized for anime-style images. The models offer multiple scaling factors including 2x and 4x upscaling capabilities, with different model variants trained on varying datasets. These models enable high-quality image super-resolution for anime artwork, preserving artistic details and reducing artifacts during the upscaling process. The ONNX format ensures cross-platform compatibility and efficient inference across different hardware environments.",
+        "bio": "This repository contains ONNX-format super-resolution models for upscaling anime-style images with 2x and 4x scaling capabilities.",
+        "created_at": 1763377697.7922106,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing ONNX-format CDC super-resolution models for anime images, with specific model files and visual examples demonstrating the functionality.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear model descriptions, usage examples, and visual comparisons showing the super-resolution results.",
+            "yes": true
+        },
+        "keywords": [
+            "Super Resolution",
+            "Anime Images",
+            "ONNX",
+            "Image Upscaling",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "ONNX"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/cdc_anime_onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Image-to-Image"
+        ]
+    },
+    {
+        "abstract": "CCIP (Contrastive Anime Character Image Pre-Training) is a specialized model for calculating visual similarity between anime characters in single-character images. Built on CAFormer architectures, it employs contrastive learning to measure character resemblance, achieving state-of-the-art performance with F1 scores up to 0.94 on anime character recognition tasks. The model supports multiple variants with different precision formats and demonstrates robust clustering capabilities for character identification without requiring explicit training on target characters.",
+        "bio": "CCIP is a contrastive learning model that calculates visual similarity between anime characters in single-character images for zero-shot character recognition and clustering.",
+        "created_at": 1763377763.457473,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository clearly states its purpose as anime character similarity calculation with specific use cases and performance benchmarks",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with clear usage examples, performance metrics, installation instructions, and detailed documentation links",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Character",
+            "Image Similarity",
+            "Zero-Shot Classification",
+            "Contrastive Learning",
+            "CAFormer"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "PyTorch"
+        ],
+        "likes": 9,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/ccip",
+        "repo_type": "model",
+        "task_types": [
+            "Zero-Shot Image Classification",
+            "Image Similarity"
+        ]
+    },
+    {
+        "abstract": "This repository provides a comprehensive collection of computer vision models specialized for anime and artistic image processing. It includes models for monochrome classification with Caformer architectures achieving up to 96.97% accuracy, face and person detection, line art extraction, perceptual similarity measurement using LPIPS, and image tagging via DeepDanbooru. The models support various tasks including image super-resolution with RealESRGAN, NSFW detection, and character clustering. All models are provided in ONNX format for efficient deployment, with performance metrics and safety-optimized variants for production use cases.",
+        "bio": "A collection of specialized computer vision models for anime image processing including classification, detection, tagging, and enhancement tasks.",
+        "created_at": 1763377748.4833336,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as containing models for the imgutils library with well-organized directory structure and clear model naming",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with detailed model descriptions, performance metrics, and usage guidance",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Object Detection",
+            "Image Enhancement",
+            "Feature Extraction",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX",
+            "imgutils",
+            "scikit-learn"
+        ],
+        "likes": 8,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/imgutils-models",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification",
+            "Object Detection",
+            "Image-to-Image",
+            "Feature Extraction",
+            "Image Tagging"
+        ]
+    },
+    {
+        "abstract": "This repository presents a specialized object detection model for identifying censored content in anime images, addressing the challenge of automated content moderation in artistic media. The model employs YOLOv8 architecture variants with optimized parameters for detecting three specific anatomical regions: female nipples, penis, and pussy. Multiple model versions are provided with performance metrics including F1 scores ranging from 0.79 to 0.83, demonstrating robust detection capabilities. The models achieve efficient inference with computational requirements as low as 3.49k FLOPS for smaller variants, making them suitable for real-time applications. This solution offers practical value for content filtering systems in anime distribution platforms and creative applications requiring automated censorship detection.",
+        "bio": "This repository provides YOLOv8-based object detection models specifically trained to identify censored anatomical regions in anime images.",
+        "created_at": 1763378018.6956825,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime censor detection, with specific labels (nipple_f, penis, pussy) and performance metrics that clearly indicate its object detection capabilities for content moderation.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, model comparisons, and clear links to evaluation plots and confusion matrices for each model version.",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "Anime Censorship",
+            "YOLOv8",
+            "Content Moderation"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX",
+            "Ultralytics"
+        ],
+        "likes": 9,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_censor_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository presents a comprehensive collection of YOLO-based object detection models specifically optimized for anime head detection in images. The models span multiple versions and architectures including YOLOv8, YOLOv9, YOLOv10, YOLOv11, and RT-DETR variants, with sizes ranging from nano (2.59M parameters) to extra-large (68.2M parameters). Performance metrics demonstrate excellent detection capabilities with F1 scores reaching 0.94, precision up to 0.963, recall up to 0.928, and mAP50-95 scores up to 0.815. The models are trained on a specialized anime head detection dataset and provide both PyTorch and ONNX formats for deployment flexibility across different computational requirements.",
+        "bio": "This repository provides specialized YOLO-based object detection models for accurately detecting anime character heads in images.",
+        "created_at": 1763378069.9288523,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime head detection, with consistent naming conventions across model versions and comprehensive performance documentation",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, model comparisons, and clear links to evaluation plots and confusion matrices",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Head Detection",
+            "Object Detection",
+            "YOLO Models",
+            "Computer Vision",
+            "Image Processing"
+        ],
+        "libraries": [
+            "PyTorch",
+            "Ultralytics",
+            "ONNX"
+        ],
+        "likes": 6,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_head_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository presents a series of YOLOv8-based object detection models specifically trained for detecting anime-style human characters in images. The models achieve high performance with F1 scores up to 0.87 across multiple model sizes (nano, small, medium, large), demonstrating robust detection capabilities for anime art. The architecture leverages YOLOv8's efficient backbone and neck design with C2f modules and SPPF layers, trained on a specialized anime person detection dataset. These models provide practical solutions for anime content analysis, character localization, and automated annotation tasks in digital art applications.",
+        "bio": "This repository provides specialized YOLOv8 object detection models for detecting anime-style human characters in images.",
+        "created_at": 1763378112.8546896,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime person detection, with consistent naming conventions across model variants and comprehensive performance metrics that demonstrate the models' capabilities.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, model comparisons, and clear documentation of different model variants with their respective F1 scores and computational requirements.",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "Anime Characters",
+            "YOLOv8",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "PyTorch",
+            "Ultralytics",
+            "ONNX"
+        ],
+        "likes": 8,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_person_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository presents multiple deep learning models for monochrome detection in anime images, addressing the challenge of identifying grayscale/black-and-white artwork. The models are built on CAFormer and MobileNetV3 architectures from the timm library, achieving high accuracy rates up to 97.31% on the monochrome_danbooru dataset. The collection includes both high-performance variants and optimized 'safe' versions with improved precision for practical applications, with training conducted at 384x384 resolution. These models serve as reliable tools for content filtering, image organization, and automated artwork classification in anime art communities.",
+        "bio": "This repository provides multiple image classification models for detecting monochrome anime artwork with high accuracy.",
+        "created_at": 1763377799.3306572,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as monochrome detection for anime images, with consistent model naming, performance metrics, and binary classification labels that align with the stated objective.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed model comparisons, performance metrics, confusion matrices, and clear descriptions of each model variant.",
+            "yes": true
+        },
+        "keywords": [
+            "Monochrome Detection",
+            "Image Classification",
+            "Anime Art",
+            "CAFormer",
+            "MobileNetV3"
+        ],
+        "libraries": [
+            "PyTorch",
+            "timm",
+            "ONNX"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/monochrome_detect",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents a comprehensive collection of deep learning models for anime image classification, addressing the challenge of categorizing diverse anime art styles. The models employ various architectures including CAFormer and MobileNetV3 variants, achieving high accuracy (up to 97.23%) in classifying images into categories such as 3D renders, anime screenshots, manga comics, illustrations, and non-painting content. The implementation leverages knowledge distillation techniques and focal loss functions to optimize performance across different model sizes, with both computationally intensive and lightweight options available. This work demonstrates significant advancements in anime content analysis with practical applications for content filtering, organization, and recommendation systems.",
+        "bio": "A collection of deep learning models for classifying anime images into categories including 3D renders, anime screenshots, manga comics, illustrations, and non-painting content.",
+        "created_at": 1763377839.923844,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime image classification, with well-documented model variants, performance metrics, and sample visualizations that demonstrate the classification capabilities.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed model comparisons, performance metrics, and clear descriptions of the classification categories and model architectures.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Computer Vision",
+            "Image Classification",
+            "CAFormer",
+            "MobileNetV3"
+        ],
+        "libraries": [
+            "PyTorch",
+            "timm",
+            "ONNX"
+        ],
+        "likes": 15,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_classification",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents multiple image classification models for anime content rating prediction, categorizing images into 'safe', 'r15', and 'r18' classes. The models leverage various architectures including CAFormer and MobileNetV3 variants, with performance metrics ranging from 64.77% to 88.44% accuracy. The approach addresses the challenging problem of subjective content rating boundaries in anime imagery through both direct classification and knowledge distillation techniques, providing practical solutions for automated content moderation in anime art applications.",
+        "bio": "This repository contains image classification models for predicting anime content ratings (safe, r15, r18) using various neural network architectures.",
+        "created_at": 1763377885.9133813,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime image rating classification with specific class labels and multiple model variants, supported by detailed performance metrics and visualizations.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear model descriptions, performance metrics, and usage guidance including accuracy scores and confusion matrices.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Content Rating",
+            "Image Classification",
+            "CAFormer",
+            "MobileNetV3"
+        ],
+        "libraries": [
+            "PyTorch",
+            "timm",
+            "ONNX"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_rating",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents a specialized object detection model for anime face detection, addressing the challenge of accurately locating character faces in anime artwork. Built on the YOLOv8 architecture with multiple model variants (nano and small configurations), the models achieve high F1 scores up to 0.97 with optimized thresholds. The implementation includes comprehensive evaluation metrics, confusion matrices, and performance curves, demonstrating robust detection capabilities for anime-style facial features. Available in both PyTorch and ONNX formats, these models provide efficient inference for applications in anime content analysis, character recognition, and automated artwork processing.",
+        "bio": "This repository provides specialized YOLOv8-based object detection models for accurately detecting anime character faces in images.",
+        "created_at": 1763377929.8074632,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime face detection, with multiple model versions, performance metrics, and technical specifications that align with the stated objective.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, model comparisons, and clear links to evaluation plots and confusion matrices.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Face Detection",
+            "Object Detection",
+            "YOLOv8",
+            "Computer Vision",
+            "Image Processing"
+        ],
+        "libraries": [
+            "PyTorch",
+            "Ultralytics",
+            "ONNX"
+        ],
+        "likes": 18,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_face_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository presents multiple deep learning models for binary classification of anime-style images as AI-generated (primarily from diffusion models) versus human-drawn artwork. The models include CAFormer and MobileNetV3 architectures with accuracy ranging from 93.20% to 97.54%, featuring both pretrained and knowledge-distilled variants. Performance metrics demonstrate strong discriminative capability with AUC scores up to 0.991 and mAP values exceeding 0.985. The models are trained on crawled anime datasets and provide reference predictions for AI-generated content detection in anime art, though the authors caution against definitive source attribution.",
+        "bio": "This model repository provides multiple image classification models for detecting AI-generated anime artwork versus human-drawn illustrations.",
+        "created_at": 1763377967.031861,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as AI-generated anime image detection, with multiple model variants, performance metrics, and visual evaluation plots that demonstrate the classification capabilities effectively.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with model performance comparisons, architecture details, accuracy metrics, and clear usage guidelines including important disclaimers about the model's limitations.",
+            "yes": true
+        },
+        "keywords": [
+            "AI Detection",
+            "Image Classification",
+            "Anime Art",
+            "Diffusion Models"
+        ],
+        "libraries": [
+            "PyTorch",
+            "timm",
+            "ONNX"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_ai_check",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents specialized image classification models for detecting horn types in anime character designs, addressing the challenge of automated character attribute recognition in digital art. The models include CAFormer-S36 and MobileNetV3 architectures trained on a curated anime horn dataset, achieving up to 88.32% accuracy and 0.9789 AUC in multi-class classification. These models support 6-7 horn categories including cow, demon, dragon, oni, sheep, deer, and none, demonstrating robust performance through comprehensive evaluation metrics including confusion matrices and ROC curves. The repository provides both PyTorch and ONNX formats for flexible deployment in anime character analysis applications.",
+        "bio": "This model performs image classification to identify horn types in anime character designs.",
+        "created_at": 1763378289.3718455,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime character horn classification with detailed performance metrics and sample visualizations",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model specifications, and clear documentation of the classification task",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Character Design",
+            "Image Recognition",
+            "Horn Detection"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_ch_horn",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-optimized versions of the CCIP (Character Classification and Identification Pipeline) models for zero-shot image classification tasks. The models are based on CaFormer architectures and achieve high performance in character similarity analysis, with the best model reaching 0.94 F1 score. These models support both feature extraction and similarity metrics computation through separate ONNX modules, enabling efficient deployment across various platforms while maintaining competitive performance in character recognition applications.",
+        "bio": "This repository contains ONNX-optimized models for zero-shot character similarity classification and image feature extraction.",
+        "created_at": 1763378333.3940299,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as ONNX-optimized character classification models with detailed performance metrics and multiple model variants",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model comparisons, and clear explanations of evaluation methodologies",
+            "yes": true
+        },
+        "keywords": [
+            "Character Similarity",
+            "Zero-Shot Classification",
+            "ONNX",
+            "CaFormer",
+            "Image Recognition"
+        ],
+        "libraries": [
+            "ONNX",
+            "PyTorch"
+        ],
+        "likes": 7,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/ccip_onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Zero-Shot Image Classification",
+            "Image Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This repository presents specialized object detection models for identifying hands in anime-style artwork, addressing the challenge of accurate hand localization in artistic illustrations. The models are based on YOLOv8 architecture with multiple versions optimized for different performance requirements, achieving F1 scores up to 0.79. The implementation includes both PyTorch and ONNX formats for flexible deployment, with detailed performance metrics including precision-recall curves and confusion matrices. These models serve anime content analysis, character pose estimation, and automated content tagging applications.",
+        "bio": "This repository provides specialized object detection models for detecting hands in anime-style images.",
+        "created_at": 1763378369.980215,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime hand detection, with consistent naming across all model versions and comprehensive evaluation metrics that demonstrate the intended functionality",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, model comparisons, and clear documentation of all available model versions with their specifications",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "Anime Art",
+            "Hand Detection",
+            "YOLOv8"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "PyTorch",
+            "ONNX",
+            "Ultralytics"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_hand_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository presents specialized object detection models for identifying anime half-body characters in images, addressing the need for domain-specific detection in anime artwork. Built on YOLOv8 architecture with multiple model variants (nano and small configurations), these models achieve high precision with F1 scores ranging from 0.92 to 0.95. The models are trained on a dedicated anime dataset and support both PyTorch and ONNX formats, enabling efficient deployment for anime content analysis, character detection, and automated artwork processing applications.",
+        "bio": "This repository provides specialized object detection models for identifying anime half-body characters in images.",
+        "created_at": 1763378412.5394342,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime half-body detection with detailed model specifications and performance metrics",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model comparisons, and clear links to evaluation plots",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "Anime Art",
+            "YOLOv8",
+            "Halfbody Detection",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "PyTorch",
+            "Ultralytics",
+            "ONNX"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_halfbody_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository provides two deep learning models for classifying anime character images into three age-related categories: contentious, safe_teen, and non_teen. The models include CAFormer-S36 (77.97% accuracy, 0.9046 AUC) and MobileNetV3 (74.92% accuracy, 0.8866 AUC), both pretrained and available in PyTorch and ONNX formats. These models address the challenging task of age classification in anime artwork, offering solutions for content moderation and filtering applications in anime communities and platforms.",
+        "bio": "This repository contains image classification models for detecting anime character age categories to assist with content moderation.",
+        "created_at": 1763378440.6165473,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime character age classification with specific categories (contentious, safe_teen, non_teen) and provides detailed performance metrics and sample visualizations.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The README is comprehensive with clear performance metrics, model specifications, and visualizations of confusion matrices and sample images for each class.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Age Detection",
+            "Content Moderation",
+            "Computer Vision",
+            "Image Recognition"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_teen",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents a series of YOLOv8-based object detection models specifically designed for detecting eyes in anime-style images. The models achieve high performance with F1 scores ranging from 0.84 to 0.94 across different versions, with the best performing models (v0.4_s and v1.0_s) reaching F1 scores of 0.94 and 0.93 respectively. The models are trained on a custom anime eye detection dataset and support multiple deployment formats including PyTorch and ONNX. These specialized detectors address the unique challenge of detecting stylized anime eyes, which differ significantly from real human eyes in appearance and artistic representation.",
+        "bio": "A collection of YOLOv8-based object detection models specialized for detecting eyes in anime-style images.",
+        "created_at": 1763378486.02004,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime eye detection, with consistent model naming conventions, detailed performance metrics, and comprehensive evaluation results across multiple versions.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, model comparisons, and clear links to evaluation plots and confusion matrices for each model version.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime",
+            "Object Detection",
+            "YOLOv8",
+            "Eye Detection",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "PyTorch",
+            "Ultralytics",
+            "dghs-imgutils",
+            "ONNX"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_eye_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository provides multiple DBNet and DBNet++ models for text detection in images, trained on benchmark datasets including ICDAR2015 and TotalText. The models utilize various backbone architectures such as ResNet-18 and ResNet-50 with enhancements like DCNv2 and OCLIP, achieving robust text localization capabilities. All models are exported to ONNX format with dynamic input shapes, supporting flexible deployment across different image resolutions through ONNX Runtime backend.",
+        "bio": "This repository contains optimized DBNet and DBNet++ models for text detection in images, supporting multiple backbone architectures and trained on standard text detection benchmarks.",
+        "created_at": 1763378566.1499064,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as text detection models, with detailed configuration files, pipeline specifications, and visual demonstrations showing text detection results on sample images.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with model comparison tables, visual output examples, and clear directory structure showing multiple trained models with deployment configurations.",
+            "yes": true
+        },
+        "keywords": [
+            "Text Detection",
+            "DBNet",
+            "ONNX Runtime",
+            "Object Detection",
+            "MMOCR"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX",
+            "ONNX Runtime",
+            "mmocr"
+        ],
+        "likes": 8,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/text_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository provides multiple deep learning models for anime portrait classification, specifically designed to categorize anime character images into three distinct classes: person, halfbody, and head. The models include caformer_s36_v0 (37.22M parameters, 98.10% accuracy), mobilenetv3_v0_dist (4.18M parameters, 97.98% accuracy), and mobilenetv3_small_v0_dist (1.51M parameters, 97.56% accuracy), offering a range of computational efficiency options while maintaining high performance. All models demonstrate exceptional classification capabilities with AUC scores exceeding 0.9969, making them suitable for anime artwork analysis and automated character portrait categorization applications.",
+        "bio": "This repository contains multiple image classification models specifically trained to categorize anime character portraits into person, halfbody, and head classes.",
+        "created_at": 1763378597.1150002,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime portrait classification, with specific labels (person, halfbody, head) and detailed performance metrics that align with the stated functionality.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model specifications, and clear documentation of the three available models and their respective capabilities.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Portrait Analysis",
+            "Image Classification",
+            "Computer Vision",
+            "Character Detection"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_portrait",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides specialized computer vision models for classifying anime character skin tones into four categories: dark, light, pale, and colored. Two model variants are available: caformer_s36 (37.22M parameters, 79.26% accuracy) and mobilenetv3_v0_dist (4.18M parameters, 78.99% accuracy). Both models demonstrate strong performance with AUC scores of 0.9356 and 0.9337 respectively, trained on the deepghs/anime_ch_skin_color dataset. The models support both PyTorch and ONNX formats, enabling efficient deployment for anime character analysis applications in digital art and animation workflows.",
+        "bio": "This repository contains image classification models for detecting anime character skin tones across four categories: dark, light, pale, and colored.",
+        "created_at": 1763378139.4636705,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime character skin tone classification, with specific labels and performance metrics provided for both model variants.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model specifications, and clear documentation of the classification labels and model variants.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Character",
+            "Skin Tone Classification",
+            "Computer Vision",
+            "Image Classification"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_ch_skin_color",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides multiple deep learning models for anime character hair color classification, addressing the challenge of automated character attribute recognition in anime art. The models include CAFormer-S36 variants and MobileNetV3 architectures, achieving up to 75.06% accuracy on a diverse dataset of anime character images. Performance metrics demonstrate strong classification capabilities across various hair colors including aqua, blue, green, brown, orange, pink, purple, red, light, and black. The models are optimized for both accuracy and computational efficiency, with MobileNetV3 offering lightweight inference at only 0.63G FLOPS while maintaining 72.21% accuracy.",
+        "bio": "This model repository provides specialized image classification models for automatically identifying hair colors of anime characters.",
+        "created_at": 1763378174.0596206,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime character hair color classification, with specific labels, performance metrics, and visual samples that demonstrate the model's functionality and scope.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, model comparisons, and clear documentation of different model variants and their capabilities.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Hair Color Recognition",
+            "Computer Vision",
+            "Character Analysis"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_ch_hair_color",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents multiple deep learning models for anime character eye color classification, addressing the challenge of fine-grained visual attribute recognition in artistic domains. The models include CAFormer-S36 variants and MobileNetV3 architectures, achieving 57-64% accuracy and 0.92-0.93 AUC scores across 11-14 color categories. These vision transformers and convolutional networks demonstrate robust performance in distinguishing subtle color variations in anime artwork, providing valuable tools for character analysis and content organization in digital art applications.",
+        "bio": "This repository contains computer vision models for classifying anime character eye colors from images.",
+        "created_at": 1763378202.0495625,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime character eye color classification, with detailed performance metrics and model architecture information provided.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model specifications, and confusion matrix visualizations for all model variants.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Eye Color Recognition",
+            "Computer Vision",
+            "Image Classification"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX",
+            "timm"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_ch_eye_color",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides multiple deep learning models for classifying anime character hair length from images, addressing the challenge of automated character attribute recognition in anime content. Three model variants are included: caformer_s36_raw (7-class classification), caformer_s36_v0, and mobilenetv3_v0_dist (both 6-class classification). The models achieve competitive performance with accuracies ranging from 65.91% to 68.60% and AUC scores from 0.9026 to 0.9133, demonstrating robust classification capabilities across different hair length categories from bald to absurdly long. These models enable automated character analysis for anime content creation, recommendation systems, and character database management.",
+        "bio": "This repository contains image classification models for automatically detecting anime character hair length from images.",
+        "created_at": 1763378230.5914664,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime character hair length classification, with detailed model variants and performance metrics provided",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The README provides comprehensive performance metrics, model specifications, and clear comparison tables with confusion matrix visualizations",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Hair Length",
+            "Image Classification",
+            "Character Analysis"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_ch_hair_length",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents specialized image classification models for identifying character ear types in anime artwork, addressing the need for fine-grained character attribute recognition. Three model variants are provided: two CAFormer-S36 architectures achieving 82.56% and 83.33% accuracy respectively, and a MobileNetV3 variant with 74.70% accuracy. The models classify 28 distinct ear categories including animal ears (cat, dog, fox), fantasy types (pointed, robot), and a 'none' category for human ears. Performance metrics demonstrate strong discriminative capability with AUC scores above 0.97, making these models valuable for automated anime character analysis, content tagging, and artistic style recognition applications.",
+        "bio": "This repository provides image classification models specifically trained to identify character ear types in anime artwork.",
+        "created_at": 1763378260.8111508,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime character ear classification, with detailed performance metrics and classification categories that align with the repository name and content.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with model performance metrics, architecture details, and clear classification labels, making it easy for users to understand and utilize the models.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Character Attributes",
+            "Image Recognition",
+            "Fine-Grained Classification"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX",
+            "timm"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_ch_ear",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides multiple deep learning models for anime image completeness classification, distinguishing between polished, rough, and monochrome artwork styles. Built on CAFormer and MobileNetV3 architectures, the models achieve high accuracy (92-96%) and AUC scores (0.976-0.993) across different versions. The models support both PyTorch and ONNX formats, enabling efficient deployment for anime art analysis applications. These classifiers serve as valuable tools for automated art quality assessment, content filtering, and anime image organization systems.",
+        "bio": "This repository contains image classification models that categorize anime artwork into polished, rough, or monochrome completeness levels.",
+        "created_at": 1763378811.6466959,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime image completeness classification, with specific labels (polished/rough/monochrome) and detailed performance metrics that demonstrate its functionality.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model comparisons, and clear documentation of different model versions and their capabilities.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Image Quality Assessment",
+            "Art Style Recognition",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_completeness",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents a collection of deep learning models for binary classification of anime versus real images, addressing the challenge of distinguishing artistic styles in visual content. The models include multiple variants of CAFormer-S36 and MobileNetV3 architectures, achieving exceptional performance with accuracies up to 99.34% and AUC scores reaching 0.9991. These models demonstrate robust performance across different computational budgets, with MobileNetV3 variants offering efficient inference at 0.63G FLOPS while CAFormer variants provide higher accuracy at 22.10G FLOPS. The repository includes comprehensive evaluation metrics, confusion matrices, and both PyTorch and ONNX model formats for practical deployment in art style classification applications.",
+        "bio": "This repository provides multiple deep learning models for classifying images as either anime-style artwork or real photographs.",
+        "created_at": 1763378776.0102372,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime vs real image classification, with consistent naming conventions, performance metrics, and sample visualization plots that demonstrate the models' capabilities.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, model specifications, and clear documentation of all available model variants with their respective accuracy and computational requirements.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "Anime Recognition",
+            "Style Classification",
+            "Computer Vision",
+            "Deep Learning"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 7,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_real_cls",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents two deep learning models for classifying anime character image types, addressing the need for automated categorization of character artwork. The models include CAFormer-S36 and MobileNetV3 architectures, both achieving approximately 94% accuracy on a four-class classification task distinguishing between vision, imagery, halfbody, and face character images. With AUC scores exceeding 0.99 and mAP values around 0.98, these models demonstrate robust performance for anime character analysis applications. The availability in both PyTorch checkpoint and ONNX formats ensures compatibility across different deployment environments.",
+        "bio": "This repository provides image classification models for categorizing anime character images into four types: vision, imagery, halfbody, and face.",
+        "created_at": 1763378730.695745,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime character image classification with specific class labels (vision, imagery, halfbody, face) and includes performance metrics that demonstrate its functionality.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model specifications, and clear classification labels, making it easy for users to understand and use the models.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "Anime Character",
+            "Computer Vision",
+            "Deep Learning"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/bangumi_char_type",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents deep learning models for classifying anime art styles by decade, addressing the challenge of temporal style recognition in digital art. Two models are provided: a high-performance CAFormer-S36 architecture achieving 71.03% accuracy and 0.9271 AUC, and a lightweight MobileNetV3 variant with 65.74% accuracy for efficient deployment. Both models classify images into seven temporal categories spanning from pre-1970s to 2020s, trained on the anime_style_ages dataset. The models demonstrate robust performance in distinguishing subtle stylistic evolution across anime generations, with comprehensive evaluation metrics including confusion matrices and ROC curves provided for validation.",
+        "bio": "This repository provides deep learning models for classifying anime art styles by decade from the 1970s to 2020s.",
+        "created_at": 1763378702.9069698,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime style classification by decade, with detailed performance metrics and sample visualizations that demonstrate the model capabilities.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model specifications, and clear documentation of the classification task and labels.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Style",
+            "Image Classification",
+            "Temporal Analysis",
+            "Computer Vision",
+            "Art Recognition"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 4,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_style_ages",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents multiple deep learning models for detecting corrupted anime-style stable diffusion generated images through binary classification. Three model variants are provided: two CAFormer-S36 architectures achieving 95.6-95.8% accuracy and one MobileNetV3 variant with 94.0% accuracy, all trained on SD1.5 images from eight different base models. The models demonstrate strong performance with AUC scores ranging from 0.984 to 0.992, enabling reliable identification of image corruption artifacts in AI-generated anime content. While effective for current applications, the authors note plans to transition to artstyle embedding approaches for improved future solutions.",
+        "bio": "This model repository provides classification models for detecting corrupted anime-style stable diffusion generated images.",
+        "created_at": 1763378674.2952979,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as detecting corrupted AI-generated anime images, with detailed model specifications, performance metrics, and sample visualizations that align with the stated objective.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, performance metrics, model comparisons, and code examples for implementation.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "AI-Generated Images",
+            "Corruption Detection",
+            "Anime Images",
+            "Stable Diffusion"
+        ],
+        "libraries": [
+            "PyTorch",
+            "dghs-imgutils",
+            "timm"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/ai_image_corrupted",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents a comprehensive solution for anime image content rating classification, addressing the need for automated content moderation in anime art communities. The system employs multiple vision transformer architectures including CAFormer, SwinV2, and MobileNetV3, achieving state-of-the-art performance with accuracy up to 84.16% and AUC scores reaching 0.9686. The models classify images into four content rating categories: general, sensitive, questionable, and explicit, providing robust multi-class classification capabilities. This work demonstrates significant advancements in anime content analysis, offering practical solutions for content filtering and moderation applications.",
+        "bio": "This repository provides multiple deep learning models for classifying anime images into content rating categories including general, sensitive, questionable, and explicit.",
+        "created_at": 1763378916.2884598,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime image content rating classification, with detailed performance metrics, model architectures, and classification categories explicitly stated.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model comparisons, and clear documentation of the classification categories and model specifications.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Classification",
+            "Content Rating",
+            "Image Classification",
+            "Vision Transformer"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_dbrating",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-optimized versions of SmilingWolf's WD14 anime image taggers with enhanced embedding outputs. The collection includes 10 distinct models based on various architectures (EVA02, ViT, SwinV2, ConvNext, MOAT) with tag counts ranging from 9,083 to 10,861 and embedding dimensions from 768 to 1024. All models support inverse operations and are designed for efficient anime image classification and tagging. These models enable automatic annotation of anime-style images with detailed character, scene, and attribute tags, facilitating content organization and retrieval in anime image databases.",
+        "bio": "This repository provides optimized ONNX models for anime image classification and tagging with enhanced embedding capabilities.",
+        "created_at": 1763378962.4257638,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing ONNX-optimized anime image taggers with embedding outputs, with detailed model specifications and sample data provided",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README that clearly lists all available models, their specifications, and source repositories",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Tagging",
+            "Image Classification",
+            "ONNX Models",
+            "Embedding Extraction"
+        ],
+        "libraries": [
+            "ONNX"
+        ],
+        "likes": 15,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/wd14_tagger_with_embeddings",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides the ONNX format of the Silero language detection model capable of identifying 95 languages from audio input. The model represents a comprehensive multilingual speech recognition system supporting diverse languages including European, Asian, African, and Middle Eastern languages. Originally part of the silero-vad project but deprecated in later versions, this model enables efficient inference across various platforms through ONNX runtime compatibility. It serves as a valuable resource for developers needing robust language identification capabilities in audio processing applications.",
+        "bio": "This is an ONNX-format language detection model that can identify 95 different languages from audio input.",
+        "created_at": 1763379101.2649293,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing ONNX format for Silero's 95-language detection model, with supporting files that demonstrate the language coverage",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The README clearly explains the model's purpose, origin, and format, providing sufficient context for users",
+            "yes": true
+        },
+        "keywords": [
+            "Language Detection",
+            "Audio Classification",
+            "Multilingual",
+            "ONNX",
+            "Speech Recognition"
+        ],
+        "libraries": [
+            "ONNX"
+        ],
+        "likes": 0,
+        "modality": [
+            "Audio"
+        ],
+        "repo_id": "deepghs/silero-lang95-onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Audio Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides YOLOv8-based object detection models specifically trained for anime and art image analysis. The models detect various anatomical features and artistic elements in anime-style artwork, with 10 different model variants ranging from lightweight (yolov8n) to medium-sized (yolov8m) architectures. Models are available in both PyTorch and ONNX formats, supporting real-time detection applications. The system addresses the need for specialized computer vision tools in anime content analysis, offering detection capabilities for body parts, poses, and character attributes commonly found in booru-style image databases.",
+        "bio": "This repository contains YOLOv8 object detection models specialized for detecting anatomical features and artistic elements in anime-style artwork.",
+        "created_at": 1763379157.3664773,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as object detection models for anime art analysis, with specific labels and model variants well-documented in the README.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The README provides comprehensive information including model specifications, labels, and technical details with clear tables showing model variants and their capabilities.",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "Anime Art",
+            "YOLOv8",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX",
+            "dghs-imgutils"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/booru_yolo",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository provides two deep learning models for classifying anime-style images as either 'furry' or 'non-furry' content. The models include a lightweight MobileNetV3 variant with 4.18M parameters achieving 94.53% accuracy and a more powerful CAFormer-S36 model with 37.21M parameters achieving 95.68% accuracy. Both models were trained on curated datasets including Danbooru and e621 sources, with comprehensive evaluation metrics including AUC scores above 0.98. The models support efficient inference through both PyTorch checkpoints and ONNX formats, making them suitable for content filtering and automated categorization applications in anime art communities.",
+        "bio": "This repository contains image classification models for distinguishing between furry and non-furry anime-style artwork.",
+        "created_at": 1763379184.3267572,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as binary classification of anime images into furry/non-furry categories, with detailed performance metrics and sample visualizations.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The README provides comprehensive information including model performance metrics, architecture details, and clear comparison tables with confusion matrix visualizations.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "Anime Art",
+            "Content Filtering",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "PyTorch"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_furry",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides denormalization models for WD14 tagger embeddings to address the performance degradation caused by embedding normalization in cosine similarity spaces. The models transform normalized image embeddings back to their original space, enabling accurate tag prediction while maintaining cosine similarity properties. Multiple architectures including ViT, ConvNext, SwinV2, EVA02, and MOAT variants are available with different parameter sizes and embedding dimensions. Experimental results show low prediction MSE errors (1e-8 to 2e-7) and perfect cosine similarity preservation, making these models essential for maintaining tag prediction accuracy in normalized embedding workflows.",
+        "bio": "This model denormalizes WD14 tagger embeddings to restore accurate image tag predictions while preserving cosine similarity properties.",
+        "created_at": 1763379235.742142,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as embedding denormalization for WD14 tagger with detailed architecture variants and performance comparisons",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with clear usage examples, performance metrics, and model specifications",
+            "yes": true
+        },
+        "keywords": [
+            "Embedding Denormalization",
+            "Image Tagging",
+            "Feature Extraction",
+            "Cosine Similarity",
+            "WD14 Tagger"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX",
+            "dghs-imgutils"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/wd14_tagger_embedding_denormalize",
+        "repo_type": "model",
+        "task_types": [
+            "Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This repository presents multiple deep learning models for anime image aesthetic quality assessment, trained on the anime_aesthetic dataset. The models include CAFormer and SwinV2 architectures that classify anime artwork into seven aesthetic categories ranging from 'masterpiece' to 'worst'. The best-performing model achieves 40.88% accuracy and 0.8214 AUC, demonstrating robust performance in evaluating artistic quality. These models enable automated quality assessment for anime content curation, filtering, and recommendation systems, providing valuable tools for anime art communities and content platforms.",
+        "bio": "This repository provides deep learning models for classifying anime images into seven aesthetic quality categories.",
+        "created_at": 1763378884.8817372,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as anime aesthetic quality classification, with detailed performance metrics and sample data that demonstrate the classification task effectively.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model specifications, and clear documentation of the seven aesthetic categories.",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Aesthetic",
+            "Image Classification",
+            "Quality Assessment",
+            "Computer Vision",
+            "Art Analysis"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 9,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_aesthetic",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides pre-built FAISS indices for efficient similarity search and retrieval of anime-style images across multiple popular anime image databases. Built using SwinV2_v3 feature extractors, the indices support high-performance nearest neighbor search with compression ratios ranging from 11.65x to 55.53x. The collection includes indices for Danbooru, Gelbooru, Konachan, Yandere, Zerochan, and other anime image platforms, with total vector counts from 309,751 to over 78 million. Performance metrics show excellent recall rates (98.4-100% for 1-recall@20) and fast search speeds (8.87-10.57ms average), making these indices valuable for anime image retrieval, duplicate detection, and content-based recommendation systems.",
+        "bio": "This repository provides pre-built FAISS indices for efficient similarity search and retrieval of anime-style images across multiple popular anime image databases.",
+        "created_at": 1763379283.3676522,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing FAISS indices for anime image retrieval, with specific performance metrics and dataset sources listed for each index variant.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, dataset sources, and clear technical specifications for each index variant.",
+            "yes": true
+        },
+        "keywords": [
+            "FAISS",
+            "Image Retrieval",
+            "Anime Images",
+            "Similarity Search",
+            "Vector Database"
+        ],
+        "libraries": [
+            "FAISS",
+            "PyTorch"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/anime_sites_indices",
+        "repo_type": "model",
+        "task_types": [
+            "Image Feature Extraction",
+            "Visual Document Retrieval"
+        ]
+    },
+    {
+        "abstract": "This repository presents YOLO-based object detection models specifically trained for manga image analysis, addressing the challenge of detecting key visual elements in Japanese comic art. The models achieve high performance with F1 scores up to 0.92 across multiple YOLO variants including YOLOv8 and YOLOv11 architectures, detecting four essential manga components: body, face, frame, and text. Comprehensive evaluation metrics demonstrate robust performance with precision up to 0.93, recall up to 0.91, and mAP50 scores reaching 0.95, making these models valuable for manga digitization, content analysis, and automated annotation pipelines in both research and industrial applications.",
+        "bio": "This repository provides YOLO-based object detection models specifically trained to identify key elements in manga images including bodies, faces, frames, and text.",
+        "created_at": 1763379377.1221159,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as manga object detection with specific classes (body, face, frame, text) and includes extensive performance evaluation data",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed performance metrics, model comparisons, and clear links to evaluation plots and confusion matrices",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "Manga Analysis",
+            "YOLO",
+            "Computer Vision",
+            "Image Annotation"
+        ],
+        "libraries": [
+            "PyTorch",
+            "dghs-imgutils",
+            "Ultralytics"
+        ],
+        "likes": 11,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/manga109_yolo",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-format conversions of DINOv2 vision transformer models for efficient image feature extraction. It includes multiple model variants ranging from small (21.5M parameters) to large (302.9M parameters) architectures, all optimized for deployment across different hardware platforms. The models support standard image preprocessing pipelines with resize, center crop, and normalization operations, enabling seamless integration into production systems. These ONNX models facilitate cross-platform compatibility and accelerated inference while maintaining the powerful self-supervised learning capabilities of the original DINOv2 framework for computer vision applications.",
+        "bio": "This repository provides ONNX-format DINOv2 vision transformer models for efficient image feature extraction across multiple model sizes.",
+        "created_at": 1763379441.3727355,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing ONNX conversions of DINOv2 models for feature extraction, with well-structured model variants and preprocessing configurations",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The README is comprehensive with detailed model specifications, parameter counts, and clear organization of multiple model variants",
+            "yes": true
+        },
+        "keywords": [
+            "ONNX",
+            "DINOv2",
+            "Feature Extraction",
+            "Vision Transformer",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "ONNX",
+            "dghs-imgutils",
+            "dghs-realutils"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/dinov2_onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Image Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This repository provides a comprehensive collection of pretrained YOLO (You Only Look Once) object detection models from Ultralytics, including YOLOv5, YOLOv8, YOLOv9, YOLOv10, YOLOv11, YOLOv12, and RT-DETR variants. The models are trained on the COCO dataset and support 80 object categories including person, vehicle, animal, and household objects. Available in multiple sizes from nano to extra-large configurations, these models offer varying computational requirements and detection performance for real-time applications. All models are provided in both PyTorch and ONNX formats for flexible deployment.",
+        "bio": "A comprehensive collection of pretrained YOLO object detection models for identifying 80 different object categories in images.",
+        "created_at": 1763379476.7315745,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as a collection of YOLO object detection models is clearly evident from the directory structure, model names, labels files, and detailed README documentation",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with installation instructions, usage examples, performance metrics, and links to documentation",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "YOLO",
+            "Computer Vision",
+            "Real-time Inference"
+        ],
+        "libraries": [
+            "PyTorch",
+            "ONNX",
+            "dghs-realutils",
+            "dghs-imgutils"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/yolos",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-exported versions of 1,139 computer vision models from the TIMM (PyTorch Image Models) library, offering a comprehensive collection of state-of-the-art architectures for image classification tasks. The models span diverse families including Vision Transformers, ConvNeXt, EfficientNet, ResNet variants, and specialized architectures optimized for various computational constraints. Each model is converted to ONNX format with standardized preprocessing pipelines, enabling seamless deployment across multiple inference frameworks. The collection covers models trained on ImageNet-1K, ImageNet-22K, and other large-scale datasets, providing researchers and practitioners with extensive options for transfer learning and production deployment.",
+        "bio": "This repository contains ONNX-exported computer vision models from the TIMM library for image classification tasks.",
+        "created_at": 1763379559.0258007,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing ONNX-exported TIMM models, with extensive documentation covering model architectures, parameters, and performance metrics",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with detailed model information, organized tables showing model specifications, and clear documentation about the ONNX export process",
+            "yes": true
+        },
+        "keywords": [
+            "Computer Vision",
+            "Image Classification",
+            "ONNX Models",
+            "Transfer Learning",
+            "Deep Learning"
+        ],
+        "libraries": [
+            "ONNX",
+            "dghs-imgutils"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/timms",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides two advanced image classification models specifically designed for idol image tagging, featuring both SwinTransformerV2 and EVA02 architectures. The models support 573 distinct tags including content rating categories and character attributes, with comprehensive embedding outputs for downstream applications. With parameter counts ranging from 66.5M to 303.1M and FLOPs from 46.2G to 697.6G, these models offer scalable solutions for automated image annotation. They are optimized for deployment through ONNX format and integrate seamlessly with the dghs-realutils library for practical implementation in content moderation and image organization systems.",
+        "bio": "This repository provides specialized image classification models for automated tagging of idol images with content ratings and character attributes.",
+        "created_at": 1763379592.6175206,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as idol image taggers with embeddings, supported by detailed model specifications, tag categories, and preprocessing information",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear usage instructions, model specifications, and integration guidance with the dghs-realutils library",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "Idol Image Tagging",
+            "Content Moderation",
+            "Feature Extraction",
+            "ONNX Models"
+        ],
+        "libraries": [
+            "timm",
+            "dghs-imgutils",
+            "ONNX"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/idolsankaku_tagger_with_embeddings",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification",
+            "Feature Extraction"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-exported versions of OpenAI's CLIP models, enabling efficient cross-modal representation learning between images and text. The collection includes four variants: CLIP-ViT-Base-Patch16/32 and CLIP-ViT-Large-Patch14/336, with detailed specifications covering parameter counts (37.8M-302.9M), computational requirements (4.4G-174.7G FLOPs), and embedding dimensions (512-768). These optimized ONNX models facilitate zero-shot classification tasks by computing similarity scores between visual and textual embeddings, supporting applications in content retrieval, multimodal understanding, and deployment across diverse inference environments with enhanced performance.",
+        "bio": "This repository provides ONNX-exported CLIP models for efficient zero-shot image classification and cross-modal retrieval tasks.",
+        "created_at": 1763379627.9742458,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing ONNX-exported CLIP models with detailed technical specifications and model variants",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with model specifications, performance metrics, and clear documentation about the ONNX export process",
+            "yes": true
+        },
+        "keywords": [
+            "CLIP",
+            "ONNX",
+            "Zero-Shot Classification",
+            "Multi-Modal",
+            "Cross-Modal"
+        ],
+        "libraries": [
+            "ONNX",
+            "dghs-realutils",
+            "Transformers"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/clip_onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Zero-Shot Image Classification",
+            "Image-to-Text",
+            "Text-to-Image"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-exported versions of SigLIP (Sigmoid Loss for Language-Image Pre-training) models, enabling efficient cross-modal zero-shot classification. The collection includes eight variants ranging from base to large configurations with image resolutions from 224×224 to 512×512, featuring multilingual support and optimized computational performance. These models leverage contrastive learning with sigmoid loss to align image and text embeddings, achieving state-of-the-art zero-shot classification accuracy while offering deployment flexibility across different hardware platforms through ONNX runtime compatibility.",
+        "bio": "This repository provides ONNX-exported SigLIP models for efficient zero-shot image classification tasks.",
+        "created_at": 1763379671.6600888,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as ONNX-exported SigLIP models for zero-shot classification, with detailed model information and file structure",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with model specifications, performance metrics, and clear documentation of all available variants",
+            "yes": true
+        },
+        "keywords": [
+            "SigLIP",
+            "ONNX",
+            "Zero-Shot Classification",
+            "Multi-Modal",
+            "Image-Text"
+        ],
+        "libraries": [
+            "ONNX",
+            "dghs-realutils",
+            "Transformers"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/siglip_onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides a collection of YOLO-based face detection models optimized for real-time performance across various YOLO versions including v6, v8, v10, and v11. The models achieve high precision (up to 0.881) and recall (up to 0.683) for face detection tasks, with multiple model sizes available to balance computational efficiency and accuracy. All models are exported in both PyTorch and ONNX formats, enabling deployment flexibility across different platforms and frameworks.",
+        "bio": "This repository contains optimized YOLO face detection models for real-time object detection applications.",
+        "created_at": 1763379702.9826865,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as face detection models using YOLO architecture is clearly stated with multiple model variants, performance metrics, and practical usage examples",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with installation instructions, usage examples, performance metrics, and clear documentation links",
+            "yes": true
+        },
+        "keywords": [
+            "Face Detection",
+            "Object Detection",
+            "YOLO",
+            "Real-time",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "dghs-realutils",
+            "dghs-imgutils",
+            "PyTorch",
+            "ONNX"
+        ],
+        "likes": 9,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/yolo-face",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository provides a YOLOv8n-person model specialized for person detection tasks, exported from akanametov/yolo-face. The model achieves 8.19G FLOPS with 3.01M parameters and is optimized for detecting the 'person' class. Available in both ONNX and PyTorch formats, it offers efficient inference capabilities for real-time person detection applications. The model includes comprehensive evaluation metrics including precision, recall, and F1 score for performance assessment.",
+        "bio": "A specialized YOLOv8 model optimized for efficient person detection in images.",
+        "created_at": 1763379722.7783813,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as a person detection model based on YOLOv8 architecture, with explicit model specifications and supported formats",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with model specifications, metrics, and clear information about the model's purpose and source",
+            "yes": true
+        },
+        "keywords": [
+            "YOLO",
+            "Object Detection",
+            "Person Detection",
+            "ONNX",
+            "Real-time Inference"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "dghs-realutils",
+            "ONNX",
+            "PyTorch"
+        ],
+        "likes": 2,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/yolo-person",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository presents a series of YOLO-based face detection models trained on both anime and real photo datasets, achieving robust performance across diverse facial representations. The models demonstrate strong detection capabilities with F1 scores ranging from 0.70 to 0.77 across different model sizes, supporting applications in both artistic and photographic domains. Performance metrics include precision up to 0.884, recall up to 0.674, and mAP50 scores reaching 0.766, making these models suitable for real-world face detection tasks requiring balanced accuracy and computational efficiency.",
+        "bio": "This repository provides YOLO-based face detection models that work on both anime and real photographs with high accuracy.",
+        "created_at": 1763379771.3297505,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as face detection for both anime and real photos, with detailed model specifications and performance metrics provided",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear installation instructions, usage examples, performance metrics, and links to documentation",
+            "yes": true
+        },
+        "keywords": [
+            "Face Detection",
+            "Object Detection",
+            "YOLO",
+            "Computer Vision",
+            "Multi-Domain"
+        ],
+        "libraries": [
+            "PyTorch",
+            "dghs-imgutils",
+            "dghs-realutils"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/real_face_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository presents a series of YOLO-based object detection models specifically designed for head detection in both anime and real photographic images. The models range from lightweight to large variants, with F1 scores from 0.74 to 0.81 and mAP50 scores from 0.73 to 0.82. Trained on comprehensive datasets including deepghs/anime_head_detection and real photos, these models demonstrate robust performance across diverse visual domains. The architecture employs YOLOv8 variants with optimized backbone and head configurations, supporting efficient inference through both PyTorch and ONNX formats for practical deployment in computer vision applications.",
+        "bio": "This repository provides YOLO-based object detection models for accurate head detection in both anime and real photographic images.",
+        "created_at": 1763379811.1151843,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as head detection models for both anime and real images, with well-documented performance metrics and usage examples",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with installation instructions, usage examples, performance metrics, and detailed model specifications",
+            "yes": true
+        },
+        "keywords": [
+            "Head Detection",
+            "Object Detection",
+            "YOLO",
+            "Computer Vision",
+            "Image Analysis"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "PyTorch",
+            "ONNX",
+            "Ultralytics"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/real_head_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository presents a series of YOLO-based object detection models specifically designed for person detection across both anime and real photographic images. The models were trained on a combination of anime person detection datasets and open-sourced real photo datasets, achieving F1 scores ranging from 0.71 to 0.79 across different model sizes. The architecture supports multiple model variants (n, s, m, l) with varying computational requirements from 6.44G to 165G FLOPS, providing flexibility for different deployment scenarios while maintaining robust performance in detecting persons across diverse visual styles.",
+        "bio": "A collection of YOLO-based object detection models for detecting persons in both anime and real photographic images.",
+        "created_at": 1763379856.8243024,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as person detection for both anime and real images, with detailed model specifications and performance metrics provided",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with installation instructions, usage examples, performance metrics, and links to documentation",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "Person Detection",
+            "YOLO",
+            "Computer Vision",
+            "Multi-Style"
+        ],
+        "libraries": [
+            "PyTorch",
+            "dghs-imgutils",
+            "dghs-realutils"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/real_person_detection",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository provides an ONNX export of the deepgelbooru model for automated anime image tagging. The model performs multi-label classification to identify content ratings, character features, and specific characters in anime-style artwork. It supports comprehensive tag extraction including safety ratings (safe/questionable/explicit), visual attributes, and character identification. The ONNX format enables efficient inference across different platforms while maintaining compatibility with the dghs-imgutils library for easy integration into anime image processing pipelines.",
+        "bio": "This model provides automated tagging and classification of anime-style images using deep learning.",
+        "created_at": 1763379877.4972024,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an ONNX export of deepgelbooru for anime image tagging, with comprehensive documentation and sample outputs that demonstrate its classification capabilities",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The README provides clear installation instructions, usage examples with code snippets, and demonstrates the model's functionality with sample outputs",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Tagging",
+            "Image Classification",
+            "ONNX",
+            "Content Rating",
+            "Character Recognition"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "ONNX"
+        ],
+        "likes": 1,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/deepgelbooru_onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents experimental models for monochrome image classification using DeepGHS's novel tagger attachment training framework. The models employ multilayer perceptron (MLP) architectures with 525K parameters, trained on the monochrome_danbooru dataset to distinguish between monochrome and normal images. Performance metrics demonstrate excellent classification capability with AUC scores ranging from 0.9937 to 0.9956 and accuracy between 96.5% and 97.4%. These experiments serve as technical validation for the embedding attachment framework, though they are not recommended for production use due to their experimental nature.",
+        "bio": "This repository contains experimental MLP models for classifying images as monochrome or normal using DeepGHS's tagger attachment framework.",
+        "created_at": 1763379915.8480408,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as experimental monochrome image classification models is clearly stated in the README, supported by detailed performance metrics and model configurations.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear performance metrics, model specifications, and links to relevant documentation and frameworks.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "Monochrome Detection",
+            "Embedding Attachments",
+            "MLP Architecture",
+            "WD14 Tagger"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "ONNX",
+            "Safetensors"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/eattach_monochrome_experiments",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-optimized implementations of ML-Danbooru models for automated anime image tagging, addressing the challenge of comprehensive metadata generation for anime-style artwork. The models employ Caformer (Convolution-Augmented Transformer) and TResnet architectures that combine transformers' global receptive field with convolutional networks' local feature extraction, enabling precise classification across 12,547 Danbooru-style tags. Performance metrics demonstrate exceptional accuracy with confidence scores typically exceeding 0.7-0.9 for relevant features, supporting batch processing and various aspect ratios through intelligent resizing strategies. These models significantly advance anime image analysis capabilities for both academic research and industrial applications in content organization and retrieval systems.",
+        "bio": "This repository provides ONNX-optimized deep learning models for automated tagging and classification of anime-style images across thousands of Danbooru-style attributes.",
+        "created_at": 1763385981.2747507,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing ONNX-optimized anime image tagging models, supported by detailed documentation and sample tag data",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with installation instructions, usage examples, model variants description, and detailed performance characteristics",
+            "yes": true
+        },
+        "keywords": [
+            "Anime Tagging",
+            "Image Classification",
+            "Transformer Architecture",
+            "ONNX Optimization",
+            "Danbooru Dataset"
+        ],
+        "libraries": [
+            "ONNX",
+            "dghs-imgutils",
+            "PyTorch"
+        ],
+        "likes": 6,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/ml-danbooru-onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-format implementations of PaddleOCR models for comprehensive multilingual optical character recognition. It includes text detection models that identify text regions using segmentation-based approaches with contour detection and polygon approximation, and text recognition models supporting multiple languages including Chinese, English, Japanese, Korean, Arabic, Cyrillic, and Devanagari scripts. The models are optimized for various deployment scenarios from mobile applications to server environments, featuring configurable parameters for heat thresholds, box confidence, and duplicate character removal to balance precision and recall in practical applications.",
+        "bio": "This repository provides ONNX-format PaddleOCR models for multilingual optical character recognition with text detection and recognition capabilities.",
+        "created_at": 1763386457.726751,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as a collection of ONNX-format PaddleOCR models for multilingual OCR is clearly defined in the README, supported by detailed model descriptions and directory structure",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear installation instructions, usage examples, model listings, configuration parameters, and performance notes",
+            "yes": true
+        },
+        "keywords": [
+            "OCR",
+            "Text Detection",
+            "Text Recognition",
+            "Multilingual",
+            "ONNX"
+        ],
+        "libraries": [
+            "ONNX",
+            "dghs-imgutils",
+            "PaddleOCR"
+        ],
+        "likes": 11,
+        "modality": [
+            "Image",
+            "Text"
+        ],
+        "repo_id": "deepghs/paddleocr",
+        "repo_type": "model",
+        "task_types": [
+            "Image-to-Text"
+        ]
+    },
+    {
+        "abstract": "This repository provides high-performance image restoration models including NAFNet and SCUNet implementations for various image enhancement tasks. The models restore degraded images by removing noise, artifacts, and imperfections while preserving visual details. Multiple variants are available: NAFNet-REDS for general restoration, NAFNet-GoPro for deblurring, and NAFNet-SIDD for noise reduction, plus SCUNet with GAN-based and PSNR-optimized approaches. All models are exported in ONNX format with tiled processing support for high-resolution images and achieve state-of-the-art performance in benchmark evaluations.",
+        "bio": "This repository provides deep learning models for image restoration tasks including noise reduction, deblurring, and general image enhancement.",
+        "created_at": 1763386474.8073907,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as image restoration with specific model implementations and use cases explained",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with installation instructions, usage examples, model descriptions, and technical details",
+            "yes": true
+        },
+        "keywords": [
+            "Image Restoration",
+            "NAFNet",
+            "SCUNet",
+            "Image Enhancement",
+            "ONNX"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "ONNX"
+        ],
+        "likes": 5,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/image_restoration",
+        "repo_type": "model",
+        "task_types": [
+            "Image-to-Image"
+        ]
+    },
+    {
+        "abstract": "This repository provides optimized ONNX models for the NudeNet object detection system, enabling efficient nudity detection in images using a YOLOv8-based architecture. The implementation includes a YOLOv8 detection model for generating bounding box proposals and a non-maximum suppression module for post-processing. Performance is enhanced through model quantization and ONNX Runtime integration, supporting detection of 18 anatomical regions and clothing states with configurable thresholds for precision-recall balance across various hardware platforms.",
+        "bio": "This repository provides optimized ONNX models for efficient nudity detection and NSFW content recognition in images using YOLOv8-based object detection.",
+        "created_at": 1763386540.6519349,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing optimized ONNX models for nudity detection, with detailed information about the YOLOv8 architecture, supported labels, and practical usage examples that align with the repository name and content.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear installation instructions, usage examples, label definitions, and proper documentation of the model components and their functionality.",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "NSFW Detection",
+            "YOLOv8",
+            "ONNX",
+            "Image Analysis"
+        ],
+        "libraries": [
+            "ONNX",
+            "onnxruntime",
+            "dghs-imgutils"
+        ],
+        "likes": 3,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/nudenet_onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    },
+    {
+        "abstract": "This repository presents a lightweight MLP-based image classification model specifically designed for content rating prediction on Sankaku Complex images. The model utilizes features extracted from SmilingWolf's wd-swinv2-tagger-v3 encoder and achieves competitive performance with only 526K parameters. Quantitative evaluation demonstrates an AUC of 0.8746, accuracy of 0.7013, and mAP of 0.7853 across three rating categories: r15, r18, and safe. The model employs focal loss optimization and provides comprehensive evaluation metrics including confusion matrices and ROC curves, making it suitable for efficient content moderation applications.",
+        "bio": "This is a lightweight image classification model for predicting content ratings (r15, r18, safe) on Sankaku Complex images.",
+        "created_at": 1763386578.057901,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as an image classification model for content rating prediction, with specific labels and performance metrics provided.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with performance metrics, model architecture details, and clear documentation of the classification task and labels.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "Content Rating",
+            "MLP",
+            "Sankaku Complex",
+            "Content Moderation"
+        ],
+        "libraries": [
+            "PyTorch",
+            "Safetensors",
+            "ONNX"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/eattach_sankaku_rating",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides ONNX-exported versions of the Camie Tagger model, a specialized image classification system designed for comprehensive image tagging with 70,527 distinct tags across multiple categories. The model offers two variants: initial (214.1M parameters, 64.7G FLOPs) and refined (334.0M parameters, 68.1G FLOPs), both achieving competitive performance with micro F1 scores of 0.584 and 0.589 respectively. Built on timm architecture and optimized for 512x512 input resolution, the system enables efficient image analysis through the dghs-imgutils library, supporting applications in content categorization, metadata generation, and automated image annotation workflows.",
+        "bio": "This repository provides ONNX-exported versions of the Camie Tagger model for comprehensive image tagging and classification with 70,527 distinct tags.",
+        "created_at": 1763386608.2774608,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose is clearly defined as providing ONNX-exported versions of the Camie Tagger model for image classification and tagging, with well-documented functionality and comprehensive metadata.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with clear installation instructions, usage examples, and detailed model specifications including performance metrics and technical details.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "ONNX Export",
+            "Multi-Tagging",
+            "Timm Architecture",
+            "Content Categorization"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "ONNX",
+            "Safetensors"
+        ],
+        "likes": 0,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/camie_tagger_onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides experimental SigLIP (Sigmoid Loss for Language Image Pre-training) models optimized for zero-shot image classification, particularly for anime and artwork analysis. The models include variants with frozen and unfrozen image encoders based on SwinV2 and EVA02 architectures, trained on the Danbooru2024 dataset. These ONNX-format models enable efficient multi-modal embedding generation for image-text similarity tasks, supporting both short tag classification and long descriptive text matching through the dghs-imgutils library.",
+        "bio": "This repository contains experimental SigLIP models for zero-shot image classification and image-text similarity tasks, specifically optimized for anime artwork analysis.",
+        "created_at": 1763386634.9795105,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository clearly states its purpose as experimental SigLIP models for zero-shot image classification, with specific focus on anime artwork analysis, and provides detailed model variants and compatibility information.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The README provides comprehensive documentation including model descriptions, installation instructions, usage examples with code snippets, and links to demo spaces.",
+            "yes": true
+        },
+        "keywords": [
+            "SigLIP",
+            "Zero-Shot Classification",
+            "Multi-Modal",
+            "Anime Art",
+            "Image-Text Similarity"
+        ],
+        "libraries": [
+            "dghs-imgutils",
+            "ONNX"
+        ],
+        "likes": 8,
+        "modality": [
+            "Image",
+            "Text",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/siglip_beta",
+        "repo_type": "model",
+        "task_types": [
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository provides an ONNX-optimized version of PixAI's multilabel image classification model for anime-style content tagging. The model features 317.9M parameters and processes 448x448 resolution images to classify 13,461 tags across general and character categories. It achieves efficient inference through ONNX runtime integration while maintaining the original model's capabilities for detecting visual attributes, characters, and intellectual properties in anime artwork. The implementation includes optimized thresholds (0.3 for general tags, 0.85 for character tags) and supports integration via the dghs-imgutils library for practical applications in content organization and analysis.",
+        "bio": "This is an ONNX-optimized image classification model for multilabel tagging of anime-style artwork with 13,461 tags across general and character categories.",
+        "created_at": 1763386728.8537877,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "The repository's purpose as an ONNX-optimized image tagging model for anime content is clearly defined through the README, sample outputs, and detailed model specifications.",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "The repository has a comprehensive README with installation instructions, usage examples, model details, and sample code demonstrating practical implementation.",
+            "yes": true
+        },
+        "keywords": [
+            "Image Classification",
+            "ONNX",
+            "Anime Tagging",
+            "Multilabel Classification",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "ONNX",
+            "dghs-imgutils",
+            "PyTorch",
+            "timm",
+            "Pillow",
+            "pandas"
+        ],
+        "likes": 28,
+        "modality": [
+            "Image",
+            "Multi-Modal"
+        ],
+        "repo_id": "deepghs/pixai-tagger-v0.9-onnx",
+        "repo_type": "model",
+        "task_types": [
+            "Image Classification",
+            "Zero-Shot Image Classification"
+        ]
+    },
+    {
+        "abstract": "This repository presents YOLO12-based object detection models specifically trained for anime scene text detection using the AnimeText dataset. The models achieve high performance with F1 scores ranging from 0.86 to 0.90 across different model sizes, demonstrating robust detection capabilities for complex anime text blocks. Five model variants (n, s, m, l, x) are provided with varying computational requirements, from 6.48G to 200G FLOPS, enabling deployment across different hardware constraints. The models support both PyTorch and ONNX formats for flexible integration into production pipelines.",
+        "bio": "This repository provides YOLO12 object detection models specifically trained for detecting text blocks in anime scenes.",
+        "created_at": 1763387162.9687986,
+        "downloads": 0,
+        "ice": true,
+        "irv": true,
+        "is_clear_enough": {
+            "reason": "Repository purpose is clearly defined as anime scene text detection with well-documented model variants and performance metrics",
+            "yes": true
+        },
+        "is_ready_to_view": {
+            "reason": "Comprehensive README with performance metrics, model variants comparison, and links to demo and paper",
+            "yes": true
+        },
+        "keywords": [
+            "Object Detection",
+            "Anime Text",
+            "YOLO12",
+            "Computer Vision"
+        ],
+        "libraries": [
+            "PyTorch",
+            "Ultralytics",
+            "ONNX"
+        ],
+        "likes": 6,
+        "modality": [
+            "Image"
+        ],
+        "repo_id": "deepghs/AnimeText_yolo",
+        "repo_type": "model",
+        "task_types": [
+            "Object Detection"
+        ]
+    }
+]
