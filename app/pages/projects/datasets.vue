@@ -15,14 +15,18 @@
       <div class="w-full flex flex-row justify-between items-center select-none">
         <div class="inline-flex items-center">
           <span class="mr-2">Modalities:</span>
-          <URadioGroup
+          <DRadioGroup
             v-model="filterModality"
             orientation="horizontal"
-            variant="table"
             size="xs"
-            default-value="ALL"
-            :items="modalities"
-          />
+            :options="modalityOptions"
+          >
+            <template #right="{ option }">
+              <UBadge class="font-bold rounded" size="xs" variant="outline">
+                {{ modalityCounts[option.value as string] ?? 0 }}
+              </UBadge>
+            </template>
+          </DRadioGroup>
         </div>
         <div class="inline-flex items-center">
           <span class="mr-2">Sort by:</span>
@@ -73,16 +77,19 @@
             </template>
           </UInput>
         </template>
-        <UCheckboxGroup
+        <DListCheckboxGroup
           v-model="filterTaskTypeTags"
           class="ml-5 select-none"
           indicator="end"
           variant="table"
           :items="filteredTaskTypes"
-          :ui="{
-            label: 'text-xs'
-          }"
-        />
+        >
+          <template #right="{ item }">
+            <UBadge class="font-bold rounded" size="sm" variant="outline">
+              {{ item.rightText }}
+            </UBadge>
+          </template>
+        </DListCheckboxGroup>
       </UPageAside>
     </template>
     <template #right>
@@ -142,9 +149,23 @@ const rightLinks = [
   }
 ]
 
+// 去重后的任务类型集合
 const taskTypes = Array.from(
   new Set(OurDatasets.flatMap(dataset => dataset.task_types))
 )
+
+// 预计算每个任务类型出现的次数，提升 filteredTaskTypes 计算性能
+const taskTypeCounts = computed(() => {
+  const map = new Map<string, number>()
+  for (const ds of OurDatasets) {
+    if (Array.isArray(ds.task_types)) {
+      for (const t of ds.task_types) {
+        map.set(t, (map.get(t) || 0) + 1)
+      }
+    }
+  }
+  return map
+})
 
 const modalities = computed(() => {
   const origin = Array.from(
@@ -153,11 +174,44 @@ const modalities = computed(() => {
   return ['ALL', ...origin]
 })
 
+const modalityOptions = computed(() =>
+  modalities.value.map(value => ({ label: value, value }))
+)
+
+const modalityCounts = computed<Record<string, number>>(() => {
+  const counts: Record<string, number> = {
+    ALL: OurDatasets.length
+  }
+
+  for (const dataset of OurDatasets) {
+    const mods = Array.isArray(dataset.modality)
+      ? dataset.modality
+      : dataset.modality
+        ? [dataset.modality]
+        : []
+
+    for (const mod of mods) {
+      counts[mod] = (counts[mod] || 0) + 1
+    }
+  }
+
+  return counts
+})
+
 const filteredTaskTypes = computed(() => {
   const filter = searchFilter.value.toLowerCase()
-  return taskTypes.filter(taskType =>
+  const filtered = taskTypes.filter(taskType =>
     taskType.toLowerCase().includes(filter)
   )
+
+  return filtered.map(taskType => ({
+    id: taskType,
+    label: taskType,
+    count: taskTypeCounts.value.get(taskType) || 0,
+    rightText: String(taskTypeCounts.value.get(taskType) || 0)
+  })).sort((a, b) => {
+    return (b.count || 0) - (a.count || 0)
+  })
 })
 
 const searchDatasets = ref<Array<DeepGHSProject> | undefined>(undefined)

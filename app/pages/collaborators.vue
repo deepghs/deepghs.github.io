@@ -25,7 +25,7 @@
               <span class="font-bold text-3xl">Collaborators</span>
             </div>
             <UPageGrid>
-              <CollaboratorCard
+              <DCollaboratorCard
                 v-for="(collaborator, index) in collaborators"
                 :key="index"
                 :collaborator="collaborator"
@@ -40,7 +40,7 @@
               <span class="font-bold text-3xl">Sponsors</span>
             </div>
             <UPageGrid>
-              <CollaboratorCard
+              <DCollaboratorCard
                 v-for="(collaborator, index) in sponsors"
                 :key="index"
                 :collaborator="collaborator"

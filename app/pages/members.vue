@@ -18,7 +18,7 @@
               <span class="font-bold text-3xl">Founder</span>
             </div>
             <UPageGrid>
-              <MemberCard
+              <DMemberCard
                 v-for="(member, index) in founder"
                 :key="index"
                 :member="member"
@@ -33,7 +33,7 @@
               <span class="font-bold text-3xl">Core Team</span>
             </div>
             <UPageGrid>
-              <MemberCard
+              <DMemberCard
                 v-for="(member, index) in core"
                 :key="index"
                 :member="member"
@@ -48,7 +48,7 @@
               <span class="font-bold text-3xl">Partners</span>
             </div>
             <UPageGrid>
-              <MemberCard
+              <DMemberCard
                 v-for="(partner, index) in partners"
                 :key="index"
                 :member="partner"
@@ -63,7 +63,7 @@
               <span class="font-bold text-3xl">Normal Members</span>
             </div>
             <UPageGrid>
-              <MemberCard
+              <DMemberCard
                 v-for="(member, index) in normalMembers"
                 :key="index"
                 :member="member"
