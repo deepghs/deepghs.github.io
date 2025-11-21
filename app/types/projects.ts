@@ -1,6 +1,6 @@
 export interface DeepGHSProject {
   repo_id: string
-  repo_type: 'space' | 'dataset' | 'model'
+  repo_type: 'space' | 'dataset' | 'model' | 'tool'
   id?: number
   name?: string
   abstract?: string
