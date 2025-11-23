@@ -1,0 +1,32 @@
+[
+  {
+    "id": "models",
+    "title": "Our Models",
+    "description": "Most popular models ranked by downloads.",
+    "cta": {
+      "label": "View all models",
+      "to": "/projects/models"
+    },
+    "emptyMessage": "No models to show yet."
+  },
+  {
+    "id": "datasets",
+    "title": "Our Datasets",
+    "description": "Top datasets ranked by downloads.",
+    "cta": {
+      "label": "View all datasets",
+      "to": "/projects/datasets"
+    },
+    "emptyMessage": "Datasets will appear here once available."
+  },
+  {
+    "id": "spaces",
+    "title": "Our Spaces",
+    "description": "Top community playgrounds ranked by likes.",
+    "cta": {
+      "label": "View all spaces",
+      "to": "/projects/spaces"
+    },
+    "emptyMessage": "No spaces to highlight yet."
+  }
+]

@@ -25,28 +25,54 @@
         </p>
       </template>
       <template #body>
-        <UPageGrid>
-          <UPageCard
-            v-for="(card, index) in worksDec"
-            :key="index"
-            v-bind="card"
-          />
-        </UPageGrid>
+        <div class="space-y-10">
+          <UCard
+            v-for="module in featuredWorkModules"
+            :key="module.id"
+            variant="soft"
+            class="space-y-4 rounded-2xl border border-gray-200/60 dark:border-gray-800/60"
+            :ui="{
+              header: 'p-4'
+            }"
+          >
+            <template #header>
+              <div class="flex flex-wrap items-center justify-between gap-4">
+                <div>
+                  <h3 class="text-2xl font-semibold">
+                    {{ module.title }}
+                  </h3>
+                  <p class="text-sm text-gray-500 dark:text-gray-400">
+                    {{ module.description }}
+                  </p>
+                </div>
+                <UButton
+                  size="md"
+                  color="primary"
+                  variant="ghost"
+                  :to="module.cta.to"
+                  :disabled="module.cta.disabled"
+                >
+                  {{ module.cta.label }}
+                </UButton>
+              </div>
+            </template>
+            <UPageGrid v-if="module.repos && module.repos.length">
+              <DWorkCard
+                v-for="repo in module.repos"
+                :key="repo.repo_id"
+                :repo="repo"
+              />
+            </UPageGrid>
+            <p
+              v-else
+              class="text-sm text-gray-500 dark:text-gray-400"
+            >
+              {{ module.emptyMessage }}
+            </p>
+          </UCard>
+        </div>
       </template>
     </UPageSection>
-
-    <!-- configureable projects area -->
-    <!-- Classification Models -->
-    <UPageSection
-      v-for="category in worksCollections"
-      :id="category.id"
-      :key="category.id"
-      :title="category.name"
-      :features="category.works"
-    />
-
-    <!-- Detection Models -->
-    <!-- <UPageSection id="detection-models" title="Detection Models" :features="state.detectionModels" /> -->
 
     <UPageSection>
       <UPageCTA
@@ -65,33 +91,87 @@
 <script setup lang="ts">
 import indexConfig from '@/json/index/text.json'
 
-import worksData from '@/json/works.json'
+import WorksTemplate from '~/json/index/works.json'
 
-import type { ButtonProps, PageCardProps } from '@nuxt/ui'
+import OurDatasets from '~/json/works/datasets.json'
+import OurModels from '~/json/works/models.json'
+import OurSpaces from '~/json/works/spaces.json'
+// import OurTools from '~/json/works/tools.json'
+
+import type { ButtonProps } from '@nuxt/ui'
+import type { DeepGHSProject } from '~/types/projects'
+import type { WorkModule } from '~/types'
 
 const bannerLinks: ButtonProps[] = indexConfig.banner.links as ButtonProps[]
-const worksDec: PageCardProps[] = indexConfig.works.items as PageCardProps[]
 const ctaLinks: ButtonProps[] = indexConfig.cta.links as ButtonProps[]
 
-const worksCollections = computed(() => {
-  const renderableData = worksData.map((category) => {
-    const { id, name, works } = category
-    const workCards = works.map((work) => {
-      return {
-        icon: work.icon,
-        title: work.name,
-        description: work.description,
-        to: work.link,
-        target: '_blank'
-      }
-    })
-    return {
-      id: id,
-      name: name,
-      works: workCards
+const formatRepoName = (repoId: string) => repoId.split('/')[1] ?? repoId
+
+const normalizeRepo = (repo: DeepGHSProject) => {
+  return {
+    ...repo,
+    name: repo.name ?? formatRepoName(repo.repo_id)
+  }
+}
+
+const selectTopRepos = (
+  items: DeepGHSProject[],
+  metric: 'downloads' | 'likes',
+  limit = 3
+) => {
+  return [...items]
+    .sort((a, b) => (b[metric] ?? 0) - (a[metric] ?? 0))
+    .slice(0, limit)
+    .map(normalizeRepo)
+}
+
+// 从OurDatasets,OurModels,OurSpaces中各获取下载数最多的前三。
+const mostFavoriteDatasets = selectTopRepos(
+  OurDatasets as DeepGHSProject[],
+  'downloads'
+)
+const mostFavoriteModels = selectTopRepos(
+  OurModels as DeepGHSProject[],
+  'downloads'
+)
+const mostFavoriteSpaces = selectTopRepos(
+  OurSpaces as DeepGHSProject[],
+  'likes'
+)
+
+const featuredWorkModules = computed<WorkModule[]>(() => {
+  const modules: WorkModule[] = WorksTemplate.map((module) => {
+    switch (module.id) {
+      case 'datasets':
+        return {
+          ...module,
+          repos: mostFavoriteDatasets,
+          emptyMessage: 'Datasets will appear here once available.'
+        }
+      case 'models':
+        return {
+          ...module,
+          repos: mostFavoriteModels,
+          emptyMessage: 'Models will appear here once available.'
+        }
+      case 'spaces':
+        return {
+          ...module,
+          repos: mostFavoriteSpaces,
+          emptyMessage: 'No spaces to highlight yet.'
+        }
+      // case 'tools':
+      //   return {
+      //     ...module,
+      //     repos: OurTools,
+      //     emptyMessage: 'No tools to highlight yet.'
+      //   }
+      default:
+        return module
     }
   })
-  return renderableData
+
+  return modules
 })
 
 const ctaMD = `
