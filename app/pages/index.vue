@@ -128,11 +128,11 @@ const selectTopRepos = (
 // 从OurDatasets,OurModels,OurSpaces中各获取下载数最多的前三。
 const mostFavoriteDatasets = selectTopRepos(
   OurDatasets as DeepGHSProject[],
-  'downloads'
+  'likes'
 )
 const mostFavoriteModels = selectTopRepos(
   OurModels as DeepGHSProject[],
-  'downloads'
+  'likes'
 )
 const mostFavoriteSpaces = selectTopRepos(
   OurSpaces as DeepGHSProject[],
